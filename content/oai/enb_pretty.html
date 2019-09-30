@@ -1,0 +1,1885 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<!--<title></title>-->
+<style type="text/css">
+body {background-color: white;}
+pre {
+	font-weight: normal;
+	color: black;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+b {font-weight: normal}
+b.BLK {color: #000}
+b.BLU {color: #00a}
+b.GRN {color: #0a0}
+b.CYN {color: #0aa}
+b.RED {color: #a00}
+b.MAG {color: #a0a}
+b.YEL {color: #aa0}
+b.WHI {color: #aaa}
+b.HIK {color: #555}
+b.HIB {color: #55f}
+b.HIG {color: #5f5}
+b.HIC {color: #5ff}
+b.HIR {color: #f55}
+b.HIM {color: #f5f}
+b.HIY {color: #ff5}
+b.HIW {color: #fff}
+b.BOLD {color: #fff}
+b.BBLK {background-color: #000}
+b.BBLU {background-color: #00a}
+b.BGRN {background-color: #0a0}
+b.BCYN {background-color: #0aa}
+b.BRED {background-color: #a00}
+b.BMAG {background-color: #a0a}
+b.BYEL {background-color: #aa0}
+b.BWHI {background-color: #aaa}
+b.ITA {font-style: italic}
+b.UND {text-decoration: underline}
+b.BLI {text-decoration: blink}
+b.UNDBLI {text-decoration: underline blink}
+</style>
+</head>
+<body>
+<pre>[LOADER] library libNB_IoT.so is not loaded: libNB_IoT.so: cannot open shared object file: No such file or directory
+[CONFIG] get parameters from libconfig enb.band7.tm1.50PRB.usrpb210.conf , debug flags: 0x00000000
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+# /dev/cpu_dma_latency set to 0us
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 38/38 parameters successfully set, (32 to default value)
+[LIBCONFIG] log_config: 38/38 parameters successfully set, (38 to default value)
+[LIBCONFIG] log_config: 14/14 parameters successfully set, (14 to default value)
+[LIBCONFIG] log_config: 14/14 parameters successfully set, (14 to default value)
+log init done
+Reading in command-line options
+Getting ENBSParams
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[CONFIG] parallel conf is set to 2
+[CONFIG] worker conf is set to 1
+Configuration: nb_rrc_inst 1, nb_L1_inst 1, nb_ru 1
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.NB_IoT: 2/2 parameters successfully set, (1 to default value)
+               nb_nbiot_rrc_inst 0, nb_nbiot_L1_inst 0, nb_nbiot_macrlc_inst 0
+[LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+configuring for RAU/RRU
+CPU Freq is 2.808169 
+ITTI init, useMME: 1
+[TMR]   Starting itti queue: TASK_UNKNOWN as task 0
+[TMR]   Starting itti queue: TASK_TIMER as task 1
+[TMR]   Starting itti queue: TASK_L2L1 as task 2
+[TMR]   Starting itti queue: TASK_BM as task 3
+[TMR]   Starting itti queue: TASK_PHY_ENB as task 4
+[TMR]   Starting itti queue: TASK_MAC_ENB as task 5
+[TMR]   Starting itti queue: TASK_RLC_ENB as task 6
+[TMR]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[TMR]   Starting itti queue: TASK_PDCP_ENB as task 8
+[TMR]   Starting itti queue: TASK_RRC_ENB as task 9
+[TMR]   Starting itti queue: TASK_RAL_ENB as task 10
+[TMR]   Starting itti queue: TASK_S1AP as task 11
+[TMR]   Starting itti queue: TASK_X2AP as task 12
+[TMR]   Starting itti queue: TASK_SCTP as task 13
+[TMR]   Starting itti queue: TASK_ENB_APP as task 14
+[TMR]   Starting itti queue: TASK_FLEXRAN_AGENT as task 15
+[TMR]   Starting itti queue: TASK_PHY_UE as task 16
+[TMR]   Starting itti queue: TASK_MAC_UE as task 17
+[TMR]   Starting itti queue: TASK_RLC_UE as task 18
+[TMR]   Starting itti queue: TASK_PDCP_UE as task 19
+[TMR]   Starting itti queue: TASK_RRC_UE as task 20
+[TMR]   Starting itti queue: TASK_NAS_UE as task 21
+[TMR]   Starting itti queue: TASK_RAL_UE as task 22
+[TMR]   Starting itti queue: TASK_MSC as task 23
+[TMR]   Starting itti queue: TASK_GTPV1_U as task 24
+[TMR]   Starting itti queue: TASK_UDP as task 25
+reported resolution = 1 ns
+[HW]   Version: Branch: develop Abrev. Hash: 814b967 Date: Mon Nov 26 15:19:01 2018 +0100
+Runtime table
+NO deadline scheduler
+[HW]   CPU Affinity of main() function is...  CPU_0  CPU_1  CPU_2  CPU_3 
+<b class="BLU">[ENB_APP]   create_tasks(enb_nb:1
+</b>Wait for the ITTI initialize message
+<b class="BLU">[TMR]   enter blocking wait for TASK_L2L1
+</b>[TMR]   Created Posix thread TASK_L2L1
+[TMR]   Created Posix thread TASK_ENB_APP
+[PHY]   eNB_app_task() Task ready initialise structures
+[PHY]   RC.eNB = 0x7fe4ec0008c0
+[LIBCONFIG] L1s.[0]: 9/9 parameters successfully set, (7 to default value)
+[PHY]   RC.eNB[0] = 0x7fe4ec000970
+[TMR]   Created Posix thread TASK_X2AP
+<b class="BLU">[X2AP]   Starting X2AP layer
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_X2AP
+</b>[TMR]   Created Posix thread TASK_SCTP
+[SCTP]   Starting SCTP layer
+<b class="BLU">[TMR]   enter blocking wait for TASK_SCTP
+</b>[TMR]   Created Posix thread TASK_S1AP
+[S1AP]   Starting S1AP layer
+<b class="BLU">[TMR]   enter blocking wait for TASK_S1AP
+</b>[TMR]   Created Posix thread TASK_UDP
+[UDP]   Initializing UDP task interface
+[UDP]   Initializing UDP task interface: DONE
+<b class="BLU">[TMR]   enter blocking wait for TASK_UDP
+</b>[TMR]   Created Posix thread TASK_GTPV1_U
+[RRC]   Creating RRC eNB Task
+[GTPV1U]   Initializing GTPU stack 0x1309cb8
+<b class="BLU">[GTPV1U]   Initializing GTPV1U interface for eNB: DONE
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_GTPV1_U
+</b>[PHY]   RC.eNB[0][0] = 0x7fe4f0a77010
+[ENB_APP]   Initializing northbound interface for L1
+[PHY]   l1_north_init_eNB() RC.nb_L1_inst:1
+[PHY]   l1_north_init_eNB() RC.nb_L1_CC[0]:1
+<b class="BLU">[PHY]   Installing callbacks for IF_Module - UL_indication
+</b>[PHY]   l1_north_init_eNB() RC.eNB[0][0] installing callbacks
+[LIBCONFIG] MACRLCs.[0]: 21/21 parameters successfully set, (15 to default value)
+[MAC]   [MAIN] Init function start:nb_macrlc_inst=1
+<b class="BLU">[MAC]   [MAIN] ALLOCATE 10668440 Bytes for 1 eNB_MAC_INST @ 0x7fe4ec001da0
+</b><b class="BLU">[PHY]   Installing callbacks for IF_Module - UL_indication
+</b><b class="BLU">[RLC]   MODULE INIT
+</b>[PDCP]   PDCP layer has been initialized
+[ENB_APP]   sched mode = default 0 [default]
+[PHY]   eNB_app_task() RC.nb_L1_inst:1
+[PHY]   l1_north_init_eNB() RC.nb_L1_inst:1
+[PHY]   l1_north_init_eNB() RC.nb_L1_CC[0]:1
+<b class="BLU">[PHY]   Installing callbacks for IF_Module - UL_indication
+</b>[PHY]   l1_north_init_eNB() RC.eNB[0][0] installing callbacks
+[ENB_APP]   Allocating eNB_RRC_INST for 1 instances
+[PHY]   eNB_app_task() RC.nb_inst:1 RC.rrc:0x7fe4ec002b70
+[PHY]   eNB_app_task() Creating RRC instance RC.rrc[0]:0x7fe4ec002b90 (1 of 1)
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[ENB_APP]   RRC 0: Southbound Transport local_mac
+[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[RRC]   num component carriers 1 
+[RRC]   enb_config::RCconfig_RRC() parameter number: 0, total number of parameters: 107, ccspath: eNBs.[0].component_carriers.[0] 
+ 
+[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+phich.resource 0 (ONESIXTH), phich.duration 0 (NORMAL)
+[LIBCONFIG] eNBs.[0].srb1_parameters: 6/6 parameters successfully set, (0 to default value)
+[ENB_APP]   Sending configuration message to RRC task
+<b class="BLU">[TMR]   sent messages id=45 to TASK_RRC_ENB
+</b>[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].mme_ip_address.[0]: 5/5 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+[GTPV1U]   Configuring GTPu
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 3/3 parameters successfully set, (0 to default value)
+[GTPV1U]   Configuring GTPu address : 192.168.1.113 -&gt; 7101a8c0
+<b class="BLU">[TMR]   sent messages id=145 to TASK_GTPV1_U
+</b>[ENB_APP]   default drx 0
+[ENB_APP]   [eNB 0] eNB_app_register for instance 0
+<b class="BLU">[TMR]   sent messages id=90 to TASK_S1AP
+</b>[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+<b class="BLU">[TMR]   receive on 1 descriptors for TASK_GTPV1_U
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_S1AP
+</b><b class="BLU">[TMR]   task TASK_GTPV1_U received a message
+</b><b class="BLU">[TMR]   task TASK_S1AP received a message
+</b>[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[GTPV1U]   Tx UDP_INIT IP addr 192.168.1.113 (868)
+[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+<b class="BLU">[TMR]   sent messages id=136 to TASK_UDP
+</b><b class="BLU">[GTPV1U]   Tx GTPV1U_ENB_DELETE_TUNNEL_RESP user rnti a8c0 eNB S1U teid 0 status 0
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_UDP
+</b><b class="BLU">[TMR]   task TASK_UDP received a message
+</b><b class="BLU">[UDP]   Received UDP_INIT
+</b>[UDP]   Initializing UDP for local address 192.168.1.113 with port 2152
+<b class="BLU">[TMR]   sent messages id=142 to TASK_RRC_ENB
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_GTPV1_U
+</b>[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+[LIBCONFIG] list eNBs.[0].target_enb_x2_ip_address not found in config file enb.band7.tm1.50PRB.usrpb210.conf 
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+<b class="BLU">[TMR]   sent messages id=120 to TASK_X2AP
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_ENB_APP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_X2AP
+</b><b class="BLU">[TMR]   task TASK_X2AP received a message
+</b>[S1AP]   Registered new eNB[0] and macro eNB id 3584
+[S1AP]   [eNB 0] check the mme registration state
+<b class="BLU">[TMR]   sent messages id=125 to TASK_SCTP
+</b>[X2AP]   Registered new eNB[0] and macro eNB id 3584
+<b class="BLU">[TMR]   enter blocking wait for TASK_S1AP
+</b><b class="BLU">[TMR]   sent messages id=133 to TASK_SCTP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_SCTP
+</b>[X2AP]   eNB[0] eNB id 3584 acting as a listner (server)
+<b class="BLU">[TMR]   enter blocking wait for TASK_X2AP
+</b><b class="BLU">[TMR]   task TASK_SCTP received a message
+</b>[TMR]   Created Posix thread TASK_RRC_ENB
+ITTI tasks created
+[RRC]   Entering main loop of RRC message task
+<b class="BLU">[TMR]   task TASK_RRC_ENB received a message
+</b>[UDP]   Inserting new descriptor for task 24, sd 57
+[RRC]   Received message RRC_CONFIGURATION_REQ
+[RRC]   [eNB 0] Received RRC_CONFIGURATION_REQ : 0x7fe4ec008d6c
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Init...
+[UDP]   Initializing UDP for local address 192.168.1.113 with port 2152: DONE
+<b class="BLU">[TMR]   enter blocking wait for TASK_UDP
+</b>[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Checking release 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Rel14 RRC detected, MBMS flag 0
+<b class="BLU">[RRC]   init_SI()
+
+
+
+</b>[RRC]   Configuring MIB (N_RB_DL 25,phich_Resource 0,phich_Duration 0)
+[RRC]   [MIB] systemBandwidth 2, phich_duration 0, phich_resource 0,sfn 0
+<b class="BLU">[RRC]   [eNB] SystemInformationBlockType1 Encoded 118 bits (15 bytes)
+</b>[RRC]   [eNB 0] Configuration SIB2/3, MBMS = 0
+<b class="BLU">[RRC]   [eNB] SystemInformation Encoded 235 bits (30 bytes)
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB2/3 Contents (partial)
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] pusch_config_common.n_SB = 1
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] pusch_config_common.hoppingMode = 0
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] pusch_config_common.pusch_HoppingOffset = 0
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] pusch_config_common.enable64QAM = 0
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] pusch_config_common.groupHoppingEnabled = 1
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] pusch_config_common.groupAssignmentPUSCH = 0
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] pusch_config_common.sequenceHoppingEnabled = 0
+</b><b class="CYN BBLK">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] pusch_config_common.cyclicShift  = 1
+</b>[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Contents of SIB18 1/1 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 rxPool_sc_CP_Len: 0 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 sc_Period_r12: 0 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 data_CP_Len_r12: 0 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_Num_r12: 20 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_Start_r12: 5 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_End_r12: 44 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 offsetIndicator: 0 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 subframeBitmap_choice_bs_buf: 00000000000000000000 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Contents of SIB19 1/1 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 cp_Len_r12: 0 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 discPeriod_r12: 0 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 numRetx_r12: 1 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 numRepetition_r12: 2 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_Num_r12: 5 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_Start_r12: 3 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_End_r12: 21 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 offsetIndicator: 0 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 subframeBitmap_choice_bs_buf: f0ffffffff 
+<b class="BLU">[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] RRC_UE --- MAC_CONFIG_REQ (SIB1.tdd &amp; SIB2 params) ---&gt; MAC_UE
+</b><b class="BLU">[RRC]   About to call rrc_mac_config_req_eNB
+</b><b class="BLU">[MAC]   RC.mac:0x7fe4ec001da0 mib:0x7fe4ec002c28
+</b>[MAC]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 25,Nid_cell 1,p 1,DL freq 2685000000,phich_config.resource 0, phich_config.duration 0)
+<b class="BLU">[PHY]   config_mib() dl_BandwidthP:2
+</b>[MAC]   config_mib() NFAPI_CONFIG_REQUEST(num_tlv:16) DL_BW:25 UL_BW:25 Ncp 0,p_eNB 1,earfcn 3400,band 7,phich_resource 0 phich_duration 0 phich_power_offset 6000 PSS 6000 SSS 6000 PCI 1 PBCH repetition 0
+<b class="BLU">[MAC]   [MSC_NEW][FRAME 00000][MAC_eNB][MOD 00][]
+</b>[SCTP]   sctp_bindx SCTP_BINDX_ADD_ADDR socket bound to : 192.168.1.113
+[MAC]   [CONFIG]SIB2/3 Contents (partial)
+[MAC]   [CONFIG]pusch_config_common.n_SB = 1
+[MAC]   [CONFIG]pusch_config_common.hoppingMode = 0
+[MAC]   [CONFIG]pusch_config_common.pusch_HoppingOffset = 0
+[MAC]   [CONFIG]pusch_config_common.enable64QAM = 0
+[MAC]   [CONFIG]pusch_config_common.groupHoppingEnabled = 1
+[MAC]   [CONFIG]pusch_config_common.groupAssignmentPUSCH = 0
+[MAC]   [CONFIG]pusch_config_common.sequenceHoppingEnabled = 0
+[MAC]   [CONFIG]pusch_config_common.cyclicShift  = 1
+<b class="BLU">[MAC]   rrc_mac_config_req_eNB() /home/test/develop/openair2/LAYER2/MAC/config.c:1023 RC.mac[Mod_idP]-&gt;if_inst-&gt;PHY_config_req:0x663d40
+</b>[PHY]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 25, N_RB_UL 25, Nid_cell 1,eNB_tx_antenna_ports 1,Ncp 0,DL freq 3400,phich_config.resource 0, phich_config.duration 0)
+[PHY]   Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+[PHY]   lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[SCTP]   Converted ipv4 address 192.168.1.102 to network type
+[SCTP]   connectx assoc_id  22 in progress..., used 1 addresses
+[SCTP]   Inserted new descriptor for sd 58 in list, nb elements 1, assoc_id 22
+<b class="BLU">[TMR]   enter blocking wait for TASK_SCTP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_SCTP
+</b><b class="BLU">[TMR]   task TASK_SCTP received a message
+</b>[SCTP]   Received SCTP_INIT_MSG_MULTI_REQ
+[SCTP]   Creating new listen socket on port 36422 with
+[SCTP]   ipv4 addresses:
+[SCTP]   	- 192.168.1.113
+<b class="BLU">[TMR]   sent messages id=134 to TASK_X2AP
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_SCTP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_X2AP
+</b><b class="BLU">[TMR]   task TASK_X2AP received a message
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_X2AP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_SCTP
+</b>[SCTP]   Found data for descriptor 58
+[SCTP]   Received notification for sd 58, type 32769
+[SCTP]   Client association changed: 0
+[SCTP]   ----------------------
+[SCTP]   Peer addresses:
+[SCTP]       - [192.168.1.102]
+[SCTP]   ----------------------
+[SCTP]   ----------------------
+[SCTP]   SCTP Status:
+[SCTP]   assoc id .....: 22
+[SCTP]   state ........: 4
+[SCTP]   instrms ......: 2
+[SCTP]   outstrms .....: 2
+[SCTP]   fragmentation : 1452
+[SCTP]   pending data .: 0
+[SCTP]   unack data ...: 0
+[SCTP]   rwnd .........: 106496
+[SCTP]   peer info     :
+[SCTP]       state ....: 2
+[SCTP]       cwnd .....: 4380
+[SCTP]       srtt .....: 0
+[SCTP]       rto ......: 3000
+[SCTP]       mtu ......: 1500
+[SCTP]   ----------------------
+[SCTP]   Comm up notified for sd 58, assigned assoc_id 22
+<b class="BLU">[TMR]   sent messages id=127 to TASK_S1AP
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_SCTP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_S1AP
+</b><b class="BLU">[TMR]   task TASK_S1AP received a message
+</b>[S1AP]   3584 -&gt; 00e000
+<b class="BLU">[TMR]   sent messages id=76 to TASK_UNKNOWN
+</b><b class="BLU">[TMR]   sent messages id=130 to TASK_SCTP
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_S1AP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_SCTP
+</b><b class="BLU">[TMR]   task TASK_SCTP received a message
+</b>[SCTP]   Successfully sent 59 bytes on stream 0 for assoc_id 22
+<b class="BLU">[TMR]   enter blocking wait for TASK_SCTP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_SCTP
+</b>[SCTP]   Found data for descriptor 58
+[SCTP]   Received notification for sd 58, type 32777
+<b class="BLU">[TMR]   enter blocking wait for TASK_SCTP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_SCTP
+</b><b class="BLU">[TMR]   task TASK_SCTP received even from other fd (total fds: 3), returning msg NULL
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_SCTP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_SCTP
+</b>[SCTP]   Found data for descriptor 58
+[SCTP]   [22][58] Msg of length 27 received from port 36412, on stream 0, PPID 18
+<b class="BLU">[TMR]   sent messages id=131 to TASK_S1AP
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_SCTP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_S1AP
+</b><b class="BLU">[TMR]   task TASK_S1AP received a message
+</b><b class="BLU">[TMR]   sent messages id=76 to TASK_UNKNOWN
+</b>[S1AP]   servedGUMMEIs.list.count 1
+[S1AP]   servedPLMNs.list.count 1
+<b class="BLU">[TMR]   sent messages id=91 to TASK_ENB_APP
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_S1AP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_ENB_APP
+</b><b class="BLU">[TMR]   task TASK_ENB_APP received a message
+</b>[ENB_APP]   [eNB 0] Received S1AP_REGISTER_ENB_CNF: associated MME 1
+<b class="BLU">[TMR]   sent messages id=1 to TASK_L2L1
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_ENB_APP
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_L2L1
+</b><b class="BLU">[TMR]   task TASK_L2L1 received a message
+</b><b class="BLU">[PHY]   L2L1 TASK received INITIALIZE_MESSAGE
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_L2L1
+</b>[LIBCONFIG] loader.coding: 2/2 parameters successfully set, (1 to default value)
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] NETWORK_CONTROLLER: 6/6 parameters successfully set, (0 to default value)
+[FLEXRAN_AGENT]   FlexRAN Agent for eNB 0 is DISABLED
+[LOADER] library libcoding.so successfully loaded
+XFORMS
+[PHY]   prach_config_common.rootSequenceIndex = 0
+[PHY]   prach_config_common.prach_ConfigInfo.prach_ConfigIndex = 0
+[PHY]   prach_config_common.prach_ConfigInfo.highSpeedFlag = 0
+[PHY]   prach_config_common.prach_ConfigInfo.zeroCorrelationZoneConfig = 1
+[PHY]   prach_config_common.prach_ConfigInfo.prach_FreqOffset = 2
+[PHY]   pusch_config_common.n_SB = 1
+[PHY]   pusch_config_common.hoppingMode = 0
+[PHY]   pusch_config_common.pusch_HoppingOffset = 0
+[PHY]   pusch_config_common.enable64QAM = 0
+[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupHoppingEnabled = 1
+[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH = 0
+[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled = 0
+[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.cyclicShift = 2
+[PHY]   eNB 0/0 configured
+<b class="BLU">[RRC]   [OPENAIR][INIT] Init function start: NB_eNB_INST=1
+</b>[RRC]   [eNB] handover active state is 0 
+[RRC]   [eNB] eMBMS active state is 0 
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] ENB:OPENAIR RRC IN....
+<b class="BLU">[TMR]   task TASK_RRC_ENB received a message
+</b>[RRC]   Received message GTPV1U_ENB_DELETE_TUNNEL_RESP
+<b class="BLU">[TMR]   enter blocking wait for TASK_RRC_ENB
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_RRC_ENB
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_RRC_ENB
+</b><b class="BLU">[TMR]   receive on 1 descriptors for TASK_RRC_ENB
+</b><b class="BLU">[TMR]   enter blocking wait for TASK_RRC_ENB
+</b>NFAPI MODE:MONOLITHIC
+START MAIN THREADS
+RC.nb_L1_inst:1
+Initializing eNB threads single_thread_flag:0 wait_for_sync:0
+[PHY]   [lte-softmodem.c] eNB structure about to allocated RC.nb_L1_inst:1 RC.nb_L1_CC[0]:1
+[PHY]   [lte-softmodem.c] eNB structure RC.eNB allocated
+[PHY]   Initializing eNB 0 CC_id 0 single_thread_flag:0
+[PHY]   Initializing eNB 0 CC_id 0
+[PHY]   Registering with MAC interface module
+<b class="BLU">[PHY]   Installing callbacks for IF_Module - UL_indication
+</b>[PHY]   Setting indication lists
+[PHY]   [lte-softmodem.c] eNB structure allocated
+wait_eNBs()
+Waiting for eNB L1 instances to all get configured ... sleeping 50ms (nb_L1_inst 1)
+RC.nb_L1_CC[0]:1
+eNB L1 are configured
+About to Init RU threads RC.nb_RU:1
+Initializing RU threads
+configuring RU from file
+[LIBCONFIG] RUs.[0]: 20/20 parameters successfully set, (11 to default value)
+Set RU mask to 1
+Creating RC.ru[0]:0x289cc80
+Setting function for RU 0 to eNodeB_3GPP
+[PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 4
+<b class="BLU">[PHY]   Process RUs RC.nb_RU:1
+</b><b class="BLU">[PHY]   Process RC.ru[0]
+</b><b class="BLU">[PHY]   init_RU() RC.ru[0].num_eNB:1 ru-&gt;eNB_list[0]:0x7fe4f0a77010 RC.eNB[0][0]:0x7fe4f0a77010 rf_config_file:
+</b><b class="HIR">[PHY]   DJP - delete code above this /home/test/develop/targets/RT/USER/lte-ru.c:2880
+</b><b class="BLU">[PHY]   RU FUnction:0 ru-&gt;if_south:0
+</b><b class="BLU">[PHY]   eNB0:0x7fe4f0a77010
+</b>[PHY]   Copying frame parms from eNB 0 to ru 0
+<b class="BLU">[PHY]   ru-&gt;num_eNB:1 eNB0-&gt;num_RU:0
+</b>[PHY]   Initializing RRU descriptor 0 : (local RF,synch_to_ext_device,0)
+configuring ru_id 0 (start_rf 0x50d4f0)
+[PHY]   Starting ru_thread 0
+[PHY]   Initializing RU proc 0 (eNodeB_3GPP,synch_to_ext_device),
+[HW]   [SCHED][eNB] ru_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   init_RU_proc() DJP - added creation of pthread_prach
+[HW]   [SCHED][eNB] ru_thread_tx started on CPU 3, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   thread ru created id=27832
+[PHY]   Starting RU 0 (eNodeB_3GPP,synch_to_ext_device),
+channel 0, Setting tx_gain offset 0.000000, rx_gain offset 125.000000, tx_freq 2685000000.000000, rx_freq 2565000000.000000
+[PHY]   Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+[PHY]   lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1
+[PHY]   [INIT] common.txdata[0] = 0x7fe4f022a040 (307200 bytes)
+[HW]   [SCHED][eNB] ru_thread_prach started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[HW]   [SCHED][eNB] fep_thread started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+<b class="BLU">[HW]   [lte-softmodem.c] RU threads created
+</b>wait RUs
+<b class="HIG">[INFO] [UHD] </b>linux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_3.13.0.HEAD-0-g5b236772
+[PHY]   Waiting for RUs to be configured ... RC.ru_mask:01
+[HW]   [SCHED][eNB] feptx_thread started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   thread fep created id=27835
+[PHY]   thread feptx created id=27836
+[PHY]   nb_tx 1
+[PHY]   rxdata_7_5kHz[0] 0x7fe4c8051620 for RU 0
+[PHY]   [INIT] common.txdata_BF= 0x7fe4c80009a0 (8 bytes)
+[PHY]   txdataF_BF[0] 0x7fe4c806f6a0 for RU 0
+[PHY]   rxdataF[0] 0x7fe4c8076720 for RU 0
+<b class="BLU">[PHY]   [INIT] prach_vars-&gt;rxsigF[0] = 0x7fe4c80847a0
+</b><b class="BLU">[PHY]   [INIT] prach_vars_br-&gt;rxsigF[0] = 0x7fe4c808a820
+</b><b class="BLU">[PHY]   [INIT] prach_vars_br-&gt;rxsigF[0] = 0x7fe4c80908a0
+</b><b class="BLU">[PHY]   [INIT] prach_vars_br-&gt;rxsigF[0] = 0x7fe4c8096920
+</b><b class="BLU">[PHY]   [INIT] prach_vars_br-&gt;rxsigF[0] = 0x7fe4c809c9a0
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() RC.nb_L1_inst:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() DO BEAM WEIGHTS nb_antenna_ports_eNB:1 nb_tx:1
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() DO BEAM WEIGHTS nb_antenna_ports_eNB:1 nb_tx:1
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b><b class="BLU">[PHY]   [INIT] phy_init_RU() nb_antenna_ports_eNB:1 
+</b>[LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
+[LOADER] library liboai_device.so successfully loaded
+<b class="BLU">[PHY]   openair0_cfg[0].sdr_addrs == '(null)'
+</b><b class="BLU">[PHY]   openair0_cfg[0].clock_source == '0'
+</b>[PHY]   Checking for USRPs : UHD 3.13.0.HEAD-0-g5b236772 (3.13.0)
+Found USRP b200
+<b class="HIG">[INFO] [B200] </b>Detected Device: B210
+<b class="HIG">[INFO] [B200] </b>Operating over USB 3.
+<b class="HIY">[WARNING] [B200] </b>The recv_frame_size must be a multiple of 8 bytes and not a multiple of 1024 bytes.  Requested recv_frame_size of 15360 coerced to 15368.
+<b class="HIG">[INFO] [B200] </b>Initialize CODEC control...
+<b class="HIG">[INFO] [B200] </b>Initialize Radio control...
+<b class="HIG">[INFO] [B200] </b>Performing register loopback test... 
+<b class="HIG">[INFO] [B200] </b>Register loopback test passed
+<b class="HIG">[INFO] [B200] </b>Performing register loopback test... 
+<b class="HIG">[INFO] [B200] </b>Register loopback test passed
+<b class="HIG">[INFO] [B200] </b>Asking for clock rate 30.720000 MHz... 
+<b class="HIG">[INFO] [B200] </b>Actually got clock rate 30.720000 MHz.
+<b class="HIG">[INFO] [B200] </b>Asking for clock rate 30.720000 MHz... 
+<b class="HIG">[INFO] [B200] </b>OK
+Found USRP b200
+[PHY]   ru_thread_prach() RACH waiting for RU to be configured
+[PHY]   cal 0: freq 3500000000.000000, offset 44.000000, diff 935000000.000000
+[PHY]   cal 1: freq 2660000000.000000, offset 49.800000, diff 95000000.000000
+[PHY]   cal 2: freq 2300000000.000000, offset 51.000000, diff 265000000.000000
+[PHY]   cal 3: freq 1880000000.000000, offset 53.000000, diff 685000000.000000
+[PHY]   cal 4: freq 816000000.000000, offset 57.000000, diff 1749000000.000000
+[PHY]   RX Gain 0 125.000000 (55.800000) =&gt; 69.200000 (max 76.000000)
+<b class="BLU">[PHY]   usrp-&gt;get_tx_num_channels() == 2
+</b><b class="BLU">[PHY]   openair0_cfg[0].tx_num_channels == 1
+</b>[PHY]   USRP TX_GAIN:89.75 gain_range:89.75 tx_gain:0.00
+[PHY]   Actual master clock: 30.720000MHz...
+[PHY]   ru_thread_prach() RACH waiting for RU to be configured
+[PHY]   RF board max packet size 3838, size for 100µs jitter 768 
+[PHY]   rx_max_num_samps 768
+[PHY]   RX Channel 0
+[PHY]     Actual RX sample rate: 7.680000MSps...
+[PHY]     Actual RX frequency: 2.565000GHz...
+[PHY]     Actual RX gain: 69.000000...
+[PHY]     Actual RX bandwidth: 20.000000M...
+[PHY]     Actual RX antenna: RX2...
+[PHY]   TX Channel 0
+[PHY]     Actual TX sample rate: 7.680000MSps...
+[PHY]     Actual TX frequency: 2.685000GHz...
+[PHY]     Actual TX gain: 89.750000...
+[PHY]     Actual TX bandwidth: 20.000000M...
+[PHY]     Actual TX antenna: TX/RX...
+[PHY]   Device timestamp: 1.814041...
+[RAU] has loaded USRP B200 device.
+setup_RU_buffers: frame_parms = 0x289cd10
+[PHY]   Signaling main thread that RU 0 is ready
+waiting for sync (ru_thread,-1/0xda2b68,0x1452500,0x1308660)
+ru_thread_tx ready
+<b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b>RC.ru_mask:00
+[PHY]   RUs configured
+ALL RUs READY!
+RC.nb_RU:1
+ALL RUs ready - init eNBs
+Not NFAPI mode - call init_eNB_afterRU()
+[PHY]   init_eNB_afterRU() RC.nb_inst:1
+[PHY]   RC.nb_CC[inst]:1
+[PHY]   RC.nb_CC[inst:0][CC_id:0]:0x7fe4f0a77010
+[PHY]   [eNB 0] phy_init_lte_eNB() About to wait for eNB to be configured[PHY]   [eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 25, PHICH Resource 1, PHICH Duration 0 nb_antennas_tx:0 nb_antennas_rx:0 nb_antenna_ports_eNB:1 PRACH[rootSequenceIndex:0 prach_Config_enabled:1 configIndex:0 highSpeed:0 zeroCorrelationZoneConfig:1 freqOffset:2]
+<b class="BLU">[PHY]   [MSC_NEW][FRAME 00000][PHY_eNB][MOD 00][]
+</b>pcfich_reg : 1,13,26,38
+<b class="BLU">[PHY]   [INIT] NB_ANTENNA_PORTS_ENB:6 fp-&gt;nb_antenna_ports_eNB:1
+</b><b class="BLU">[PHY]   [INIT] common_vars-&gt;txdataF[0] = 0x7fe4f014b040 (286720 bytes)
+</b><b class="BLU">[PHY]   [INIT] common_vars-&gt;txdataF[5] = 0x7fe4f0104040 (286720 bytes)
+</b>[PHY]   Mapping RX ports from 1 RUs to eNB 0
+[PHY]   Overwriting eNB-&gt;prach_vars.rxsigF[0]:0x33c40e0
+[PHY]   Overwriting eNB-&gt;prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[PHY]   Overwriting eNB-&gt;prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[PHY]   Overwriting eNB-&gt;prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[PHY]   Overwriting eNB-&gt;prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[PHY]   eNB-&gt;num_RU:1
+[PHY]   Attaching RU 0 antenna 0 to eNB antenna 0
+[PHY]   init_eNB_afterRU() ************* DJP ***** eNB-&gt;frame_parms.nb_antennas_tx:0 - GOING TO HARD CODE TO 1[PHY]   inst 0, CC_id 0 : nb_antennas_rx 1
+[PHY]   Initialise transport
+<b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4f00a3040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4f0042040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4e8093040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4e8032040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4e286c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4e280b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4e01c4040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4e0163040
+</b><b class="BLU">[PHY]   dlsch[0][0] =&gt; 0x388f0e0 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4e0102040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4e00a1040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4e0040040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4d8122040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4d80c1040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4d8060040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4b8fcd040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4b8f6c040
+</b><b class="BLU">[PHY]   dlsch[0][1] =&gt; 0x39ba900 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 1
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4b3f0d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4b3eac040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4b3e4b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4b3dea040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4b3d89040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4b3d28040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4b3cc7040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4b3c66040
+</b><b class="BLU">[PHY]   dlsch[1][0] =&gt; 0x3af3460 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4b3c05040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4b3ba4040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4b3b43040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4b3ae2040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4b3a81040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4b3a20040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4b39bf040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4b395e040
+</b><b class="BLU">[PHY]   dlsch[1][1] =&gt; 0x3c1ec80 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 1
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 2
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4b28fd040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4b289c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4b283b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4b27da040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4b2779040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4b2718040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4b26b7040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4b2656040
+</b><b class="BLU">[PHY]   dlsch[2][0] =&gt; 0x3d577e0 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4b25f5040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4b2594040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4b2533040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4b24d2040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4b2471040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4b2410040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4b23af040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4b234e040
+</b><b class="BLU">[PHY]   dlsch[2][1] =&gt; 0x3e83000 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 2
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 3
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4b12ed040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4b128c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4b122b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4b11ca040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4b1169040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4b1108040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4b10a7040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4b1046040
+</b><b class="BLU">[PHY]   dlsch[3][0] =&gt; 0x3fbbb60 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4b0fe5040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4b0f84040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4b0f23040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4b0ec2040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4b0e61040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4b0e00040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4b0d9f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4b0d3e040
+</b><b class="BLU">[PHY]   dlsch[3][1] =&gt; 0x40e7380 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 3
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 4
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4afcdd040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4afc7c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4afc1b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4afbba040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4afb59040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4afaf8040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4afa97040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4afa36040
+</b><b class="BLU">[PHY]   dlsch[4][0] =&gt; 0x421fee0 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4af9d5040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4af974040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4af913040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4af8b2040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4af851040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4af7f0040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4af78f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4af72e040
+</b><b class="BLU">[PHY]   dlsch[4][1] =&gt; 0x434b700 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 4
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 5
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4ae6cd040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4ae66c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4ae60b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4ae5aa040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4ae549040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4ae4e8040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4ae487040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4ae426040
+</b><b class="BLU">[PHY]   dlsch[5][0] =&gt; 0x4484260 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4ae3c5040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4ae364040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4ae303040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4ae2a2040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4ae241040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4ae1e0040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4ae17f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4ae11e040
+</b><b class="BLU">[PHY]   dlsch[5][1] =&gt; 0x45afa80 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 5
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 6
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4ad0bd040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4ad05c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4acffb040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4acf9a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4acf39040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4aced8040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4ace77040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4ace16040
+</b><b class="BLU">[PHY]   dlsch[6][0] =&gt; 0x46e85e0 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4acdb5040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4acd54040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4accf3040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4acc92040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4acc31040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4acbd0040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4acb6f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4acb0e040
+</b><b class="BLU">[PHY]   dlsch[6][1] =&gt; 0x4813e00 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 6
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 7
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4abaad040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4aba4c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4ab9eb040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4ab98a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4ab929040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4ab8c8040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4ab867040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4ab806040
+</b><b class="BLU">[PHY]   dlsch[7][0] =&gt; 0x494c960 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4ab7a5040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4ab744040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4ab6e3040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4ab682040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4ab621040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4ab5c0040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4ab55f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4ab4fe040
+</b><b class="BLU">[PHY]   dlsch[7][1] =&gt; 0x4a780e0 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 7
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 8
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4aa49d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4aa43c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4aa3db040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4aa37a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4aa319040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4aa2b8040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4aa257040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4aa1f6040
+</b><b class="BLU">[PHY]   dlsch[8][0] =&gt; 0x4bb0c40 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4aa195040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4aa134040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4aa0d3040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4aa072040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4aa011040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a9fb0040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a9f4f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a9eee040
+</b><b class="BLU">[PHY]   dlsch[8][1] =&gt; 0x4cdc460 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 8
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 9
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a8e8d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a8e2c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a8dcb040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a8d6a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a8d09040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a8ca8040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a8c47040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a8be6040
+</b><b class="BLU">[PHY]   dlsch[9][0] =&gt; 0x4e14fc0 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a8b85040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a8b24040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a8ac3040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a8a62040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a8a01040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a89a0040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a893f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a88de040
+</b><b class="BLU">[PHY]   dlsch[9][1] =&gt; 0x4f407e0 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 9
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 10
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a787d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a781c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a77bb040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a775a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a76f9040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a7698040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a7637040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a75d6040
+</b><b class="BLU">[PHY]   dlsch[10][0] =&gt; 0x5079340 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a7575040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a7514040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a74b3040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a7452040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a73f1040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a7390040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a732f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a72ce040
+</b><b class="BLU">[PHY]   dlsch[10][1] =&gt; 0x51a4b60 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 10
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 11
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a626d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a620c040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a61ab040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a614a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a60e9040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a6088040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a6027040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a5fc6040
+</b><b class="BLU">[PHY]   dlsch[11][0] =&gt; 0x52dd6c0 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a5f65040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a5f04040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a5ea3040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a5e42040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a5de1040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a5d80040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a5d1f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a5cbe040
+</b><b class="BLU">[PHY]   dlsch[11][1] =&gt; 0x5408e40 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 11
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 12
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a4c5d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a4bfc040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a4b9b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a4b3a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a4ad9040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a4a78040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a4a17040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a49b6040
+</b><b class="BLU">[PHY]   dlsch[12][0] =&gt; 0x55419a0 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a4955040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a48f4040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a4893040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a4832040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a47d1040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a4770040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a470f040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a46ae040
+</b><b class="BLU">[PHY]   dlsch[12][1] =&gt; 0x566d1c0 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 12
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 13
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a364d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a35ec040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a358b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a352a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a34c9040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a3468040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a3407040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a33a6040
+</b><b class="BLU">[PHY]   dlsch[13][0] =&gt; 0x57a5d20 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a3345040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a32e4040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a3283040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a3222040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a31c1040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a3160040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a30ff040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a309e040
+</b><b class="BLU">[PHY]   dlsch[13][1] =&gt; 0x58d1540 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 13
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 14
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a203d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a1fdc040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a1f7b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a1f1a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a1eb9040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a1e58040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a1df7040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a1d96040
+</b><b class="BLU">[PHY]   dlsch[14][0] =&gt; 0x5a0a0a0 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a1d35040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a1cd4040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a1c73040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a1c12040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a1bb1040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a1b50040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a1aef040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a1a8e040
+</b><b class="BLU">[PHY]   dlsch[14][1] =&gt; 0x5b358c0 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 14
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffers for DLSCH, UE 15
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a0a2d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a09cc040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a096b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a090a040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a08a9040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a0848040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a07e7040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a0786040
+</b><b class="BLU">[PHY]   dlsch[15][0] =&gt; 0x5c6e420 rnti:0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe4a0725040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe4a06c4040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe4a0663040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe4a0602040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe4a05a1040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe4a0540040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe4a04df040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe4a047e040
+</b><b class="BLU">[PHY]   dlsch[15][1] =&gt; 0x5d99c40 rnti:0
+</b><b class="BLU">[PHY]   Allocating Transport Channel Buffer for ULSCH, UE 15
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe49e41d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe49e3bc040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe49e35b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe49e2fa040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe49e299040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe49e238040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe49e1d7040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe49e176040
+</b><b class="BLU">[PHY]   eNB 0.0 : SI 0x5edfa80
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe49e115040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe49e0b4040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe49e053040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe49dff2040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe49df91040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe49df30040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe49decf040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe49de6e040
+</b><b class="BLU">[PHY]   eNB 0.0 : RA 0x600b2a0
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[0] 0x7fe49de0d040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[1] 0x7fe49ddac040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[2] 0x7fe49dd4b040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[3] 0x7fe49dcea040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[4] 0x7fe49dc89040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[5] 0x7fe49dc28040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[6] 0x7fe49dbc7040
+</b><b class="CYN BBLK">[PHY]   Required mem size 3072 (bw scaling 4), dlsch-&gt;harq_processes[7] 0x7fe49db66040
+</b><b class="BLU">[PHY]   eNB 0.0 : MCH 0x6136b40
+</b>[PHY]   init_eNB_proc(inst:0) RC.nb_CC[inst]:1 
+[PHY]   Initializing eNB processes instance:0 CC_id 0 
+[PHY]   Creating te_thread 0
+[PHY]   Creating te_thread 1
+[HW]   [SCHED][eNB] te_thread started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   Creating te_thread 2
+[HW]   [SCHED][eNB] te_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   thread te created id=27850
+[PHY]   thread te created id=27851
+[HW]   [SCHED][eNB] te_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   thread te created id=27852
+[PHY]   eNB-&gt;single_thread_flag:0
+[HW]   [SCHED][eNB] td_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   thread td created id=27853
+[HW]   [SCHED][eNB] RXn_TXnp4_0
+ started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   thread rxtx created id=27854
+[HW]   [SCHED][eNB] TXnp4_1
+ started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[HW]   [SCHED][eNB] eNB_thread_prach started on CPU 3, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+ALL RUs ready - ALL eNBs ready
+[HW]   [SCHED][eNB] eNB_thread_prach_br started on CPU 3, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[PHY]   ru_thread_prach() RACH waiting for RU to be configured
+[PHY]   ru_thread_prach() RU configured - RACH processing thread running
+Sending sync to all threads
+TYPE &lt;CTRL-C&gt; TO TERMINATE
+Entering ITTI signals handler
+got sync (ru_thread)
+[PHY]   Time in secs now: 23740634 
+[PHY]   Time in secs last pps: 20992875 
+[PHY]   RU 0 rf device ready
+[PHY]   RU 0 no asynch_south interface
+<b class="BLU">[PHY]   RU 0/0 TS 0 (off 24125269), frame 0, subframe 0
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 0
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(0)
+</b><b class="BLU">[PHY]   SFN/SF:00 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,0) clear HI_DCI0_req[0][4]
+</b><b class="HIR">[MAC]   SCHED_MODE=0
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 4, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 4: PUSCH subframe = 8
+</b><b class="BLU">[PHY]   frame 0 subframe 4: PUSCH frame = 0
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00004 DL_req:SFN/SF:00000:dl_pdu:0 tx_req:SFN/SF:00000:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00004:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00004:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 8
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:04 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:00 tx:04]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 4: PUSCH subframe = 8
+</b><b class="BLU">[PHY]   frame 0 subframe 4: PUSCH frame = 0
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 30720, frame 0, unwrapped_frame 0, subframe 4
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 7680 (off 24125269), frame 0, subframe 1
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 1), received frame 0, subframe 1
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   Triggering prach processing, frame 0, subframe 1
+</b><b class="BLU">[PHY]   Triggering prach br processing, frame 0, subframe 1
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(1)
+</b><b class="BLU">[PHY]   Running eNB prach procedures
+</b><b class="BLU">[PHY]   SFN/SF:01 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,1) clear HI_DCI0_req[0][5]
+</b><b class="BLU">[PHY]   Running eNB prach procedures for BL/CE UEs
+</b><b class="BLU">[MAC]   [eNB 0] Frame 0 : BCCH-&gt;DLSCH CC_id 0, Received 15 bytes 
+</b><b class="BLU">[MAC]   Subframe 5: Checking CCE feasibility format 0 : (ffff,4) (ffff,4,2)
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 5, test 0 : (DL PDU 1, DL DCI 0, UL 0)
+</b><b class="BLU">[MAC]   Trying to allocate COMMON DCI 0/0 (0,0) : rnti ffff, aggreg 4 nCCE 0 / 4 (num_pdcch_symbols 1)
+</b><b class="BLU">[MAC]   Allocating at nCCE 0
+</b><b class="BLU">[MAC]   Allocate COMMON DCI CCEs subframe 5, test 0 =&gt; L 4 fCCE 0
+</b><b class="BLU">[MAC]   Frame 0: Subframe 5 : Adding common DCI for S_RNTI
+</b><b class="BLU">[MAC]   [eNB] Frame 0 : Scheduling BCCH-&gt;DLSCH (FDD) for CC_id 0 SI 15 bytes (mcs 2, rb 3)
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   Frame 0, subframe 5 : vrb 11 allocated
+</b><b class="BLU">[MAC]   Frame 0, subframe 5 : vrb 12 allocated
+</b><b class="BLU">[MAC]   Frame 0, subframe 5 : vrb 14 allocated
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 5, test 2 : (DL PDU 2, DL DCI 1, UL 0)
+</b><b class="BLU">[MAC]   Trying to allocate COMMON DCI 0/1 (1,0) : rnti ffff, aggreg 4 nCCE 0 / 4 (num_pdcch_symbols 1)
+</b><b class="BLU">[MAC]   Allocating at nCCE 0
+</b><b class="BLU">[MAC]   Allocate COMMON DCI CCEs subframe 5, test 2 =&gt; L 4 fCCE 0
+</b><b class="BLU">[PHY]   subframe 5: PUSCH subframe = 9
+</b><b class="BLU">[PHY]   frame 0 subframe 5: PUSCH frame = 0
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00005 DL_req:SFN/SF:00005:dl_pdu:2 tx_req:SFN/SF:00005:pdus:1
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00005:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 9
+</b><b class="BLU">[PHY]   Frame 0, Subframe 5: DCI processing - populating pdcch_vars-&gt;dci_alloc[0] proc:subframe_tx:5 idx:1 pdcch_vars-&gt;num_dci:0
+</b><b class="BLU">[PHY]   NFAPI: SFN/SF:00005 proc:TX:[SFN/SF:00005] DCI format 1, nCCE 0, L 4, rnti ffff, harq_pid 0
+</b><b class="BLU">[PHY]   [RAPROC] Frame 0, subframe 1 : Most likely preamble 29, energy 6 dB delay 144 (prach_energy counter 0)
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 0=&gt; harq_mask 0, rnti 0, first_free_index -1
+</b>[PHY]   prach_I0 = 0.7 dB
+<b class="BLU">[PHY]   searching for rnti ffff : UE index 1=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 2=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 3=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 4=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 5=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 6=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 7=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 8=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 9=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 10=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 11=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 12=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 13=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 14=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 15=&gt; harq_mask 0, rnti 0, first_free_index 0
+</b><b class="BLU">[PHY]   NFAPI: SFN/SF:00005 proc:TX:SFN/SF:00005 dlsch0[rnti:0 harq_mask:0000] dci_pdu[rnti:ffff rnti_type:2 harq_process:0 ndi1:0] dlsch0_harq[round:0 harq_mask:0 ndi:0]
+</b><b class="BLU">[PHY]   NFAPI: rel8[rnti ffff dci_format 1 harq_process 0 ndi1 0 rnti type 2] dlsch0[rnti 0 harq_mask 0] dlsch0_harq[round 0 ndi 0]
+</b><b class="BLU">[PHY]   Frame 0, Subframe 5: DCI processing - populated pdcch_vars-&gt;dci_alloc[0] proc:subframe_tx:5 idx:1 pdcch_vars-&gt;num_dci:0
+</b><b class="BLU">[PHY]   schedule_response() [PDU:1] NFAPI_DL_CONFIG_DLSCH_PDU_TYPE SFN/SF:00005 TX:0/5 RX:0/1 transport_blocks:1 pdu_index:0 sdu:0x7fe4e9dd010b
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 0=&gt; harq_mask 1, rnti ffff, first_free_index -1
+</b><b class="BLU">[PHY]   dlsch-&gt;i0:ffff dlsch0_harq[pdsch_start:1 nb_rb:4 vrb_type:0 rvidx:0 Nl:1 mimo_mode:0 dl_power_off:1 round:0 status:1 TBS:144 Qm:2 codeword:0 rb_alloc:30720] rel8[length:15]
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:05 dl_pdus:2
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:01 tx:05]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   [RAPROC] Frame 0, subframe 1 : Most likely preamble 0, energy 0 dB delay 0 (prach_energy counter 1)
+</b><b class="BLU">[PHY]   subframe 5: PUSCH subframe = 9
+</b><b class="BLU">[PHY]   frame 0 subframe 5: PUSCH frame = 0
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 1
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0, subframe 5: Calling generate_dci_top (pdcch) (num_dci 1) num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   Generating DCI 0/1 (nCCE 0) of length 25, aggregation 4 (8ac20100), rnti ffff
+</b><b class="BLU">[PHY]   Generating DLSCH/PDSCH pdu:0x7fe4e9dd010b pdsch_start:1 frame:0 subframe:5 nb_rb:4 rb_alloc:30720 Qm:2 Nl:1 round:0
+</b><b class="BLU">[PHY]   Generating DLSCH/PDSCH dlsch_harq[round:1]
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 38400, frame 0, unwrapped_frame 0, subframe 5
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 15360 (off 24125269), frame 0, subframe 2
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 2
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(2)
+</b><b class="BLU">[PHY]   SFN/SF:02 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,2) clear HI_DCI0_req[0][6]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 6, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 6: PUSCH subframe = 0
+</b><b class="BLU">[PHY]   frame 0 subframe 6: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00006 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00006:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00006:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 0
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:06 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:02 tx:06]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 6: PUSCH subframe = 0
+</b><b class="BLU">[PHY]   frame 0 subframe 6: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 46080, frame 0, unwrapped_frame 0, subframe 6
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 23040 (off 24125269), frame 0, subframe 3
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 3
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(3)
+</b><b class="BLU">[PHY]   SFN/SF:03 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,3) clear HI_DCI0_req[0][7]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 7, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 7: PUSCH subframe = 1
+</b><b class="BLU">[PHY]   frame 0 subframe 7: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00007 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00007:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00007:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 1
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:07 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:03 tx:07]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 7: PUSCH subframe = 1
+</b><b class="BLU">[PHY]   frame 0 subframe 7: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 53760, frame 0, unwrapped_frame 0, subframe 7
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 30720 (off 24125269), frame 0, subframe 4
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 4
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(4)
+</b>[PHY]   max_I0 31, min_I0 24
+<b class="BLU">[PHY]   SFN/SF:04 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,4) clear HI_DCI0_req[0][8]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 8, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 8: PUSCH subframe = 2
+</b><b class="BLU">[PHY]   frame 0 subframe 8: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00008 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00008:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00008:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 2
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:08 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:04 tx:08]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 8: PUSCH subframe = 2
+</b><b class="BLU">[PHY]   frame 0 subframe 8: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 61440, frame 0, unwrapped_frame 0, subframe 8
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 38400 (off 24125269), frame 0, subframe 5
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 5
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(5)
+</b><b class="BLU">[PHY]   SFN/SF:05 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,5) clear HI_DCI0_req[0][9]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 9, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 9: PUSCH subframe = 3
+</b><b class="BLU">[PHY]   frame 0 subframe 9: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00009 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00009:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00009:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 3
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:09 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:05 tx:09]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 9: PUSCH subframe = 3
+</b><b class="BLU">[PHY]   frame 0 subframe 9: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 69120, frame 0, unwrapped_frame 0, subframe 9
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 46080 (off 24125269), frame 0, subframe 6
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 6
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(6)
+</b><b class="BLU">[PHY]   SFN/SF:06 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,6) clear HI_DCI0_req[0][0]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 0, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 0: PUSCH subframe = 4
+</b><b class="BLU">[PHY]   frame 1 subframe 0: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00010 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00010:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00010:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 4
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:10 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:06 tx:10]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   generate_pbch(eNB_pbch:0x7fe4f0b559b0 txdataF:0x2898a80 amp:512 frame_parms:0x7fe4f0a77ae8 pbch_pdu:0x7fe4f0c749b9 frame_mod4:0)
+</b><b class="BLU">[PHY]   subframe 0: PUSCH subframe = 4
+</b><b class="BLU">[PHY]   frame 1 subframe 0: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 76800, frame 1, unwrapped_frame 0, subframe 0
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 53760 (off 24125269), frame 0, subframe 7
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 7
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(7)
+</b><b class="BLU">[PHY]   SFN/SF:07 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,7) clear HI_DCI0_req[0][1]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 1, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 1: PUSCH subframe = 5
+</b><b class="BLU">[PHY]   frame 1 subframe 1: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00011 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00011:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00011:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 5
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:11 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:07 tx:11]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 1: PUSCH subframe = 5
+</b><b class="BLU">[PHY]   frame 1 subframe 1: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 84480, frame 1, unwrapped_frame 0, subframe 1
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 61440 (off 24125269), frame 0, subframe 8
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 8
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(8)
+</b><b class="BLU">[PHY]   SFN/SF:08 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,8) clear HI_DCI0_req[0][2]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 2, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 2: PUSCH subframe = 6
+</b><b class="BLU">[PHY]   frame 1 subframe 2: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00012 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00012:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00012:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 6
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:12 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:08 tx:12]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 2: PUSCH subframe = 6
+</b><b class="BLU">[PHY]   frame 1 subframe 2: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 92160, frame 1, unwrapped_frame 0, subframe 2
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 69120 (off 24125269), frame 0, subframe 9
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 0, subframe 9
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 0: Doing phy_procedures_eNB_uespec_RX(9)
+</b><b class="BLU">[PHY]   SFN/SF:09 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (0,9) clear HI_DCI0_req[0][3]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 3, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 3: PUSCH subframe = 7
+</b><b class="BLU">[PHY]   frame 1 subframe 3: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00013 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00013:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00013:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 7
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:13 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:09 tx:13]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 3: PUSCH subframe = 7
+</b><b class="BLU">[PHY]   frame 1 subframe 3: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 99840, frame 1, unwrapped_frame 0, subframe 3
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 76800 (off 24125269), frame 1, subframe 0
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 0
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(0)
+</b><b class="BLU">[PHY]   SFN/SF:10 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,0) clear HI_DCI0_req[0][4]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 4, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 4: PUSCH subframe = 8
+</b><b class="BLU">[PHY]   frame 1 subframe 4: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00014 DL_req:SFN/SF:00005:dl_pdu:0 tx_req:SFN/SF:00005:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00014:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00014:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 8
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:14 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:10 tx:14]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 4: PUSCH subframe = 8
+</b><b class="BLU">[PHY]   frame 1 subframe 4: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 107520, frame 1, unwrapped_frame 0, subframe 4
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 84480 (off 24125269), frame 1, subframe 1
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 1
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(1)
+</b><b class="BLU">[PHY]   SFN/SF:11 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,1) clear HI_DCI0_req[0][5]
+</b><b class="BLU">[MAC]   [eNB 0] Frame 1 : BCCH-&gt;DLSCH CC_id 0, Received 30 bytes 
+</b><b class="BLU">[MAC]   Subframe 5: Checking CCE feasibility format 0 : (ffff,4) (ffff,4,2)
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 5, test 0 : (DL PDU 1, DL DCI 0, UL 0)
+</b><b class="BLU">[MAC]   Trying to allocate COMMON DCI 0/0 (0,0) : rnti ffff, aggreg 4 nCCE 0 / 4 (num_pdcch_symbols 1)
+</b><b class="BLU">[MAC]   Allocating at nCCE 0
+</b><b class="BLU">[MAC]   Allocate COMMON DCI CCEs subframe 5, test 0 =&gt; L 4 fCCE 0
+</b><b class="BLU">[MAC]   Frame 1: Subframe 5 : Adding common DCI for S_RNTI
+</b><b class="BLU">[MAC]   [eNB] Frame 1 : Scheduling BCCH-&gt;DLSCH (FDD) for CC_id 0 SI 30 bytes (mcs 6, rb 3)
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   Frame 1, subframe 5 : vrb 11 allocated
+</b><b class="BLU">[MAC]   Frame 1, subframe 5 : vrb 12 allocated
+</b><b class="BLU">[MAC]   Frame 1, subframe 5 : vrb 14 allocated
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 5, test 2 : (DL PDU 2, DL DCI 1, UL 0)
+</b><b class="BLU">[MAC]   Trying to allocate COMMON DCI 0/1 (1,0) : rnti ffff, aggreg 4 nCCE 0 / 4 (num_pdcch_symbols 1)
+</b><b class="BLU">[MAC]   Allocating at nCCE 0
+</b><b class="BLU">[MAC]   Allocate COMMON DCI CCEs subframe 5, test 2 =&gt; L 4 fCCE 0
+</b><b class="BLU">[PHY]   subframe 5: PUSCH subframe = 9
+</b><b class="BLU">[PHY]   frame 1 subframe 5: PUSCH frame = 1
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00015 DL_req:SFN/SF:00015:dl_pdu:2 tx_req:SFN/SF:00015:pdus:1
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00015:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 9
+</b><b class="BLU">[PHY]   Frame 1, Subframe 5: DCI processing - populating pdcch_vars-&gt;dci_alloc[0] proc:subframe_tx:5 idx:1 pdcch_vars-&gt;num_dci:0
+</b><b class="BLU">[PHY]   NFAPI: SFN/SF:00015 proc:TX:[SFN/SF:00015] DCI format 1, nCCE 0, L 4, rnti ffff, harq_pid 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 0=&gt; harq_mask 1, rnti ffff, first_free_index -1
+</b><b class="BLU">[PHY]   NFAPI: SFN/SF:00015 proc:TX:SFN/SF:00015 dlsch0[rnti:ffff harq_mask:0001] dci_pdu[rnti:ffff rnti_type:2 harq_process:0 ndi1:0] dlsch0_harq[round:1 harq_mask:1 ndi:0]
+</b><b class="BLU">[PHY]   NFAPI: rel8[rnti ffff dci_format 1 harq_process 0 ndi1 0 rnti type 2] dlsch0[rnti ffff harq_mask 1] dlsch0_harq[round 0 ndi 0]
+</b><b class="BLU">[PHY]   Frame 1, Subframe 5: DCI processing - populated pdcch_vars-&gt;dci_alloc[0] proc:subframe_tx:5 idx:1 pdcch_vars-&gt;num_dci:0
+</b><b class="BLU">[PHY]   schedule_response() [PDU:1] NFAPI_DL_CONFIG_DLSCH_PDU_TYPE SFN/SF:00015 TX:1/5 RX:1/1 transport_blocks:1 pdu_index:0 sdu:0x7fe4e9dd010b
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 0=&gt; harq_mask 1, rnti ffff, first_free_index -1
+</b><b class="BLU">[PHY]   dlsch-&gt;i0:ffff dlsch0_harq[pdsch_start:1 nb_rb:4 vrb_type:0 rvidx:0 Nl:1 mimo_mode:0 dl_power_off:1 round:0 status:1 TBS:256 Qm:2 codeword:0 rb_alloc:30720] rel8[length:30]
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:15 dl_pdus:2
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:11 tx:15]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 5: PUSCH subframe = 9
+</b><b class="BLU">[PHY]   frame 1 subframe 5: PUSCH frame = 1
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 1
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1, subframe 5: Calling generate_dci_top (pdcch) (num_dci 1) num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   Generating DCI 0/1 (nCCE 0) of length 25, aggregation 4 (8ac60100), rnti ffff
+</b><b class="BLU">[PHY]   Generating DLSCH/PDSCH pdu:0x7fe4e9dd010b pdsch_start:1 frame:1 subframe:5 nb_rb:4 rb_alloc:30720 Qm:2 Nl:1 round:0
+</b><b class="BLU">[PHY]   Generating DLSCH/PDSCH dlsch_harq[round:1]
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 115200, frame 1, unwrapped_frame 0, subframe 5
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 92160 (off 24125269), frame 1, subframe 2
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 2
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(2)
+</b><b class="BLU">[PHY]   SFN/SF:12 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,2) clear HI_DCI0_req[0][6]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 6, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 6: PUSCH subframe = 0
+</b><b class="BLU">[PHY]   frame 1 subframe 6: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00016 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00016:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00016:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 0
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:16 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:12 tx:16]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 6: PUSCH subframe = 0
+</b><b class="BLU">[PHY]   frame 1 subframe 6: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 122880, frame 1, unwrapped_frame 0, subframe 6
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 99840 (off 24125269), frame 1, subframe 3
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 3
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(3)
+</b><b class="BLU">[PHY]   SFN/SF:13 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,3) clear HI_DCI0_req[0][7]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 7, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 7: PUSCH subframe = 1
+</b><b class="BLU">[PHY]   frame 1 subframe 7: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00017 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00017:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00017:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 1
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:17 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:13 tx:17]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 7: PUSCH subframe = 1
+</b><b class="BLU">[PHY]   frame 1 subframe 7: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 130560, frame 1, unwrapped_frame 0, subframe 7
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 107520 (off 24125269), frame 1, subframe 4
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 4
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(4)
+</b><b class="BLU">[PHY]   SFN/SF:14 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,4) clear HI_DCI0_req[0][8]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 8, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 8: PUSCH subframe = 2
+</b><b class="BLU">[PHY]   frame 1 subframe 8: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00018 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00018:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00018:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 2
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:18 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:14 tx:18]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 8: PUSCH subframe = 2
+</b><b class="BLU">[PHY]   frame 1 subframe 8: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 138240, frame 1, unwrapped_frame 0, subframe 8
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 115200 (off 24125269), frame 1, subframe 5
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 5
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(5)
+</b><b class="BLU">[PHY]   SFN/SF:15 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,5) clear HI_DCI0_req[0][9]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 9, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 9: PUSCH subframe = 3
+</b><b class="BLU">[PHY]   frame 1 subframe 9: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00019 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00019:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00019:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 3
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:19 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:15 tx:19]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 9: PUSCH subframe = 3
+</b><b class="BLU">[PHY]   frame 1 subframe 9: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 145920, frame 1, unwrapped_frame 0, subframe 9
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 122880 (off 24125269), frame 1, subframe 6
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 6
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(6)
+</b><b class="BLU">[PHY]   SFN/SF:16 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,6) clear HI_DCI0_req[0][0]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 0, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 0: PUSCH subframe = 4
+</b><b class="BLU">[PHY]   frame 2 subframe 0: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00020 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00020:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00020:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 4
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:20 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:16 tx:20]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   generate_pbch(eNB_pbch:0x7fe4f0b559b0 txdataF:0x2898a80 amp:512 frame_parms:0x7fe4f0a77ae8 pbch_pdu:0x7fe4f0c749b9 frame_mod4:0)
+</b><b class="BLU">[PHY]   subframe 0: PUSCH subframe = 4
+</b><b class="BLU">[PHY]   frame 2 subframe 0: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 153600, frame 2, unwrapped_frame 0, subframe 0
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 130560 (off 24125269), frame 1, subframe 7
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 7
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(7)
+</b><b class="BLU">[PHY]   SFN/SF:17 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,7) clear HI_DCI0_req[0][1]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 1, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 1: PUSCH subframe = 5
+</b><b class="BLU">[PHY]   frame 2 subframe 1: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00021 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00021:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00021:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 5
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:21 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:17 tx:21]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 1: PUSCH subframe = 5
+</b><b class="BLU">[PHY]   frame 2 subframe 1: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 161280, frame 2, unwrapped_frame 0, subframe 1
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 138240 (off 24125269), frame 1, subframe 8
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 8
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(8)
+</b><b class="BLU">[PHY]   SFN/SF:18 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,8) clear HI_DCI0_req[0][2]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 2, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 2: PUSCH subframe = 6
+</b><b class="BLU">[PHY]   frame 2 subframe 2: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00022 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00022:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00022:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 6
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:22 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:18 tx:22]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 2: PUSCH subframe = 6
+</b><b class="BLU">[PHY]   frame 2 subframe 2: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 168960, frame 2, unwrapped_frame 0, subframe 2
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 145920 (off 24125269), frame 1, subframe 9
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 1, subframe 9
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 1: Doing phy_procedures_eNB_uespec_RX(9)
+</b><b class="BLU">[PHY]   SFN/SF:19 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (1,9) clear HI_DCI0_req[0][3]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 3, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 3: PUSCH subframe = 7
+</b><b class="BLU">[PHY]   frame 2 subframe 3: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00023 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00023:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00023:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 7
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:23 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:19 tx:23]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 3: PUSCH subframe = 7
+</b><b class="BLU">[PHY]   frame 2 subframe 3: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 176640, frame 2, unwrapped_frame 0, subframe 3
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 153600 (off 24125269), frame 2, subframe 0
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 2, subframe 0
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2: Doing phy_procedures_eNB_uespec_RX(0)
+</b><b class="BLU">[PHY]   SFN/SF:20 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (2,0) clear HI_DCI0_req[0][4]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 4, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 4: PUSCH subframe = 8
+</b><b class="BLU">[PHY]   frame 2 subframe 4: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00024 DL_req:SFN/SF:00015:dl_pdu:0 tx_req:SFN/SF:00015:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00024:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00024:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 8
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:24 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:20 tx:24]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 4: PUSCH subframe = 8
+</b><b class="BLU">[PHY]   frame 2 subframe 4: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 184320, frame 2, unwrapped_frame 0, subframe 4
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 161280 (off 24125269), frame 2, subframe 1
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 1), received frame 2, subframe 1
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   Triggering prach processing, frame 2, subframe 1
+</b><b class="BLU">[PHY]   Triggering prach br processing, frame 2, subframe 1
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2: Doing phy_procedures_eNB_uespec_RX(1)
+</b><b class="BLU">[PHY]   Running eNB prach procedures
+</b><b class="BLU">[PHY]   SFN/SF:21 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (2,1) clear HI_DCI0_req[0][5]
+</b><b class="BLU">[PHY]   Running eNB prach procedures for BL/CE UEs
+</b><b class="BLU">[MAC]   [eNB 0] Frame 2 : BCCH-&gt;DLSCH CC_id 0, Received 15 bytes 
+</b><b class="BLU">[MAC]   Subframe 5: Checking CCE feasibility format 0 : (ffff,4) (ffff,4,2)
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 5, test 0 : (DL PDU 1, DL DCI 0, UL 0)
+</b><b class="BLU">[MAC]   Trying to allocate COMMON DCI 0/0 (0,0) : rnti ffff, aggreg 4 nCCE 0 / 4 (num_pdcch_symbols 1)
+</b><b class="BLU">[MAC]   Allocating at nCCE 0
+</b><b class="BLU">[MAC]   Allocate COMMON DCI CCEs subframe 5, test 0 =&gt; L 4 fCCE 0
+</b><b class="BLU">[MAC]   Frame 2: Subframe 5 : Adding common DCI for S_RNTI
+</b><b class="BLU">[MAC]   [eNB] Frame 2 : Scheduling BCCH-&gt;DLSCH (FDD) for CC_id 0 SI 15 bytes (mcs 2, rb 3)
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   Frame 2, subframe 5 : vrb 11 allocated
+</b><b class="BLU">[MAC]   Frame 2, subframe 5 : vrb 12 allocated
+</b><b class="BLU">[MAC]   Frame 2, subframe 5 : vrb 14 allocated
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 5, test 2 : (DL PDU 2, DL DCI 1, UL 0)
+</b><b class="BLU">[MAC]   Trying to allocate COMMON DCI 0/1 (1,0) : rnti ffff, aggreg 4 nCCE 0 / 4 (num_pdcch_symbols 1)
+</b><b class="BLU">[MAC]   Allocating at nCCE 0
+</b><b class="BLU">[MAC]   Allocate COMMON DCI CCEs subframe 5, test 2 =&gt; L 4 fCCE 0
+</b><b class="BLU">[PHY]   subframe 5: PUSCH subframe = 9
+</b><b class="BLU">[PHY]   frame 2 subframe 5: PUSCH frame = 2
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00025 DL_req:SFN/SF:00025:dl_pdu:2 tx_req:SFN/SF:00025:pdus:1
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00025:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00025:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 9
+</b><b class="BLU">[PHY]   Frame 2, Subframe 5: DCI processing - populating pdcch_vars-&gt;dci_alloc[0] proc:subframe_tx:5 idx:1 pdcch_vars-&gt;num_dci:0
+</b><b class="BLU">[PHY]   NFAPI: SFN/SF:00025 proc:TX:[SFN/SF:00025] DCI format 1, nCCE 0, L 4, rnti ffff, harq_pid 0
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 0=&gt; harq_mask 1, rnti ffff, first_free_index -1
+</b><b class="BLU">[PHY]   NFAPI: SFN/SF:00025 proc:TX:SFN/SF:00025 dlsch0[rnti:ffff harq_mask:0001] dci_pdu[rnti:ffff rnti_type:2 harq_process:0 ndi1:0] dlsch0_harq[round:1 harq_mask:1 ndi:0]
+</b><b class="BLU">[PHY]   NFAPI: rel8[rnti ffff dci_format 1 harq_process 0 ndi1 0 rnti type 2] dlsch0[rnti ffff harq_mask 1] dlsch0_harq[round 0 ndi 0]
+</b><b class="BLU">[PHY]   Frame 2, Subframe 5: DCI processing - populated pdcch_vars-&gt;dci_alloc[0] proc:subframe_tx:5 idx:1 pdcch_vars-&gt;num_dci:0
+</b><b class="BLU">[PHY]   schedule_response() [PDU:1] NFAPI_DL_CONFIG_DLSCH_PDU_TYPE SFN/SF:00025 TX:2/5 RX:2/1 transport_blocks:1 pdu_index:0 sdu:0x7fe4e9dd010b
+</b><b class="BLU">[PHY]   searching for rnti ffff : UE index 0=&gt; harq_mask 1, rnti ffff, first_free_index -1
+</b><b class="BLU">[PHY]   dlsch-&gt;i0:ffff dlsch0_harq[pdsch_start:1 nb_rb:4 vrb_type:0 rvidx:0 Nl:1 mimo_mode:0 dl_power_off:1 round:0 status:1 TBS:144 Qm:2 codeword:0 rb_alloc:30720] rel8[length:15]
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:25 dl_pdus:2
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:21 tx:25]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   [RAPROC] Frame 2, subframe 1 : Most likely preamble 61, energy 8 dB delay 336 (prach_energy counter 1)
+</b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   [RAPROC] Frame 2, subframe 1 : Most likely preamble 0, energy 0 dB delay 0 (prach_energy counter 2)
+</b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 5: PUSCH subframe = 9
+</b><b class="BLU">[PHY]   frame 2 subframe 5: PUSCH frame = 2
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 1
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2, subframe 5: Calling generate_dci_top (pdcch) (num_dci 1) num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   Generating DCI 0/1 (nCCE 0) of length 25, aggregation 4 (8ac20100), rnti ffff
+</b><b class="BLU">[PHY]   Generating DLSCH/PDSCH pdu:0x7fe4e9dd010b pdsch_start:1 frame:2 subframe:5 nb_rb:4 rb_alloc:30720 Qm:2 Nl:1 round:0
+</b><b class="BLU">[PHY]   Generating DLSCH/PDSCH dlsch_harq[round:1]
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 192000, frame 2, unwrapped_frame 0, subframe 5
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 168960 (off 24125269), frame 2, subframe 2
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 2, subframe 2
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2: Doing phy_procedures_eNB_uespec_RX(2)
+</b><b class="BLU">[PHY]   SFN/SF:22 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (2,2) clear HI_DCI0_req[0][6]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 6, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 6: PUSCH subframe = 0
+</b><b class="BLU">[PHY]   frame 2 subframe 6: PUSCH frame = 3
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00026 DL_req:SFN/SF:00025:dl_pdu:0 tx_req:SFN/SF:00025:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00026:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00026:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 0
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:26 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:22 tx:26]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 6: PUSCH subframe = 0
+</b><b class="BLU">[PHY]   frame 2 subframe 6: PUSCH frame = 3
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 199680, frame 2, unwrapped_frame 0, subframe 6
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 176640 (off 24125269), frame 2, subframe 3
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 2, subframe 3
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2: Doing phy_procedures_eNB_uespec_RX(3)
+</b><b class="BLU">[PHY]   SFN/SF:23 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (2,3) clear HI_DCI0_req[0][7]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 7, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 7: PUSCH subframe = 1
+</b><b class="BLU">[PHY]   frame 2 subframe 7: PUSCH frame = 3
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00027 DL_req:SFN/SF:00025:dl_pdu:0 tx_req:SFN/SF:00025:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00027:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00027:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 1
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:27 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:23 tx:27]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 7: PUSCH subframe = 1
+</b><b class="BLU">[PHY]   frame 2 subframe 7: PUSCH frame = 3
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 207360, frame 2, unwrapped_frame 0, subframe 7
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 184320 (off 24125269), frame 2, subframe 4
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 2, subframe 4
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2: Doing phy_procedures_eNB_uespec_RX(4)
+</b><b class="BLU">[PHY]   SFN/SF:24 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (2,4) clear HI_DCI0_req[0][8]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 8, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 8: PUSCH subframe = 2
+</b><b class="BLU">[PHY]   frame 2 subframe 8: PUSCH frame = 3
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00028 DL_req:SFN/SF:00025:dl_pdu:0 tx_req:SFN/SF:00025:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00028:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00028:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 2
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:28 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:24 tx:28]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 8: PUSCH subframe = 2
+</b><b class="BLU">[PHY]   frame 2 subframe 8: PUSCH frame = 3
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 215040, frame 2, unwrapped_frame 0, subframe 8
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 192000 (off 24125269), frame 2, subframe 5
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 2, subframe 5
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2: Doing phy_procedures_eNB_uespec_RX(5)
+</b><b class="BLU">[PHY]   SFN/SF:25 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (2,5) clear HI_DCI0_req[0][9]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 9, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 9: PUSCH subframe = 3
+</b><b class="BLU">[PHY]   frame 2 subframe 9: PUSCH frame = 3
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00029 DL_req:SFN/SF:00025:dl_pdu:0 tx_req:SFN/SF:00025:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00029:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00029:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 3
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:29 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:25 tx:29]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   subframe 9: PUSCH subframe = 3
+</b><b class="BLU">[PHY]   frame 2 subframe 9: PUSCH frame = 3
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 222720, frame 2, unwrapped_frame 0, subframe 9
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 199680 (off 24125269), frame 2, subframe 6
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 2, subframe 6
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2: Doing phy_procedures_eNB_uespec_RX(6)
+</b><b class="BLU">[PHY]   SFN/SF:26 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (2,6) clear HI_DCI0_req[0][0]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 0, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 0: PUSCH subframe = 4
+</b><b class="BLU">[PHY]   frame 3 subframe 0: PUSCH frame = 3
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00030 DL_req:SFN/SF:00025:dl_pdu:0 tx_req:SFN/SF:00025:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00030:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00030:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 4
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:30 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:26 tx:30]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]
+
+</b><b class="BLU">[PHY]   generate_pbch(eNB_pbch:0x7fe4f0b559b0 txdataF:0x2898a80 amp:512 frame_parms:0x7fe4f0a77ae8 pbch_pdu:0x7fe4f0c749b9 frame_mod4:0)
+</b><b class="BLU">[PHY]   subframe 0: PUSCH subframe = 4
+</b><b class="BLU">[PHY]   frame 3 subframe 0: PUSCH frame = 3
+</b><b class="BLU">[PHY]   num_pdcch_symbols 1,number dci 0
+</b><b class="BLU">[PHY]   [TXPATH] RU 0 tx_rf, writing to TS 230400, frame 3, unwrapped_frame 0, subframe 0
+</b><b class="BLU">[PHY]   ru_thread_tx: Waiting for TX processing
+</b><b class="BLU">[PHY]   RU 0/0 TS 207360 (off 24125269), frame 2, subframe 7
+</b><b class="BLU">[PHY]   RU thread (do_prach 0, is_prach_subframe 0), received frame 2, subframe 7
+</b><b class="BLU">[PHY]   wakeup_eNBs (num 1) for RU 0 ru-&gt;eNB_top:0x501d60
+</b><b class="BLU">[PHY]   ru-&gt;num_eNB:1
+</b><b class="BLU">[PHY]   ru-&gt;wakeup_rxtx:0x4ff0d0
+</b><b class="BLU">[PHY]   [eNB 0] Frame 2: Doing phy_procedures_eNB_uespec_RX(7)
+</b><b class="BLU">[PHY]   SFN/SF:27 module_id:0 CC_id:0 UL_info[rx_ind:0 harqs:0 crcs:0 cqis:0 preambles:0 sr_ind:0]
+</b><b class="BLU">[MAC]   current (2,7) clear HI_DCI0_req[0][1]
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: assign max mcs min rb
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: sort ue 
+</b><b class="BLU">[MAC]   In ulsch_preprocessor: step2 
+</b><b class="BLU">[MAC]   Running preprocessor for UE 16 (0)
+</b><b class="BLU">[MAC]   doing schedule_ue_spec for CC_id 0
+</b><b class="BLU">[MAC]   Doing fill DCI for CC_id 0
+</b><b class="BLU">[MAC]   Allocate CCEs subframe 1, test 2 : (DL PDU 0, DL DCI 0, UL 0)
+</b><b class="BLU">[PHY]   subframe 1: PUSCH subframe = 5
+</b><b class="BLU">[PHY]   frame 3 subframe 1: PUSCH frame = 3
+</b><b class="BLU">[PHY]   NFAPI: Sched_INFO:SFN/SF:00031 DL_req:SFN/SF:00025:dl_pdu:0 tx_req:SFN/SF:00025:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: hi_dci0:SFN/SF:00031:pdus:0
+</b><b class="BLU">[PHY]   NFAPI: ul_cfg:SFN/SF:00031:pdus:0 num_pdcch_symbols:1
+</b><b class="BLU">[PHY]   NFAPI: Clearing dci allocations for potential UL subframe 5
+</b><b class="BLU">[PHY]   Schedule_response: SFN_SF:31 dl_pdus:0
+</b><b class="BLU">[PHY]   rxtx() Exit proc[rx:27 tx:31]
+</b><b class="BLU">[PHY]   rxtx:0 nfapi:0 tx:0 rx:0 prach:0 ofdm:0 </b><b class="BLU">[PHY]   dlsch[enc:0 mod:0 scr:0 rm:0 t:0 i:0] rx_dft:0 </b><b class="BLU">[PHY]    ulsch[ch:0 freq:0 dec:0 demod:0 ru:0 </b><b class="BLU">[PHY]   td:0 dei:0 dem:0 llr:0 tci:0 </b><b class="BLU">[PHY]   tca:0 tcb:0 tcg:0 tce:0 l1:0 l2:0]

@@ -1,0 +1,8 @@
+keras
+opencv-python
+matplotlib
+numpy
+scikit-learn
+imutils
+pydot
+progressbar

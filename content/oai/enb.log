@@ -1,0 +1,2233 @@
+[CONFIG] get parameters from libconfig ../enb.band7.tm1.50PRB.usrpb210.conf , debug flags: 0x00000000
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+# /dev/cpu_dma_latency set to 0us
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 38/38 parameters successfully set, (32 to default value)
+[LIBCONFIG] log_config: 38/38 parameters successfully set, (38 to default value)
+[LIBCONFIG] log_config: 14/14 parameters successfully set, (14 to default value)
+[LIBCONFIG] log_config: 14/14 parameters successfully set, (14 to default value)
+log init done
+Reading in command-line options
+Getting ENBSParams
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+Configuration: nb_rrc_inst 1, nb_L1_inst 1, nb_ru 1
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.NB_IoT: 2/2 parameters successfully set, (1 to default value)
+               nb_nbiot_rrc_inst 0, nb_nbiot_L1_inst 0, nb_nbiot_macrlc_inst 0
+[LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+configuring for RAU/RRU
+CPU Freq is 2.808167 
+ITTI init, useMME: 1
+[0m[TMR]   Starting itti queue: TASK_UNKNOWN as task 0
+[0m[0m[TMR]   Starting itti queue: TASK_TIMER as task 1
+[0m[0m[TMR]   Starting itti queue: TASK_L2L1 as task 2
+[0m[0m[TMR]   Starting itti queue: TASK_BM as task 3
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_ENB as task 4
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_ENB as task 5
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_ENB as task 6
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_ENB as task 8
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB as task 9
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_ENB as task 10
+[0m[0m[TMR]   Starting itti queue: TASK_S1AP as task 11
+[0m[0m[TMR]   Starting itti queue: TASK_X2AP as task 12
+[0m[0m[TMR]   Starting itti queue: TASK_SCTP as task 13
+[0m[0m[TMR]   Starting itti queue: TASK_ENB_APP as task 14
+[0m[0m[TMR]   Starting itti queue: TASK_FLEXRAN_AGENT as task 15
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_UE as task 16
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_UE as task 17
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_UE as task 18
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_UE as task 19
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_UE as task 20
+[0m[0m[TMR]   Starting itti queue: TASK_NAS_UE as task 21
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_UE as task 22
+[0m[0m[TMR]   Starting itti queue: TASK_MSC as task 23
+[0m[0m[TMR]   Starting itti queue: TASK_GTPV1_U as task 24
+[0m[0m[TMR]   Starting itti queue: TASK_UDP as task 25
+[0mreported resolution = 1 ns
+[0m[HW]   Version: Branch: develop Abrev. Hash: b805cfc Date: Tue Dec 4 19:47:44 2018 +0100
+[0mRuntime table
+NO deadline scheduler
+[0m[HW]   CPU Affinity of main() function is...  CPU_0  CPU_1  CPU_2  CPU_3 
+[0mWait for the ITTI initialize message
+[0m[TMR]   Created Posix thread TASK_L2L1
+[0m[0m[TMR]   Created Posix thread TASK_ENB_APP
+[0m[0m[PHY]   eNB_app_task() Task ready initialise structures
+[0m[0m[PHY]   RC.eNB = 0x7f917c0008c0
+[0m[0m[TMR]   Created Posix thread TASK_X2AP
+[0m[LIBCONFIG] L1s.[0]: 9/9 parameters successfully set, (7 to default value)
+[0m[PHY]   RC.eNB[0] = 0x7f917c000970
+[0m[0m[TMR]   Created Posix thread TASK_SCTP
+[0m[0m[SCTP]   Starting SCTP layer
+[0m[0m[TMR]   Created Posix thread TASK_S1AP
+[0m[0m[S1AP]   Starting S1AP layer
+[0m[0m[TMR]   Created Posix thread TASK_UDP
+[0m[0m[UDP]   Initializing UDP task interface
+[0m[0m[UDP]   Initializing UDP task interface: DONE
+[0m[0m[TMR]   Created Posix thread TASK_GTPV1_U
+[0m[0m[RRC]   Creating RRC eNB Task
+[0m[0m[GTPV1U]   Initializing GTPU stack 0x130fc98
+[0m[0m[TMR]   Created Posix thread TASK_RRC_ENB
+[0m[0m[RRC]   Entering main loop of RRC message task
+[0mITTI tasks created
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] NETWORK_CONTROLLER: 6/6 parameters successfully set, (0 to default value)
+[0m[FLEXRAN_AGENT]   FlexRAN Agent for eNB 0 is DISABLED
+[0m[0m[PHY]   RC.eNB[0][0] = 0x7f91806ff010
+[0m[0m[ENB_APP]   Initializing northbound interface for L1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_inst:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.eNB[0][0] installing callbacks
+[0m[LIBCONFIG] MACRLCs.[0]: 21/21 parameters successfully set, (15 to default value)
+[0m[MAC]   [MAIN] Init function start:nb_macrlc_inst=1
+[0mXFORMS
+[0m[PDCP]   PDCP layer has been initialized
+[0m[0m[ENB_APP]   sched mode = default 0 [default]
+[0m[0m[PHY]   eNB_app_task() RC.nb_L1_inst:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_inst:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.eNB[0][0] installing callbacks
+[0m[0m[ENB_APP]   Allocating eNB_RRC_INST for 1 instances
+[0m[0m[PHY]   eNB_app_task() RC.nb_inst:1 RC.rrc:0x7f917c002b70
+[0m[0m[PHY]   eNB_app_task() Creating RRC instance RC.rrc[0]:0x7f917c002b90 (1 of 1)
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[0m[ENB_APP]   RRC 0: Southbound Transport local_mac
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[RRC]   num component carriers 1 
+[0m[0m[RRC]   enb_config::RCconfig_RRC() parameter number: 0, total number of parameters: 107, ccspath: eNBs.[0].component_carriers.[0] 
+ 
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+phich.resource 0 (ONESIXTH), phich.duration 0 (NORMAL)
+[LIBCONFIG] eNBs.[0].srb1_parameters: 6/6 parameters successfully set, (0 to default value)
+[0m[ENB_APP]   Sending configuration message to RRC task
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[0m[RRC]   Received message RRC_CONFIGURATION_REQ
+[0m[0m[RRC]   [eNB 0] Received RRC_CONFIGURATION_REQ : 0x7f917c008d7c
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Init...
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+[LIBCONFIG] eNBs.[0].mme_ip_address.[0]: 5/5 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Configuring GTPu
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 3/3 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Configuring GTPu address : 192.168.1.115 -> 7301a8c0
+[0m[0m[ENB_APP]   default drx 2
+[0m[0m[ENB_APP]   [eNB 0] eNB_app_register for instance 0
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[0m[GTPV1U]   Tx UDP_INIT IP addr 192.168.1.115 (868)
+[0m[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[UDP]   Initializing UDP for local address 192.168.1.115 with port 2152
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Checking release 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Rel14 RRC detected, MBMS flag 0
+[0m[0m[RRC]   Configuring MIB (N_RB_DL 50,phich_Resource 0,phich_Duration 0)
+[0m[0m[RRC]   [MIB] systemBandwidth 3, phich_duration 0, phich_resource 0, sfn 0
+[0m[0m[RRC]   [eNB 0] Configuration SIB2/3, MBMS = 0
+[0m[0m[RRC]   [SIB2] With ITTI. Basic config of paging cycle DRX: radio frame cycle length 2, paging occasion number 2
+[0m[0m[S1AP]   Registered new eNB[0] and macro eNB id 57345
+[0m[0m[S1AP]   [eNB 0] check the mme registration state
+[0m[0m[UDP]   Inserting new descriptor for task 24, sd 57
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Contents of SIB18 1/1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 rxPool_sc_CP_Len: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 sc_Period_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 data_CP_Len_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_Num_r12: 20 
+[0m[0m[UDP]   Initializing UDP for local address 192.168.1.115 with port 2152: DONE
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_Start_r12: 5 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_End_r12: 44 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 offsetIndicator: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 subframeBitmap_choice_bs_buf: 00000000000000000000 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Contents of SIB19 1/1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 cp_Len_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 discPeriod_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 numRetx_r12: 1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 numRepetition_r12: 2 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_Num_r12: 5 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_Start_r12: 3 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_End_r12: 21 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 offsetIndicator: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 subframeBitmap_choice_bs_buf: f0ffffffff 
+[0m[LIBCONFIG] list eNBs.[0].target_enb_x2_ip_address not found in config file ../enb.band7.tm1.50PRB.usrpb210.conf 
+[0m[MAC]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 50,Nid_cell 0,p 1,DL freq 2630000000,phich_config.resource 0, phich_config.duration 0)
+[0m[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[0m[MAC]   config_mib() NFAPI_CONFIG_REQUEST(num_tlv:16) DL_BW:50 UL_BW:50 Ncp 0,p_eNB 1,earfcn 2850,band 7,phich_resource 0 phich_duration 0 phich_power_offset 6000 PSS 6000 SSS 6000 PCI 0 PBCH repetition 0
+[0m[0m[MAC]   [CONFIG]SIB2/3 Contents (partial)
+[0m[0m[MAC]   [CONFIG]pusch_config_common.n_SB = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.hoppingMode = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.enable64QAM = 0
+[0m[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+[0m[MAC]   [CONFIG]pusch_config_common.groupHoppingEnabled = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupAssignmentPUSCH = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.sequenceHoppingEnabled = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.cyclicShift  = 1
+[0m[0m[PHY]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 50, N_RB_UL 50, Nid_cell 0,eNB_tx_antenna_ports 1,Ncp 0,DL freq 2850,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[PHY]   Initializing frame parms for N_RB_DL 50, Ncp 0, osf 1
+[0m[0m[PHY]   lte_parms.c: Setting N_RB_DL to 50, ofdm_symbol_size 1024
+[0m[LIBCONFIG] loader.coding: 2/2 parameters successfully set, (1 to default value)
+[0m[X2AP]   Registered new eNB[0] and macro eNB id 57345
+[0m[0m[X2AP]   eNB[0] eNB id 57345 acting as a listner (server)
+[0m[0m[SCTP]   sctp_bindx SCTP_BINDX_ADD_ADDR socket bound to : 192.168.1.115
+[0m[0m[SCTP]   Converted ipv4 address 192.168.1.102 to network type
+[0m[0m[SCTP]   connectx assoc_id  23 in progress..., used 1 addresses
+[0m[0m[SCTP]   Inserted new descriptor for sd 58 in list, nb elements 1, assoc_id 23
+[0m[0m[SCTP]   Received SCTP_INIT_MSG_MULTI_REQ
+[0m[0m[SCTP]   Creating new listen socket on port 36422 with
+[0m[0m[SCTP]   ipv4 addresses:
+[0m[0m[SCTP]   	- 192.168.1.115
+[0m[LOADER] library libcoding.so successfully loaded
+[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32769
+[0m[0m[SCTP]   Client association changed: 0
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Peer addresses:
+[0m[0m[SCTP]       - [192.168.1.102]
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   SCTP Status:
+[0m[0m[SCTP]   assoc id .....: 23
+[0m[0m[SCTP]   state ........: 4
+[0m[0m[SCTP]   instrms ......: 2
+[0m[0m[SCTP]   outstrms .....: 2
+[0m[0m[SCTP]   fragmentation : 1452
+[0m[0m[SCTP]   pending data .: 0
+[0m[0m[SCTP]   unack data ...: 0
+[0m[0m[SCTP]   rwnd .........: 106496
+[0m[0m[SCTP]   peer info     :
+[0m[0m[SCTP]       state ....: 2
+[0m[0m[SCTP]       cwnd .....: 4380
+[0m[0m[SCTP]       srtt .....: 0
+[0m[0m[SCTP]       rto ......: 3000
+[0m[0m[SCTP]       mtu ......: 1500
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Comm up notified for sd 58, assigned assoc_id 23
+[0m[0m[S1AP]   57345 -> 0e0010
+[0m[0m[SCTP]   Successfully sent 60 bytes on stream 0 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 27 received from port 36412, on stream 0, PPID 18
+[0m[0m[S1AP]   servedGUMMEIs.list.count 1
+[0m[0m[S1AP]   servedPLMNs.list.count 1
+[0m[0m[ENB_APP]   [eNB 0] Received S1AP_REGISTER_ENB_CNF: associated MME 1
+[0m[0m[PHY]   prach_config_common.rootSequenceIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_ConfigIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.highSpeedFlag = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.zeroCorrelationZoneConfig = 1
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_FreqOffset = 2
+[0m[0m[PHY]   pusch_config_common.n_SB = 1
+[0m[0m[PHY]   pusch_config_common.hoppingMode = 0
+[0m[0m[PHY]   pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[PHY]   pusch_config_common.enable64QAM = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupHoppingEnabled = 1
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.cyclicShift = 2
+[0m[0m[PHY]   eNB 0/0 configured
+[0m[0m[RRC]   [eNB] handover active state is 0 
+[0m[0m[RRC]   [eNB] eMBMS active state is 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] ENB:OPENAIR RRC IN....
+[0m[0m[RRC]   Received message GTPV1U_ENB_DELETE_TUNNEL_RESP
+[0mNFAPI MODE:MONOLITHIC
+START MAIN THREADS
+RC.nb_L1_inst:1
+Initializing eNB threads single_thread_flag:0 wait_for_sync:0
+[0m[PHY]   [lte-softmodem.c] eNB structure about to allocated RC.nb_L1_inst:1 RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   [lte-softmodem.c] eNB structure RC.eNB allocated
+[0m[0m[PHY]   Initializing eNB 0 CC_id 0 single_thread_flag:0
+[0m[0m[PHY]   Initializing eNB 0 CC_id 0
+[0m[0m[PHY]   Registering with MAC interface module
+[0m[0m[PHY]   Setting indication lists
+[0m[0m[PHY]   [lte-softmodem.c] eNB structure allocated
+[0mwait_eNBs()
+Waiting for eNB L1 instances to all get configured ... sleeping 50ms (nb_L1_inst 1)
+RC.nb_L1_CC[0]:1
+eNB L1 are configured
+About to Init RU threads RC.nb_RU:1
+Initializing RU threads
+configuring RU from file
+[LIBCONFIG] RUs.[0]: 20/20 parameters successfully set, (11 to default value)
+Set RU mask to 1
+Creating RC.ru[0]:0x29b8c70
+Setting function for RU 0 to eNodeB_3GPP
+[0m[PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 4
+[0m[0m[1;31m[PHY]   DJP - delete code above this /home/test/develop/targets/RT/USER/lte-ru.c:2753
+[0m[0m[PHY]   Copying frame parms from eNB 0 to ru 0
+[0m[0m[PHY]   Initializing RRU descriptor 0 : (local RF,synch_to_ext_device,0)
+[0mconfiguring ru_id 0 (start_rf 0x50d3e0)
+[0m[PHY]   Starting ru_thread 0
+[0m[0m[PHY]   Initializing RU proc 0 (eNodeB_3GPP,synch_to_ext_device),
+[0m[0m[HW]   [SCHED][eNB] ru_thread started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   init_RU_proc() DJP - added creation of pthread_prach
+[0m[0m[HW]   [SCHED][eNB] ru_thread_tx started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread ru created id=10137
+[0m[0m[PHY]   Starting RU 0 (eNodeB_3GPP,synch_to_ext_device),
+[0mchannel 0, Setting tx_gain offset 0.000000, rx_gain offset 125.000000, tx_freq 2630000000.000000, rx_freq 2510000000.000000
+[0m[PHY]   Initializing frame parms for N_RB_DL 50, Ncp 0, osf 1
+[0m[0m[PHY]   lte_parms.c: Setting N_RB_DL to 50, ofdm_symbol_size 1024
+[0m[0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1
+[0m[0m[HW]   [SCHED][eNB] ru_thread_prach started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[HW]   [SCHED][eNB] fep_thread started on CPU 3, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0mwait RUs
+[0m[PHY]   Waiting for RUs to be configured ... RC.ru_mask:01
+[0m[0m[PHY]   [INIT] common.txdata[0] = 0x7f9186523040 (614400 bytes)
+[0m[0m[HW]   [SCHED][eNB] feptx_thread started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread fep created id=10140
+[0m[0m[PHY]   thread feptx created id=10141
+[0m[0m[PHY]   nb_tx 1
+[0m[0m[PHY]   rxdata_7_5kHz[0] 0x7f91864e6040 for RU 0
+[0m[0m[PHY]   [INIT] common.txdata_BF= 0x7f91580009a0 (8 bytes)
+[0m[0m[PHY]   txdataF_BF[0] 0x7f9158051620 for RU 0
+[0m[0m[PHY]   rxdataF[0] 0x7f915805f6a0 for RU 0
+[0m[LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
+[LOADER] library liboai_device.so successfully loaded
+[0m[PHY]   Checking for USRPs : UHD 3.13.0.1-release (3.13.0)
+[0mFound USRP b200
+[0m[PHY]   ru_thread_prach() RACH waiting for RU to be configured
+[0m[0m[PHY]   cal 0: freq 3500000000.000000, offset 44.000000, diff 990000000.000000
+[0m[0m[PHY]   cal 1: freq 2660000000.000000, offset 49.800000, diff 150000000.000000
+[0m[0m[PHY]   cal 2: freq 2300000000.000000, offset 51.000000, diff 210000000.000000
+[0m[0m[PHY]   cal 3: freq 1880000000.000000, offset 53.000000, diff 630000000.000000
+[0m[0m[PHY]   cal 4: freq 816000000.000000, offset 57.000000, diff 1694000000.000000
+[0m[0m[PHY]   RX Gain 0 125.000000 (52.800000) => 72.200000 (max 76.000000)
+[0m[0m[PHY]   USRP TX_GAIN:89.75 gain_range:89.75 tx_gain:0.00
+[0m[0m[PHY]   Actual master clock: 30.720000MHz...
+[0m[0m[PHY]   ru_thread_prach() RACH waiting for RU to be configured
+[0m[0m[PHY]   RF board max packet size 3838, size for 100µs jitter 1536 
+[0m[0m[PHY]   rx_max_num_samps 1536
+[0m[0m[PHY]   RX Channel 0
+[0m[0m[PHY]     Actual RX sample rate: 15.360000MSps...
+[0m[0m[PHY]     Actual RX frequency: 2.510000GHz...
+[0m[0m[PHY]     Actual RX gain: 72.000000...
+[0m[0m[PHY]     Actual RX bandwidth: 20.000000M...
+[0m[0m[PHY]     Actual RX antenna: RX2...
+[0m[0m[PHY]   TX Channel 0
+[0m[0m[PHY]     Actual TX sample rate: 15.360000MSps...
+[0m[0m[PHY]     Actual TX frequency: 2.630000GHz...
+[0m[0m[PHY]     Actual TX gain: 89.750000...
+[0m[0m[PHY]     Actual TX bandwidth: 20.000000M...
+[0m[0m[PHY]     Actual TX antenna: TX/RX...
+[0m[0m[PHY]   Device timestamp: 1.814536...
+[0m[RAU] has loaded USRP B200 device.
+setup_RU_buffers: frame_parms = 0x29b8d00
+[0m[PHY]   Signaling main thread that RU 0 is ready
+[0mwaiting for sync (ru_thread,-1/0xda8b48,0x14584e0,0x130e640)
+ru_thread_tx ready
+RC.ru_mask:00
+[0m[PHY]   RUs configured
+[0mALL RUs READY!
+RC.nb_RU:1
+ALL RUs ready - init eNBs
+Not NFAPI mode - call init_eNB_afterRU()
+[0m[PHY]   init_eNB_afterRU() RC.nb_inst:1
+[0m[0m[PHY]   RC.nb_CC[inst]:1
+[0m[0m[PHY]   RC.nb_CC[inst:0][CC_id:0]:0x7f91806ff010
+[0m[0m[PHY]   [eNB 0] phy_init_lte_eNB() About to wait for eNB to be configured[0m[0m[PHY]   [eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 50, PHICH Resource 1, PHICH Duration 0 nb_antennas_tx:0 nb_antennas_rx:0 nb_antenna_ports_eNB:1 PRACH[rootSequenceIndex:0 prach_Config_enabled:1 configIndex:0 highSpeed:0 zeroCorrelationZoneConfig:1 freqOffset:2]
+[0mpcfich_reg : 0,25,50,75
+[0m[PHY]   Mapping RX ports from 1 RUs to eNB 0
+[0m[0m[PHY]   Overwriting eNB->prach_vars.rxsigF[0]:0x3af00e0
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   eNB->num_RU:1
+[0m[0m[PHY]   Attaching RU 0 antenna 0 to eNB antenna 0
+[0m[0m[PHY]   init_eNB_afterRU() ************* DJP ***** eNB->frame_parms.nb_antennas_tx:0 - GOING TO HARD CODE TO 1[0m[0m[PHY]   inst 0, CC_id 0 : nb_antennas_rx 1
+[0m[0m[PHY]   Initialise transport
+[0m[0m[PHY]   init_eNB_proc(inst:0) RC.nb_CC[inst]:1 
+[0m[0m[PHY]   Initializing eNB processes instance:0 CC_id 0 
+[0m[0m[PHY]   Creating te_thread 0
+[0m[0m[PHY]   Creating te_thread 1
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   Creating te_thread 2
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread te created id=10155
+[0m[0m[PHY]   thread te created id=10156
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   eNB->single_thread_flag:0
+[0m[0m[PHY]   thread te created id=10157
+[0m[0m[HW]   [SCHED][eNB] td_thread started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[HW]   [SCHED][eNB] RXn_TXnp4_0
+ started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread td created id=10158
+[0m[0m[PHY]   thread rxtx created id=10159
+[0m[0m[HW]   [SCHED][eNB] TXnp4_1
+ started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[HW]   [SCHED][eNB] eNB_thread_prach started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0mALL RUs ready - ALL eNBs ready
+[0m[HW]   [SCHED][eNB] eNB_thread_prach_br started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   ru_thread_prach() RACH waiting for RU to be configured
+[0m[0m[PHY]   ru_thread_prach() RU configured - RACH processing thread running
+[0mSending sync to all threads
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+got sync (ru_thread)
+[0m[PHY]   Time in secs now: 48301980 
+[0m[0m[PHY]   Time in secs last pps: 37610572 
+[0m[0m[PHY]   RU 0 rf device ready
+[0m[0m[PHY]   RU 0 no asynch_south interface
+[0m[0m[1;31m[MAC]   SCHED_MODE=0
+[0m[0m[PHY]   prach_I0 = 2.0 dB
+[0m[0m[PHY]   max_I0 45, min_I0 39
+[0m[0m[PHY]   prach_I0 = 19.0 dB
+[0m[0m[PHY]   max_I0 45, min_I0 38
+[0m[0m[PHY]   prach_I0 = 19.1 dB
+[0m[0m[PHY]   max_I0 45, min_I0 39
+[0m[0m[PHY]   prach_I0 = 19.1 dB
+[0m[0m[PHY]   max_I0 46, min_I0 39
+[0m[0m[PHY]   prach_I0 = 18.3 dB
+[0m[0m[PHY]   max_I0 46, min_I0 40
+[0m[0m[PHY]   prach_I0 = 18.9 dB
+[0m[0m[PHY]   max_I0 44, min_I0 39
+[0m[0m[PHY]   prach_I0 = 18.9 dB
+[0m[0m[PHY]   max_I0 45, min_I0 37
+[0m[0m[PHY]   prach_I0 = 19.2 dB
+[0m[0m[PHY]   max_I0 45, min_I0 39
+[0m[0m[PHY]   prach_I0 = 19.1 dB
+[0m[0m[PHY]   max_I0 46, min_I0 39
+[0m[0m[PHY]   prach_I0 = 18.9 dB
+[0m[0m[PHY]   max_I0 44, min_I0 38
+[0m[0m[PHY]   prach_I0 = 18.8 dB
+[0m[0m[PHY]   max_I0 45, min_I0 39
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 696, subframe 1 Initiating RA procedure with preamble 46, energy 33.0 dB, delay 24
+[0m[0m[RRC]   [FRAME 00697][eNB][MOD 00][RNTI 11c0] Decoding UL CCCH 5d.11.e0.f9.94.6 (0x7f917c00805e)
+[0m[0m[RRC]   [FRAME 00697][eNB][MOD 00][RNTI 11c0] Accept new connection from UE random UE identity (0x40990f1ed1000000) MME code 0 TMSI 0 cause 3
+[0m[0m[RRC]   [FRAME 00697][eNB][MOD 00][RNTI 11c0] [RAPROC] Logical Channel DL-CCCH, Generating LTE_RRCConnectionSetup (bytes 29)
+[0m[0m[RRC]   [FRAME 00697][eNB][MOD 00][RNTI 11c0]CALLING RLC CONFIG SRB1 (rbid 1)
+[0madd new uid is 0 11c0
+
+[0m[PDCP]   [FRAME 00697][eNB][MOD 00][RNTI 11c0][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[0m[RLC]   [FRAME 00697][eNB][MOD 00][RNTI 11c0] [SRB 1] rrc_rlc_add_rlc  SRB
+[0m[0m[RLC]   [FRAME 00697][eNB][MOD 00][RNTI 11c0][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[0m[0m[PHY]   DCI 1A: round 0, mcs 7, rballoc 96, rv 0, rnti 11c0, harq process 0
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 698 Canceled RA procedure for UE rnti 11c0
+[0m[0m[RRC]   [eNB 0] Frame 699: received a DCCH 1 message on SRB 1 with Size 83 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] [RAPROC] Logical Channel UL-DCCH, processing LTE_RRCConnectionSetupComplete from UE (SRB1 Active)
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] UE State = RRC_CONNECTED 
+[0m[0m[S1AP]   [eNB 0] Chose MME '(null)' (assoc_id 23) through selected PLMN Identity index 0 MCC 208 MNC 92
+[0m[0m[S1AP]   Found usable eNB_ue_s1ap_id: 0x06692d 420141(10)
+[0m[0m[SCTP]   Successfully sent 127 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 62 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_DOWNLINK_NAS
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 0, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB AM 01] RLC_AM_DATA_REQ size 44 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 0 vtA 0 vtS 0
+[0m[0m[RRC]   [eNB 0] Frame 718: received a DCCH 1 message on SRB 1 with Size 14 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 59 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 43 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_DOWNLINK_NAS
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 0, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB AM 01] RLC_AM_DATA_REQ size 25 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 0 vtA 1 vtS 1
+[0m[0m[RRC]   [eNB 0] Frame 720: received a DCCH 1 message on SRB 1 with Size 22 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 67 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 35 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_DOWNLINK_NAS
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 1, eNB_ue_s1ap_id 420141
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 0, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB AM 01] RLC_AM_DATA_REQ size 17 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 0 vtA 2 vtS 2
+[0m[0m[RRC]   [eNB 0] Frame 722: received a DCCH 1 message on SRB 1 with Size 21 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 66 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 196 received from port 36412, on stream 1, PPID 18
+[0m[0m[S1AP]   Received NAS message with the E_RAB setup procedure
+[0m[0m[RRC]   Received message S1AP_INITIAL_CONTEXT_SETUP_REQ
+[0m[0m[RRC]   [eNB 0] Received S1AP_INITIAL_CONTEXT_SETUP_REQ: ue_initial_id 1, eNB_ue_s1ap_id 420141, nb_of_e_rabs 1
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] rrc_eNB_process_GTPV1U_CREATE_TUNNEL_RESP tunnel (3396329693, 3396329693) bearer UE context index 0, msg index 0, id 5, gtp addr len 4 
+[0m[0m[RRC]   [eNB 0][UE 11c0] Selected security algorithms (0x7f9170003874): 0, 2, changed
+[0m[0m[RRC]   [eNB 0][UE 11c0] Saved security key 08A915AAAED3184B43EE071E019291CCB27FD79BB87440D616CF08CA3BB62976
+[0m[0m[RRC]   [0m
+KeNB:08 a9 15 aa ae d3 18 4b 43 ee 07 1e 01 92 91 cc b2 7f d7 9b b8 74 40 d6 16 cf 08 ca 3b b6 29 76 
+[0m[RRC]   [0m
+KRRCenc:2d 32 5c 7c 05 bc e1 78 92 ed c5 e2 54 6f ce 6f fc e0 b8 9d ca 0c 58 d2 0c 32 b2 2a 1e 48 9c 42 
+[0m[RRC]   [0m
+KRRCint:0c 1c 5a 64 fc e9 6e e7 5f ab 0f 61 aa 3f 39 37 8d 08 39 95 b0 d4 0b 12 ab d6 f1 cb 4e 25 39 7f 
+[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 0, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 0 vtA 3 vtS 3
+[0m[0m[RRC]   [eNB 0] Frame 732: received a DCCH 1 message on SRB 1 with Size 2 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] received securityModeComplete on UL-DCCH 1 from UE
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Logical Channel DL-DCCH, Generate UECapabilityEnquiry (bytes 3)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 1, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 5 current_sdu_index=4 next_sdu_index=5 conf 0 mui 1 vtA 4 vtS 4
+[0m[0m[RRC]   [eNB 0] Frame 735: received a DCCH 1 message on SRB 1 with Size 239 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] received ueCapabilityInformation on UL-DCCH 1 from UE
+[0m[0m[RRC]   got UE capabilities for UE 11c0
+[0m[0m[RRC]   RRCConnectionReconfiguration Encoded 1061 bits (133 bytes)
+[0m[0m[RRC]   [eNB 0] Frame 0, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 133, UE id 11c0)
+[0m[0m[SCTP]   Successfully sent 270 bytes on stream 1 for assoc_id 23
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 2, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB AM 01] RLC_AM_DATA_REQ size 138 Bytes,  NB SDU 6 current_sdu_index=5 next_sdu_index=6 conf 0 mui 2 vtA 5 vtS 5
+[0m[0m[RRC]   [eNB 0] Frame 737: received a DCCH 1 message on SRB 1 with Size 2 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] UE State = RRC_RECONFIGURED (default DRB, xid 1)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] [SRB 2] rrc_rlc_add_rlc  SRB
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] [DRB 1] rrc_rlc_add_rlc  DRB
+[0m[0m[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti 11c0, reconfiguring DRB 1/LCID 3
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[0m[0m[S1AP]   initial_ctxt_resp_p: e_rab ID 5, enb_addr 192.168.1.115, SIZE 4 
+[0m[0m[SCTP]   Successfully sent 40 bytes on stream 1 for assoc_id 23
+[0m[0m[RRC]   [eNB 0] Frame 739: received a DCCH 2 message on SRB 2 with Size 16 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 2 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 61 bytes on stream 1 for assoc_id 23
+[0m[0m[MAC]   UE  rnti 11c0 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 24 PUCCH SNR 24
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 790.8 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 791.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 792.4 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 793.2 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 794.6 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 794.8 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 795.4 ULSCH in error in round 1, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 795.6 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 795.8 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 796.2 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 796.4 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 797.0 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 797.2 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 798.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 802.4 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 802.8 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 803.2 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 803.6 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 804.0 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 804.4 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 804.8 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 805.2 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 806.0 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 809.6 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 810.4 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 811.2 ULSCH in error in round 2, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 811.8 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 812.0 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 812.6 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 813.4 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 814.2 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 815.0 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   UE  rnti 11c0 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 24 PUCCH SNR 24
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 987.8 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 988.6 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 989.4 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 990.2 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 11c0 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 24
+[0m[0m[RRC]   UE rnti 11c0 failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 18.9 dB
+[0m[0m[PHY]   max_I0 45, min_I0 38
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 30.8 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 31.6 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 32.4 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 33.2 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 34.0 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 37.6 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 38.4 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 38.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 39.2 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 39.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 40.0 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 40.4 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 41.2 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 42.6 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 43.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 44.8 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 45.6 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 46.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 47.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 48.4 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 49.2 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 58.4 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 58.8 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 59.2 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 59.6 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 60.0 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 60.4 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 60.8 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 61.2 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 61.8 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 69.6 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   UE  rnti 11c0 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 24
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 138.4 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 139.2 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 140.0 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 140.8 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 142.8 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 144.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 145.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 146.4 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 147.2 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 148.0 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 148.8 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 149.6 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 150.4 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 155.6 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 155.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 156.4 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 156.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 157.2 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 157.4 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 158.0 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 158.2 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 160.8 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 164.4 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 164.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 165.2 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 165.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 166.0 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 166.4 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 166.8 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 167.2 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 170.8 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 173.8 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 174.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 175.4 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 176.2 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 176.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 177.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 177.8 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 178.4 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 179.2 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 197.6 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 198.4 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 199.2 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 200.0 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 200.8 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 205.6 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 206.4 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 207.2 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 208.0 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[RRC]   [eNB 0] Frame 208: received a DCCH 2 message on SRB 2 with Size 24 from UE 11c0
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Received on DCCH 2 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 69 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 22 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_UE_CONTEXT_RELEASE_COMMAND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Logical Channel DL-DCCH, Generate RRCConnectionRelease (bytes 3)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 11c0]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 3, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 7 current_sdu_index=6 next_sdu_index=7 conf 0 mui 3 vtA 6 vtS 6
+[0m[0m[93m[RRC]   S1AP removed entry in hashtable s1ap_id2_s1ap_ids for eNB_ue_s1ap_id 420141
+[0m[0m[93m[RRC]   S1AP removed entry in hashtable initial_id2_s1ap_ids for ue_initial_id 1
+[0m[0m[RRC]   Received message GTPV1U_ENB_DELETE_TUNNEL_RESP
+[0m[0m[93m[S1AP]   Removed UE context eNB_ue_s1ap_id 420141
+[0m[0m[SCTP]   Successfully sent 21 bytes on stream 1 for assoc_id 23
+[0m[0m[RRC]   Removing UE 11c0 instance after UE_CONTEXT_RELEASE_Complete (ue_release_timer_rrc timeout)
+[0m[0m[93m[RRC]   [eNB 0] Removing UE RNTI 11c0
+[0m[0m[RRC]   Put UE 11c0 into freeList
+[0m[0m[RRC]   clean_eNb_ulsch ulsch[0] UE 11c0
+[0m[0m[MAC]   clean eNb uci_vars[0] UE 11c0 
+[0m[0m[MAC]   clean eNb uci_vars[1] UE 11c0 
+[0m[0m[RRC]   clean_eNb_dlsch dlsch[2] UE 11c0 
+[0m[0m[RRC]   remove UE 11c0 from ul_config_pdu_list 0/1
+[0m[0m[RRC]   remove UE 11c0 from ul_config_pdu_list 0/1
+[0m[0m[RRC]   remove UE 11c0 from ul_config_pdu_list 0/1
+[0m[0m[MAC]   Removing UE 0 from Primary CC_id 0 (rnti 11c0)
+[0m[0m[PDCP]   remove uid is 0/0 11c0
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 11c0] Removed UE context
+[0m[0m[RRC]   [release_UE_in_freeList] remove UE 11c0 from freeList
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[PHY]   prach_I0 = 18.7 dB
+[0m[0m[PHY]   max_I0 45, min_I0 38
+[0m[0m[PHY]   prach_I0 = 19.1 dB
+[0m[0m[PHY]   max_I0 46, min_I0 41
+[0m[0m[PHY]   prach_I0 = 19.3 dB
+[0m[0m[PHY]   max_I0 46, min_I0 38
+[0m[0m[PHY]   prach_I0 = 18.4 dB
+[0m[0m[PHY]   max_I0 46, min_I0 38
+[0m[0m[PHY]   prach_I0 = 19.0 dB
+[0m[0m[PHY]   max_I0 45, min_I0 38
+[0m[0m[PHY]   prach_I0 = 18.9 dB
+[0m[0m[PHY]   max_I0 45, min_I0 38
+[0m[0m[PHY]   prach_I0 = 19.0 dB
+[0m[0m[PHY]   max_I0 45, min_I0 38
+[0m[0m[PHY]   prach_I0 = 18.5 dB
+[0m[0m[PHY]   max_I0 45, min_I0 38
+[0m[0m[PHY]   prach_I0 = 18.6 dB
+[0m[0m[PHY]   max_I0 45, min_I0 39
+[0m[0m[PHY]   prach_I0 = 18.9 dB
+[0m[0m[PHY]   max_I0 44, min_I0 36
+[0m[0m[PHY]   prach_I0 = 18.8 dB
+[0m[0m[PHY]   max_I0 44, min_I0 39
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 366, subframe 1 Initiating RA procedure with preamble 21, energy 33.5 dB, delay 36
+[0m[0m[RRC]   [FRAME 00367][eNB][MOD 00][RNTI a2dc] Decoding UL CCCH 56.be.d8.eb.b6.66 (0x7f917c00805e)
+[0m[0m[RRC]   [FRAME 00367][eNB][MOD 00][RNTI a2dc] Accept new connection from UE random UE identity (0x66bb8eed6b000000) MME code 0 TMSI 0 cause 3
+[0m[0m[RRC]   [FRAME 00367][eNB][MOD 00][RNTI a2dc] [RAPROC] Logical Channel DL-CCCH, Generating LTE_RRCConnectionSetup (bytes 29)
+[0m[0m[RRC]   [FRAME 00367][eNB][MOD 00][RNTI a2dc]CALLING RLC CONFIG SRB1 (rbid 1)
+[0madd new uid is 0 a2dc
+
+[0m[PDCP]   [FRAME 00367][eNB][MOD 00][RNTI a2dc][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[0m[RLC]   [FRAME 00367][eNB][MOD 00][RNTI a2dc] [SRB 1] rrc_rlc_add_rlc  SRB
+[0m[0m[RLC]   [FRAME 00367][eNB][MOD 00][RNTI a2dc][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[0m[0m[PHY]   DCI 1A: round 0, mcs 7, rballoc 96, rv 0, rnti a2dc, harq process 4
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 368 Canceled RA procedure for UE rnti a2dc
+[0m[0m[RRC]   [eNB 0] Frame 369: received a DCCH 1 message on SRB 1 with Size 83 from UE a2dc
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] [RAPROC] Logical Channel UL-DCCH, processing LTE_RRCConnectionSetupComplete from UE (SRB1 Active)
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] UE State = RRC_CONNECTED 
+[0m[0m[S1AP]   [eNB 0] Chose MME '(null)' (assoc_id 23) through selected PLMN Identity index 0 MCC 208 MNC 92
+[0m[0m[S1AP]   Found usable eNB_ue_s1ap_id: 0xfa3950 16398672(10)
+[0m[0m[SCTP]   Successfully sent 127 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 62 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_DOWNLINK_NAS
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 2, eNB_ue_s1ap_id 16398672
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI a2dc]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 4, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][SRB AM 01] RLC_AM_DATA_REQ size 44 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 4 vtA 0 vtS 0
+[0m[0m[MAC]   UE  rnti a2dc : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 16
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 386.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 387.6 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 388.4 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 389.2 ULSCH in error in round 3, ul_cqi 170
+[0m[0m[RRC]   [eNB 0] Frame 395: received a DCCH 1 message on SRB 1 with Size 14 from UE a2dc
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 59 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 43 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_DOWNLINK_NAS
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 2, eNB_ue_s1ap_id 16398672
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI a2dc]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 4, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][SRB AM 01] RLC_AM_DATA_REQ size 25 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 4 vtA 1 vtS 1
+[0m[0m[RRC]   [eNB 0] Frame 398: received a DCCH 1 message on SRB 1 with Size 22 from UE a2dc
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 67 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 35 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_DOWNLINK_NAS
+[0m[0m[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 2, eNB_ue_s1ap_id 16398672
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI a2dc]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 4, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][SRB AM 01] RLC_AM_DATA_REQ size 17 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 4 vtA 3 vtS 3
+[0m[0m[RRC]   [eNB 0] Frame 400: received a DCCH 1 message on SRB 1 with Size 21 from UE a2dc
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 66 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 196 received from port 36412, on stream 1, PPID 18
+[0m[0m[S1AP]   Received NAS message with the E_RAB setup procedure
+[0m[0m[RRC]   Received message S1AP_INITIAL_CONTEXT_SETUP_REQ
+[0m[0m[RRC]   [eNB 0] Received S1AP_INITIAL_CONTEXT_SETUP_REQ: ue_initial_id 2, eNB_ue_s1ap_id 16398672, nb_of_e_rabs 1
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] rrc_eNB_process_GTPV1U_CREATE_TUNNEL_RESP tunnel (2369645879, 2369645879) bearer UE context index 0, msg index 0, id 5, gtp addr len 4 
+[0m[0m[RRC]   [eNB 0][UE a2dc] Selected security algorithms (0x7f9170007fc4): 0, 2, changed
+[0m[0m[RRC]   [eNB 0][UE a2dc] Saved security key F8F8C285D752EA2504F6AC1E8DF1902A32654C717AA17BC5E7FCE7F41BFC12B4
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI a2dc]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 4, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 4 vtA 4 vtS 4
+[0m[0m[RRC]   [eNB 0] Frame 406: received a DCCH 1 message on SRB 1 with Size 2 from UE a2dc
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] received securityModeComplete on UL-DCCH 1 from UE
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Logical Channel DL-DCCH, Generate UECapabilityEnquiry (bytes 3)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI a2dc]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 5, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 5 current_sdu_index=4 next_sdu_index=5 conf 0 mui 5 vtA 5 vtS 5
+[0m[0m[RRC]   [eNB 0] Frame 409: received a DCCH 1 message on SRB 1 with Size 239 from UE a2dc
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] received ueCapabilityInformation on UL-DCCH 1 from UE
+[0m[0m[RRC]   got UE capabilities for UE a2dc
+[0m[0m[RRC]   RRCConnectionReconfiguration Encoded 1061 bits (133 bytes)
+[0m[0m[RRC]   [eNB 0] Frame 0, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 133, UE id a2dc)
+[0m[0m[SCTP]   Successfully sent 270 bytes on stream 1 for assoc_id 23
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI a2dc]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 6, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][SRB AM 01] RLC_AM_DATA_REQ size 138 Bytes,  NB SDU 6 current_sdu_index=5 next_sdu_index=6 conf 0 mui 6 vtA 6 vtS 6
+[0m[0m[RRC]   [eNB 0] Frame 411: received a DCCH 1 message on SRB 1 with Size 2 from UE a2dc
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] UE State = RRC_RECONFIGURED (default DRB, xid 0)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] [SRB 2] rrc_rlc_add_rlc  SRB
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] [DRB 1] rrc_rlc_add_rlc  DRB
+[0m[0m[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti a2dc, reconfiguring DRB 1/LCID 3
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[0m[0m[S1AP]   initial_ctxt_resp_p: e_rab ID 5, enb_addr 192.168.1.115, SIZE 4 
+[0m[0m[SCTP]   Successfully sent 40 bytes on stream 1 for assoc_id 23
+[0m[0m[RRC]   [eNB 0] Frame 413: received a DCCH 2 message on SRB 2 with Size 16 from UE a2dc
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI a2dc] Received on DCCH 2 RRC_DCCH_DATA_IND
+[0m[0m[SCTP]   Successfully sent 61 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[MAC]   UE  rnti a2dc : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 21 PUCCH SNR 22
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 613.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 614.6 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 615.4 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 615.8 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 616.2 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 616.8 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 617.8 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 618.8 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 619.6 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 619.8 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 620.6 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 620.8 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 621.4 ULSCH in error in round 2, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 621.6 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 622.2 ULSCH in error in round 3, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 622.4 ULSCH in error in round 2, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 623.2 ULSCH in error in round 3, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 623.8 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 624.6 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 624.8 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 625.4 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 625.6 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 626.2 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 626.4 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 627.2 ULSCH in error in round 3, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 627.8 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 628.6 ULSCH in error in round 1, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 628.8 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 629.4 ULSCH in error in round 2, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 630.2 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   UE  rnti a2dc : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 22
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 720.8 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 721.6 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 722.4 ULSCH in error in round 2, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 723.2 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 723.8 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 724.6 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 724.8 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 725.4 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 725.6 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 726.4 ULSCH in error in round 2, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 727.2 ULSCH in error in round 3, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 728.8 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 729.6 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 730.4 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 731.2 ULSCH in error in round 3, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 732.0 ULSCH in error in round 0, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 732.8 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 733.6 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 734.4 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 735.2 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 735.8 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 736.0 ULSCH in error in round 1, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 736.6 ULSCH in error in round 1, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 736.8 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 737.4 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 737.6 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 6] CC_id 0 738.2 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 744.8 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 745.6 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 745.8 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 746.4 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 746.6 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 747.2 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 747.4 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 748.2 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti a2dc : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 22
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 802.4 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 802.8 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 803.2 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 803.6 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 804.0 ULSCH in error in round 2, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 804.4 ULSCH in error in round 2, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 804.8 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 805.2 ULSCH in error in round 3, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 805.8 ULSCH in error in round 0, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 806.6 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 806.8 ULSCH in error in round 0, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 807.4 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 807.6 ULSCH in error in round 1, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 808.2 ULSCH in error in round 3, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 808.4 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 808.8 ULSCH in error in round 0, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 809.2 ULSCH in error in round 3, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 809.6 ULSCH in error in round 1, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 809.8 ULSCH in error in round 0, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 810.4 ULSCH in error in round 2, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 810.6 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 811.2 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 811.4 ULSCH in error in round 2, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 812.2 ULSCH in error in round 3, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 812.8 ULSCH in error in round 0, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 813.6 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 813.8 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 814.4 ULSCH in error in round 2, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 814.6 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 814.8 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 815.2 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 815.4 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 815.6 ULSCH in error in round 1, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 816.2 ULSCH in error in round 3, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 816.4 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 816.8 ULSCH in error in round 0, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 4] CC_id 0 817.2 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 817.6 ULSCH in error in round 1, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 818.4 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 819.2 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 820.0 ULSCH in error in round 0, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 820.8 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 821.6 ULSCH in error in round 2, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 822.4 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   UE 0 rnti a2dc: UL Failure timer 1 
+[0m[0m[MAC]   UE  rnti a2dc : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 17 PUCCH SNR 22
+[0m[0m[MAC]   UE  rnti a2dc : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 17 PUCCH SNR 22
+[0m[0m[RRC]   UE rnti a2dc failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 18.9 dB
+[0m[0m[PHY]   max_I0 44, min_I0 38
+[0m[0m[MAC]   UE  rnti a2dc : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 17 PUCCH SNR 22
+[0m[0m[MAC]   UE 0 rnti a2dc: UL Failure after repeated PDCCH orders: Triggering RRC 
+[0m[0m[RRC]   Frame 198, Subframe 7: UE a2dc UL failure, activating timer
+[0m[0m[MAC]   Removing UE 0 from Primary CC_id 0 (rnti a2dc)
+[0m[0m[RRC]   UE rnti a2dc failure timer 8254/8
+[0m[0m[PHY]   prach_I0 = 18.9 dB
+[0m[0m[PHY]   max_I0 44, min_I0 39
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 278, subframe 1 Initiating RA procedure with preamble 31, energy 30.0 dB, delay 24
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 279 Canceled RA procedure for UE rnti 3205
+[0m[0m[1;31m[MAC]   [eNB 0] CC_id 0 Frame 279 : received unsupported or unknown LCID 3 from UE -1 [0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 286, subframe 1 Initiating RA procedure with preamble 18, energy 31.7 dB, delay 24
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 287 Canceled RA procedure for UE rnti 21ef
+[0m[0m[1;31m[MAC]   [eNB 0] CC_id 0 Frame 287 : received unsupported or unknown LCID 3 from UE -1 [0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 296, subframe 1 Initiating RA procedure with preamble 8, energy 30.0 dB, delay 24
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 297 Canceled RA procedure for UE rnti b717
+[0m[0m[1;31m[MAC]   [eNB 0] CC_id 0 Frame 297 : received unsupported or unknown LCID 3 from UE -1 [0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 304, subframe 1 Initiating RA procedure with preamble 62, energy 35.1 dB, delay 24
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 305 Canceled RA procedure for UE rnti 9d2b
+[0m[0m[1;31m[MAC]   [eNB 0] CC_id 0 Frame 305 : received unsupported or unknown LCID 3 from UE -1 [0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 312, subframe 1 Initiating RA procedure with preamble 31, energy 44.5 dB, delay 24
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 313 Canceled RA procedure for UE rnti 59b8
+[0m[0m[1;31m[MAC]   [eNB 0] CC_id 0 Frame 313 : received unsupported or unknown LCID 3 from UE -1 [0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 320, subframe 1 Initiating RA procedure with preamble 34, energy 48.0 dB, delay 24
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 321 Canceled RA procedure for UE rnti 8531
+[0m[0m[1;31m[MAC]   [eNB 0] CC_id 0 Frame 321 : received unsupported or unknown LCID 3 from UE -1 [0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 328, subframe 1 Initiating RA procedure with preamble 62, energy 54.0 dB, delay 24
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 331 Canceled RA procedure for UE rnti 5edd
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 338, subframe 1 Initiating RA procedure with preamble 21, energy 52.7 dB, delay 24
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 341 Canceled RA procedure for UE rnti 8159
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 348, subframe 1 Initiating RA procedure with preamble 56, energy 54.9 dB, delay 36
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 350 Canceled RA procedure for UE rnti cb75
+[0m[0m[1;31m[MAC]   [eNB 0] CC_id 0 Frame 350 : received unsupported or unknown LCID 3 from UE -1 [0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 458, subframe 1 Initiating RA procedure with preamble 4, energy 34.4 dB, delay 36
+[0m[0m[RRC]   [FRAME 00459][eNB][MOD 00][RNTI 5745] Decoding UL CCCH 14.5b.80.a.45.98 (0x7f917c00805e)
+[0m[0m[RRC]   [FRAME 00459][eNB][MOD 00][RNTI 5745] LTE_RRCConnectionReestablishmentRequest cause Other Failure
+[0m[0m[1;31m[RRC]   [FRAME 00459][eNB][MOD 00][RNTI 5745] LTE_RRCConnectionReestablishmentRequest without UE_id(MAC) rnti a2dc, let's reject the UE
+[0m[0m[RRC]   [FRAME 00459][eNB][MOD 00][RNTI 5745] [RAPROC] Logical Channel DL-CCCH, Generating LTE_RRCConnectionReestablishmentReject (bytes 1)
+[0m[0m[PHY]   DCI 1A: round 0, mcs 4, rballoc 96, rv 0, rnti 5745, harq process 4
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 460 Canceled RA procedure for UE rnti 5745
+[0m[0m[MAC]   [eNB 0][PUSCH 2] CC_id 0 461.0 ULSCH in error in round 0, ul_cqi 141
+[0m[0m[MAC]   clean_eNb_ulsch UE 5745 
+[0m[0m[MAC]   clean_eNb_dlsch UE 5745 
+[0m[0m[MAC]   Removing UE 0 from Primary CC_id 0 (rnti 5745)
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 480, subframe 1 Initiating RA procedure with preamble 2, energy 36.7 dB, delay 24
+[0m[0m[RRC]   [FRAME 00481][eNB][MOD 00][RNTI 87b5] Decoding UL CCCH 40.18.40.1.14.8 (0x7f917c00805e)
+[0m[0m[RRC]   checking for UE S-TMSI 84001140, mme 1 (0x7f9114000a90): rnti a2dc[0m
+[0m[RRC]    S-TMSI doesn't exist, setting Initialue_identity_s_TMSI.m_tmsi to (nil) => 84001140
+[0m[0m[RRC]   [FRAME 00481][eNB][MOD 00][RNTI 87b5] Accept new connection from UE random UE identity (0x184001140) MME code 1 TMSI 2214596928 cause 4
+[0m[0m[RRC]   [FRAME 00481][eNB][MOD 00][RNTI 87b5] [RAPROC] Logical Channel DL-CCCH, Generating LTE_RRCConnectionSetup (bytes 29)
+[0m[0m[RRC]   [FRAME 00481][eNB][MOD 00][RNTI 87b5]CALLING RLC CONFIG SRB1 (rbid 1)
+[0madd new uid is 1 87b5
+
+[0m[PDCP]   [FRAME 00481][eNB][MOD 00][RNTI 87b5][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[0m[RLC]   [FRAME 00481][eNB][MOD 00][RNTI 87b5] [SRB 1] rrc_rlc_add_rlc  SRB
+[0m[0m[RLC]   [FRAME 00481][eNB][MOD 00][RNTI 87b5][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[0m[0m[PHY]   DCI 1A: round 0, mcs 7, rballoc 96, rv 0, rnti 87b5, harq process 0
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 482 Canceled RA procedure for UE rnti 87b5
+[0m[0m[RRC]   [eNB 0] Frame 483: received a DCCH 1 message on SRB 1 with Size 8 from UE 87b5
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] [RAPROC] Logical Channel UL-DCCH, processing LTE_RRCConnectionSetupComplete from UE (SRB1 Active)
+[0m[0m[S1AP]   [eNB 0] Build S1AP_NAS_FIRST_REQ with s_TMSI: MME code 1 M-TMSI 2214596928 ue 87b5
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] UE State = RRC_CONNECTED 
+[0m[0m[S1AP]   [eNB 0] Chose MME '(null)' (assoc_id 23) through S-TMSI MMEC 1 and selected PLMN Identity index 0 MCC 208 MNC 92
+[0m[0m[S1AP]   Found usable eNB_ue_s1ap_id: 0x769bf6 7773174(10)
+[0m[0m[S1AP]   S_TMSI_PRESENT
+[0m[0m[SCTP]   Successfully sent 61 bytes on stream 1 for assoc_id 23
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [23][58] Msg of length 103 received from port 36412, on stream 1, PPID 18
+[0m[0m[RRC]   Received message S1AP_INITIAL_CONTEXT_SETUP_REQ
+[0m[0m[RRC]   [eNB 0] Received S1AP_INITIAL_CONTEXT_SETUP_REQ: ue_initial_id 3, eNB_ue_s1ap_id 7773174, nb_of_e_rabs 1
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] rrc_eNB_process_GTPV1U_CREATE_TUNNEL_RESP tunnel (2375692390, 2375692390) bearer UE context index 0, msg index 0, id 5, gtp addr len 4 
+[0m[0m[RRC]   [eNB 0][UE 87b5] Selected security algorithms (0x7f91700089d4): 0, 2, changed
+[0m[0m[RRC]   [eNB 0][UE 87b5] Saved security key 139A06DE358466330680089BF9F82993A8EC8FFDEA411997FA0D6E883448CD51
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 7, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 7 vtA 0 vtS 0
+[0m[0m[RRC]   [eNB 0] Frame 485: received a DCCH 1 message on SRB 1 with Size 2 from UE 87b5
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] received securityModeComplete on UL-DCCH 1 from UE
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] Logical Channel DL-DCCH, Generate UECapabilityEnquiry (bytes 3)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 8, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 8 vtA 4 vtS 4
+[0m[0m[RRC]   [eNB 0] Frame 488: received a DCCH 1 message on SRB 1 with Size 239 from UE 87b5
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] received ueCapabilityInformation on UL-DCCH 1 from UE
+[0m[0m[RRC]   got UE capabilities for UE 87b5
+[0m[0m[RRC]   RRCConnectionReconfiguration Encoded 321 bits (41 bytes)
+[0m[0m[RRC]   [eNB 0] Frame 0, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 41, UE id 87b5)
+[0m[0m[SCTP]   Successfully sent 270 bytes on stream 1 for assoc_id 23
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 9, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB AM 01] RLC_AM_DATA_REQ size 46 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 9 vtA 5 vtS 5
+[0m[0m[RRC]   [eNB 0] Frame 490: received a DCCH 1 message on SRB 1 with Size 2 from UE 87b5
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] UE State = RRC_RECONFIGURED (default DRB, xid 1)
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] [SRB 2] rrc_rlc_add_rlc  SRB
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] [DRB 1] rrc_rlc_add_rlc  DRB
+[0m[0m[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti 87b5, reconfiguring DRB 1/LCID 3
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[0m[0m[S1AP]   initial_ctxt_resp_p: e_rab ID 5, enb_addr 192.168.1.115, SIZE 4 
+[0m[0m[SCTP]   Successfully sent 40 bytes on stream 1 for assoc_id 23
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 21 PUCCH SNR 18
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 534.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 538.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 539.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 540.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 541.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 551.5 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 556.7 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 557.5 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 558.3 ULSCH in error in round 2, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 559.1 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 559.9 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 560.7 ULSCH in error in round 1, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 560.9 ULSCH in error in round 0, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 561.5 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 561.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 562.3 ULSCH in error in round 3, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 562.5 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 563.3 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 564.1 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 564.9 ULSCH in error in round 1, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 565.7 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 566.5 ULSCH in error in round 3, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 567.3 ULSCH in error in round 0, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 567.9 ULSCH in error in round 0, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 568.1 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 568.7 ULSCH in error in round 1, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 568.9 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 569.5 ULSCH in error in round 2, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 569.7 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 569.9 ULSCH in error in round 0, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 570.3 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 570.7 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 570.9 ULSCH in error in round 0, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 571.5 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 571.7 ULSCH in error in round 1, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 571.9 ULSCH in error in round 0, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 572.3 ULSCH in error in round 3, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 572.5 ULSCH in error in round 2, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 572.7 ULSCH in error in round 1, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 572.9 ULSCH in error in round 0, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 573.3 ULSCH in error in round 3, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 573.5 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 573.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 573.9 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 574.3 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 574.5 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 574.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 575.3 ULSCH in error in round 3, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 575.5 ULSCH in error in round 2, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 575.9 ULSCH in error in round 0, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 576.3 ULSCH in error in round 3, ul_cqi 149
+[0m[0m[MAC]   UE 0 rnti 87b5: UL Failure timer 1 
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 576.7 ULSCH in error in round 1, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 576.9 ULSCH in error in round 0, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 577.5 ULSCH in error in round 2, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 577.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 578.3 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 578.5 ULSCH in error in round 2, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 579.3 ULSCH in error in round 3, ul_cqi 145
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 592, subframe 1 Initiating RA procedure with preamble 59, energy 33.0 dB, delay 36
+[0m[0m[RRC]   RRCConnectionReconfiguration Encoded 321 bits (41 bytes)
+[0m[0m[RRC]   [eNB 0] Frame 593, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 41, UE id 87b5)
+[0m[0m[MAC]   [eNB 0] Frame 593, Subframe 2 CC_id 0 : (rnti 87b5 UE_id 0) RRCConnectionReconfiguration(Msg4)
+[0m[0m[PDCP]   [FRAME 00593][eNB][MOD 00][RNTI 87b5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 10, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00593][eNB][MOD 00][RNTI 87b5][SRB AM 01] RLC_AM_DATA_REQ size 46 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 10 vtA 6 vtS 6
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 594 Canceled RA procedure for UE rnti 87b5
+[0m[0m[RRC]   [eNB 0] Frame 594: received a DCCH 1 message on SRB 1 with Size 2 from UE 87b5
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] UE State = RRC_RECONFIGURED (dedicated DRB, xid 2)
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] UE State = RRC_RECONFIGURED (dedicated DRB, xid 2) C-RNTI Complete
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB 02]  Action MODIFY LCID 2 RB id 2 reconfigured with SN size 5 and RLC AM 
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][DRB 01]  Action MODIFY LCID 3 RB id 1 reconfigured with SN size 1 and RLC UM 
+[0m[0m[93m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB 2] rrc_rlc_add_rlc , already exist SRB
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB AM 02][RECONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[0m[0m[93m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][DRB 1] rrc_rlc_add_rlc , already exist DRB
+[0m[0m[1;31m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][DRB UM 01] rlc_um_fsm_notify_event() FSM WARNING PROTOCOL ERROR - EVENT 01 hex NOT EXPECTED FROM DATA_TRANSFER_READY_STATE
+[0m[0m[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti 87b5, reconfiguring DRB 1/LCID 3
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 38 dB DL CQI 15 PUSCH SNR 24 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 735.7 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 735.9 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 736.5 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 736.7 ULSCH in error in round 1, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 736.9 ULSCH in error in round 0, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 737.3 ULSCH in error in round 2, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 737.5 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 737.7 ULSCH in error in round 1, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 737.9 ULSCH in error in round 0, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 738.1 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 738.3 ULSCH in error in round 3, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 738.5 ULSCH in error in round 2, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 739.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 22 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 778.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 778.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 779.5 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 779.7 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 779.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 780.3 ULSCH in error in round 2, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 780.5 ULSCH in error in round 2, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 781.1 ULSCH in error in round 3, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 781.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 782.1 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 782.9 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 783.7 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 784.5 ULSCH in error in round 3, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 785.3 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 786.1 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 786.9 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 787.7 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 799.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 833.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 834.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 835.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 836.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 837.1 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 837.9 ULSCH in error in round 1, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 838.7 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 838.9 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 839.5 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 839.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 840.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 841.3 ULSCH in error in round 3, ul_cqi 170
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 842, subframe 1 Initiating RA procedure with preamble 34, energy 30.9 dB, delay 132
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 845 Canceled RA procedure for UE rnti 49e8
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 25 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 901.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 902.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 903.3 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 904.1 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 904.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 910.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 911.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 912.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 913.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 923.3 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 923.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 924.1 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 924.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 924.9 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 925.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 925.7 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 926.3 ULSCH in error in round 3, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 926.9 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 927.7 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 927.9 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 928.5 ULSCH in error in round 2, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 928.7 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 928.9 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 929.5 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 929.7 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 929.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 930.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 931.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 932, subframe 1 Initiating RA procedure with preamble 45, energy 32.4 dB, delay 120
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 935 Canceled RA procedure for UE rnti 2e13
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 946.5 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 946.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 947.3 ULSCH in error in round 1, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 947.7 ULSCH in error in round 1, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 947.9 ULSCH in error in round 0, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 948.1 ULSCH in error in round 2, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 948.5 ULSCH in error in round 2, ul_cqi 141
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 948.7 ULSCH in error in round 1, ul_cqi 142
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 948.9 ULSCH in error in round 3, ul_cqi 142
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 949.3 ULSCH in error in round 3, ul_cqi 140
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 949.5 ULSCH in error in round 2, ul_cqi 140
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 950.3 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 951.1 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 951.9 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 952.7 ULSCH in error in round 2, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 956.7 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 957.5 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 958.3 ULSCH in error in round 2, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 959.1 ULSCH in error in round 3, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 959.9 ULSCH in error in round 0, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 960.7 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 961.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 962.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 963.1 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 963.9 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 964.7 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 965.5 ULSCH in error in round 3, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 965.9 ULSCH in error in round 0, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 966.7 ULSCH in error in round 1, ul_cqi 140
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 967.5 ULSCH in error in round 2, ul_cqi 140
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 968.3 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 968.9 ULSCH in error in round 0, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 969.7 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 969.9 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 970.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 970.7 ULSCH in error in round 1, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 970.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 971.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 971.5 ULSCH in error in round 2, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 972.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 972.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 973.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 977.5 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 977.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 978.3 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 978.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 979.1 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 979.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 979.9 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 980.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 985.7 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 985.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 986.5 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 986.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 987.3 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 987.5 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 987.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 988.1 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 988.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 989.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 992.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 993.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 993.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 994.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 994.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 995.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 995.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 996.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 996.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1000.7 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1001.5 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1001.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1002.3 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1002.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1003.1 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1003.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1004.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1005.1 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1008.7 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1008.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1009.5 ULSCH in error in round 1, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1009.7 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1010.3 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1010.5 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1011.1 ULSCH in error in round 3, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1011.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1013.9 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1017.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1018.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1019.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1020.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1021.1 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1021.9 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1022.7 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1023.5 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 17 PUCCH SNR 25
+[0m[0m[RRC]   UE rnti 87b5: S-TMSI 84001140 failure timer 0/8
+[0m[0m[RRC]   UE rnti a2dc failure timer 18494/8
+[0m[0m[PHY]   prach_I0 = 19.7 dB
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 0.3 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[PHY]   max_I0 45, min_I0 39
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 3.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 4.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 5.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 6.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 7.1 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 77.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 78.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 79.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 80.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[RRC]   Removing UE a2dc instance, because of uplink failure timer timeout
+[0m[0m[RRC]   [eNB 0] S1AP_UE_CONTEXT_RELEASE_REQ sent for RNTI a2dc, cause 21, radio connection with ue lost
+[0m[0m[SCTP]   Successfully sent 27 bytes on stream 1 for assoc_id 23
+[0m[0m[RRC]   Removing UE a2dc instance, because of UE_CONTEXT_RELEASE_COMMAND not received after 100 ms from sending request
+[0m[0m[RRC]   [FRAME 00160][eNB][MOD 00][RNTI a2dc] Logical Channel DL-DCCH, Generate RRCConnectionRelease (bytes 3)
+[0m[0m[PDCP]   [FRAME 00160][eNB][MOD 00][RNTI a2dc]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 11, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00160][eNB][MOD 00][RNTI a2dc][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 7 current_sdu_index=6 next_sdu_index=7 conf 0 mui 11 vtA 7 vtS 7
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 206.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 207.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 208.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 209.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 221.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 222.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 223.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 224.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 293.3 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 294.1 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 294.9 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 295.7 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 329.5 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 330.3 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 331.1 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 331.9 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 544.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 549.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 554.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 555.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 556.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 557.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 569.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 570.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 571.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 572.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 598.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 599.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 600.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 601.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 608.7 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 613.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 614.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 615.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 616.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 22 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 891.7 ULSCH in error in round 0, ul_cqi 170
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 892.5 ULSCH in error in round 1, ul_cqi 170
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 893.3 ULSCH in error in round 2, ul_cqi 170
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 894.1 ULSCH in error in round 3, ul_cqi 170
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 21 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 968.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 969.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 970.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 971.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 21 PUCCH SNR 25
+[0m[0m[RRC]   UE rnti 87b5: S-TMSI 84001140 failure timer 0/8
+[0m[0m[RRC]   UE rnti a2dc failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 19.0 dB
+[0m[0m[PHY]   max_I0 45, min_I0 38
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 21 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 201.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 202.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 203.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 204.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 205.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 209.5 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 209.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 210.3 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 210.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 210.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 211.1 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 211.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 211.9 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 212.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 213.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 214.9 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 215.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 215.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 217.5 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 218.3 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 219.1 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 219.9 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 220.7 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 221.5 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 222.3 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 223.1 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 223.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 224.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 225.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 225.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 226.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 226.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 227.9 ULSCH in error in round 0, ul_cqi 141
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 228.7 ULSCH in error in round 1, ul_cqi 138
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 228.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 229.5 ULSCH in error in round 2, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 230.3 ULSCH in error in round 3, ul_cqi 139
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 230.9 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 231.7 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 232.5 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 233.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 233.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 234.7 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 234.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 235.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 236.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 237.1 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 237.9 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 238.7 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 238.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 239.5 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 239.7 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 240.5 ULSCH in error in round 2, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 240.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 241.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 242.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 246.5 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 246.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 247.3 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 247.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 248.1 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 248.5 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 248.9 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 249.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 252.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 16 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 257.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 258.5 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 259.3 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 260.1 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 260.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 264.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 265.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 265.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 266.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 267.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 274.5 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 275.3 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 276.1 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 276.9 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 280.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 281.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 295.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 305.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 306.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 307.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 308.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 317.3 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 320.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 321.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 322.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 323.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 324.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 328.5 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 329.3 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 330.1 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 330.9 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 354.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 373.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 374.5 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 375.3 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 376.1 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 376.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 377.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 377.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 378.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 379.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 380.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 16 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 384.5 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 384.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 385.3 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 385.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 386.1 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 386.5 ULSCH in error in round 2, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 386.9 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 387.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 390.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 392.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 395.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 396.7 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 397.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 398.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 399.1 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 402.7 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 402.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 403.5 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 403.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 404.3 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 404.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 405.1 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 405.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 408.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 409.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 409.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 410.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 410.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 411.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 411.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 412.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 412.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 413.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 417.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 418.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 419.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 420.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 422.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 426.5 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 427.3 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 428.1 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 428.9 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 429.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 476.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 477.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 478.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 479.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 543.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 544.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 545.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 546.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 558.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 559.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 560.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 561.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 578.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 579.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 580.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 581.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 586.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 587.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 588.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 589.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 596.7 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 596.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 597.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 597.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 598.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 598.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 599.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 599.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 612.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 613.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 614.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 615.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 616.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 617.1 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 617.9 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 618.7 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 619.5 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 624.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 625.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 626.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 627.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 628.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 632.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 633.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 634.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 635.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 17 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 714.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 715.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 716.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 716.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 717.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 718.5 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 724.7 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 725.5 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 726.3 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 727.1 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 728.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 729.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 730.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 731.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 818.7 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 819.5 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 820.3 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 821.1 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 823.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 825.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 826.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 827.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 828.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 828.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 829.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 842.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 844.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 846.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 847.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 848.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 849.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 852.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 853.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 855.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 856.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 857.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 858.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 886.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 887.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 888.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 889.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 17 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 902.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 903.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 904.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 905.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 905.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 906.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 906.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 907.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 907.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 908.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 913.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 914.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 915.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 916.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 919.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 921.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 925.7 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 926.5 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 927.3 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 928.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 928.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 933.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 934.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 935.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 936.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 938.7 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 939.5 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 941.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 942.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 943.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 944.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 945.1 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 951.5 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 951.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 952.3 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 952.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 952.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 953.1 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 953.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 953.9 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 954.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 954.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 959.7 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 960.5 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 960.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 961.3 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 962.1 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 969.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 970.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 971.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 972.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 978.5 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 979.3 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 980.1 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 980.9 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1007.1 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1007.9 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1008.7 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1009.5 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[RRC]   UE rnti 87b5: S-TMSI 84001140 failure timer 0/8
+[0m[0m[RRC]   UE rnti a2dc failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 19.1 dB
+[0m[0m[PHY]   max_I0 45, min_I0 39
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 116.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 120.5 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 120.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 121.3 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 121.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 122.1 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 122.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 122.9 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 123.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 124.1 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 126.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 16 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 129.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 130.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 131.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 131.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 132.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 132.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 133.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 137.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 138.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 139.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 140.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 160.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 161.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 162.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 163.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 169.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 170.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 171.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 172.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 192.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 193.5 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 194.3 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 195.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 213.7 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 214.5 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 215.3 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 216.1 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 324, subframe 1 Initiating RA procedure with preamble 45, energy 30.0 dB, delay 120
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 327 Canceled RA procedure for UE rnti b18
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 384.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 385.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 385.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 386.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 386.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 386.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 387.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 387.5 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 388.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 388.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 389.9 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 390.7 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 391.5 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 391.9 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 392.7 ULSCH in error in round 1, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 393.5 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 393.9 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 394.3 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 394.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 395.5 ULSCH in error in round 2, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 395.9 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 396.3 ULSCH in error in round 3, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 396.7 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 397.5 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 397.9 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 398.3 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 398.7 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 399.5 ULSCH in error in round 2, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 399.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 400.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 404.7 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 446.3 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 446.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 447.1 ULSCH in error in round 1, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 447.7 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 447.9 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 448.5 ULSCH in error in round 2, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 448.7 ULSCH in error in round 3, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 449.3 ULSCH in error in round 3, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 450.1 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 450.9 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 451.7 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 452.5 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 17 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 512.3 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 513.1 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 513.9 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 514.7 ULSCH in error in round 3, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 515.5 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 515.9 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 516.3 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 516.7 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 516.9 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 517.1 ULSCH in error in round 2, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 517.5 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 517.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 517.9 ULSCH in error in round 3, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 518.3 ULSCH in error in round 3, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 518.5 ULSCH in error in round 2, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 518.9 ULSCH in error in round 0, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 519.3 ULSCH in error in round 3, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 519.7 ULSCH in error in round 1, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 520.5 ULSCH in error in round 2, ul_cqi 140
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 521.3 ULSCH in error in round 3, ul_cqi 142
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 522.1 ULSCH in error in round 0, ul_cqi 139
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 522.9 ULSCH in error in round 1, ul_cqi 142
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 523.7 ULSCH in error in round 2, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 523.9 ULSCH in error in round 0, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 524.5 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 524.7 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 525.5 ULSCH in error in round 2, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 526.3 ULSCH in error in round 3, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 527.1 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 527.9 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 528.7 ULSCH in error in round 2, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 528.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 529.5 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 529.7 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 530.5 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 531.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 591.7 ULSCH in error in round 0, ul_cqi 179
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 605.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 606.7 ULSCH in error in round 1, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 607.5 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 608.3 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 609.1 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 609.9 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 610.7 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 611.5 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 611.9 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 612.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 613.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 614.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 615.1 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 618.7 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 619.5 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 619.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 620.3 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 620.7 ULSCH in error in round 1, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 621.1 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 621.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 622.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 642.7 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 643.5 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 644.3 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 644.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 645.1 ULSCH in error in round 3, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 645.7 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 646.5 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 647.3 ULSCH in error in round 3, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 648.1 ULSCH in error in round 0, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 648.9 ULSCH in error in round 1, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 649.7 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 650.5 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 651.3 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 652.1 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 652.9 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 653.7 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 666.1 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 666.9 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 667.7 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 668.5 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 673.7 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 674.5 ULSCH in error in round 1, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 675.3 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 676.1 ULSCH in error in round 3, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 676.9 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 677.7 ULSCH in error in round 1, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 678.5 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 678.9 ULSCH in error in round 0, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 679.3 ULSCH in error in round 3, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 679.7 ULSCH in error in round 1, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 679.9 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 680.5 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 680.7 ULSCH in error in round 1, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 680.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 681.3 ULSCH in error in round 3, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 681.5 ULSCH in error in round 2, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 681.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 682.3 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 682.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 683.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 684.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 685.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 686.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 687.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 691.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 692.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 693.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 694.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 694.7 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 708.5 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 709.3 ULSCH in error in round 1, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 710.1 ULSCH in error in round 2, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 710.9 ULSCH in error in round 3, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 711.7 ULSCH in error in round 0, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 712.5 ULSCH in error in round 1, ul_cqi 138
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 713.3 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 713.9 ULSCH in error in round 0, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 714.1 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 714.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 715.5 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 716.3 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 717.1 ULSCH in error in round 0, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 717.9 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 718.7 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 718.9 ULSCH in error in round 0, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 719.5 ULSCH in error in round 3, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 719.7 ULSCH in error in round 1, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 720.5 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 721.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 722.1 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 724.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 725.7 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 726.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 727.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 728.1 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 728.9 ULSCH in error in round 1, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 729.7 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 729.9 ULSCH in error in round 0, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 730.5 ULSCH in error in round 3, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 730.7 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 731.5 ULSCH in error in round 2, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 732.3 ULSCH in error in round 3, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 733.1 ULSCH in error in round 0, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 733.9 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 734.7 ULSCH in error in round 2, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 734.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 735.5 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 735.7 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 736.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 736.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 737.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 737.7 ULSCH in error in round 1, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 738.5 ULSCH in error in round 2, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 738.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 739.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 739.7 ULSCH in error in round 1, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 740.5 ULSCH in error in round 2, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 740.9 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 741.3 ULSCH in error in round 3, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 764.7 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 765.5 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 766.3 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 766.9 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 767.1 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 767.7 ULSCH in error in round 1, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 768.5 ULSCH in error in round 2, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 768.9 ULSCH in error in round 0, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 769.3 ULSCH in error in round 3, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 769.7 ULSCH in error in round 1, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 770.5 ULSCH in error in round 2, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 770.9 ULSCH in error in round 0, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 771.3 ULSCH in error in round 3, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 771.7 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 772.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 772.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 773.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 773.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 774.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 775.3 ULSCH in error in round 3, ul_cqi 170
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 795.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 797.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 822.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 823.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 824.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 824.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 825.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 858.1 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 858.9 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 859.7 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 860.5 ULSCH in error in round 3, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 864.1 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 864.9 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 865.7 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 866.5 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 871.5 ULSCH in error in round 0, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 872.3 ULSCH in error in round 1, ul_cqi 140
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 872.9 ULSCH in error in round 0, ul_cqi 142
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 873.1 ULSCH in error in round 2, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 873.7 ULSCH in error in round 1, ul_cqi 144
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 873.9 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 874.5 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 874.9 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 875.3 ULSCH in error in round 3, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 875.7 ULSCH in error in round 1, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 876.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 876.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 877.3 ULSCH in error in round 3, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 877.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 878.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 879.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 22 PUCCH SNR 25
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 914.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 915.5 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 916.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 917.5 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 918.3 ULSCH in error in round 2, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 919.1 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 919.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 920.7 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 921.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 922.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 951.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 952.5 ULSCH in error in round 1, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 953.3 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 954.1 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 954.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 958.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 959.7 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 960.5 ULSCH in error in round 2, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 961.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 962.1 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 965.7 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 966.5 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 966.9 ULSCH in error in round 0, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 967.3 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 967.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 968.1 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 968.5 ULSCH in error in round 2, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 969.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 972.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 973.7 ULSCH in error in round 1, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 975.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 976.7 ULSCH in error in round 1, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 977.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 978.3 ULSCH in error in round 3, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 978.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 979.7 ULSCH in error in round 1, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 979.9 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 980.5 ULSCH in error in round 2, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 981.3 ULSCH in error in round 3, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 982.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 984.9 ULSCH in error in round 0, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 985.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 986.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 986.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 987.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 987.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 988.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 988.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 989.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 993.7 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 996.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 997.7 ULSCH in error in round 1, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 998.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 999.3 ULSCH in error in round 3, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 999.9 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1000.7 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1000.9 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1001.5 ULSCH in error in round 2, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1001.7 ULSCH in error in round 1, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1002.3 ULSCH in error in round 3, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1002.5 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1003.3 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1004.1 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1004.9 ULSCH in error in round 1, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1005.7 ULSCH in error in round 2, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1005.9 ULSCH in error in round 0, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1006.5 ULSCH in error in round 3, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1006.7 ULSCH in error in round 1, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1006.9 ULSCH in error in round 0, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1007.5 ULSCH in error in round 2, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1007.7 ULSCH in error in round 1, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1007.9 ULSCH in error in round 0, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 1008.3 ULSCH in error in round 3, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1008.5 ULSCH in error in round 2, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1008.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1008.9 ULSCH in error in round 0, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1009.3 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1009.5 ULSCH in error in round 2, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1009.7 ULSCH in error in round 1, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1010.3 ULSCH in error in round 3, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1010.5 ULSCH in error in round 2, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1010.9 ULSCH in error in round 0, ul_cqi 149
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1011.3 ULSCH in error in round 3, ul_cqi 148
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1011.7 ULSCH in error in round 1, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1011.9 ULSCH in error in round 0, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1012.5 ULSCH in error in round 2, ul_cqi 146
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1012.7 ULSCH in error in round 1, ul_cqi 147
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1012.9 ULSCH in error in round 0, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 1013.3 ULSCH in error in round 3, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1013.5 ULSCH in error in round 2, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1013.7 ULSCH in error in round 1, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 1014.3 ULSCH in error in round 3, ul_cqi 143
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1014.5 ULSCH in error in round 2, ul_cqi 145
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 1015.3 ULSCH in error in round 3, ul_cqi 142
+[0m[0m[MAC]   UE 0 rnti 87b5: UL Failure timer 1 
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 4 PUSCH SNR 16 PUCCH SNR 25
+[0m[0m[RRC]   UE rnti 87b5: S-TMSI 84001140 failure timer 0/8
+[0m[0m[RRC]   UE rnti a2dc failure timer 0/8
+[0m[0m[PHY]   prach_I0 = 19.4 dB
+[0m[0m[PHY]   max_I0 45, min_I0 39
+[0m[0m[PHY]   [eNB 0/0][RAPROC] Frame 2, subframe 1 Initiating RA procedure with preamble 16, energy 34.0 dB, delay 24
+[0m[0m[RRC]   RRCConnectionReconfiguration Encoded 321 bits (41 bytes)
+[0m[0m[RRC]   [eNB 0] Frame 4, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 41, UE id 87b5)
+[0m[0m[MAC]   [eNB 0] Frame 4, Subframe 0 CC_id 0 : (rnti 87b5 UE_id 0) RRCConnectionReconfiguration(Msg4)
+[0m[0m[PDCP]   [FRAME 00004][eNB][MOD 00][RNTI 87b5]Received RRC_DCCH_DATA_REQ from TASK_RRC_ENB: instance 0, rb_id 1, muiP 12, confirmP 0, mode 1
+[0m[0m[RLC]   [FRAME 00004][eNB][MOD 00][RNTI 87b5][SRB AM 01] RLC_AM_DATA_REQ size 46 Bytes,  NB SDU 5 current_sdu_index=4 next_sdu_index=5 conf 0 mui 12 vtA 7 vtS 7
+[0m[0m[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 4 Canceled RA procedure for UE rnti 87b5
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 4.8 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 5.6 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 5.9 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 6.4 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 6.7 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 6.9 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 0] CC_id 0 7.2 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 7.5 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 7.7 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 8.3 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 8.5 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 8.9 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 9.3 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 9.7 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 9.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 10.7 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 10.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 11.7 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 11.9 ULSCH in error in round 0, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 12.5 ULSCH in error in round 2, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 12.7 ULSCH in error in round 1, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 13.3 ULSCH in error in round 3, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 13.5 ULSCH in error in round 2, ul_cqi 150
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 13.9 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 14.3 ULSCH in error in round 3, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 14.7 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 14.9 ULSCH in error in round 0, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 15.5 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 15.7 ULSCH in error in round 1, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 15.9 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 16.3 ULSCH in error in round 3, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 16.5 ULSCH in error in round 2, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 16.7 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 17.3 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 17.5 ULSCH in error in round 2, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 17.9 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 18.3 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 18.7 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 18.9 ULSCH in error in round 0, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 19.5 ULSCH in error in round 2, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 19.7 ULSCH in error in round 1, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 19.9 ULSCH in error in round 0, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 20.3 ULSCH in error in round 3, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 20.5 ULSCH in error in round 2, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 20.7 ULSCH in error in round 1, ul_cqi 155
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 20.9 ULSCH in error in round 0, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 21.3 ULSCH in error in round 3, ul_cqi 154
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 21.5 ULSCH in error in round 2, ul_cqi 151
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 21.9 ULSCH in error in round 0, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 22.3 ULSCH in error in round 3, ul_cqi 152
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 22.7 ULSCH in error in round 1, ul_cqi 153
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 22.9 ULSCH in error in round 0, ul_cqi 157
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 23.5 ULSCH in error in round 2, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 23.9 ULSCH in error in round 0, ul_cqi 156
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 24.3 ULSCH in error in round 3, ul_cqi 155
+[0m[0m[RRC]   [eNB 0] Frame 24: received a DCCH 1 message on SRB 1 with Size 2 from UE 87b5
+[0m[0m[RRC]   Received message RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] Received on DCCH 1 RRC_DCCH_DATA_IND
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] UE State = RRC_RECONFIGURED (dedicated DRB, xid 1)
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5] UE State = RRC_RECONFIGURED (dedicated DRB, xid 1) C-RNTI Complete
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB 02]  Action MODIFY LCID 2 RB id 2 reconfigured with SN size 5 and RLC AM 
+[0m[0m[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][DRB 01]  Action MODIFY LCID 3 RB id 1 reconfigured with SN size 1 and RLC UM 
+[0m[0m[93m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB 2] rrc_rlc_add_rlc , already exist SRB
+[0m[0m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][SRB AM 02][RECONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[0m[0m[93m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][DRB 1] rrc_rlc_add_rlc , already exist DRB
+[0m[0m[1;31m[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 87b5][DRB UM 01] rlc_um_fsm_notify_event() FSM WARNING PROTOCOL ERROR - EVENT 01 hex NOT EXPECTED FROM DATA_TRANSFER_READY_STATE
+[0m[0m[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti 87b5, reconfiguring DRB 1/LCID 3
+[0m[0m[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 25.9 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 26.7 ULSCH in error in round 1, ul_cqi 160
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 27.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 28.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 78.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 79.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 80.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 81.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 124.5 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 125.3 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 126.1 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 126.9 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 22
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 18 PUCCH SNR 22
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 277.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 278.5 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 279.3 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 280.1 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 287.5 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 288.3 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 289.1 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 289.9 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 290.5 ULSCH in error in round 0, ul_cqi 158
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 290.7 ULSCH in error in round 0, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 291.3 ULSCH in error in round 1, ul_cqi 159
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 310.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 311.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 312.5 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 313.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 314.1 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 318.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 319.5 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 320.3 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 321.1 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 321.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 325.5 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 326.3 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 327.1 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 327.9 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 328.7 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 332.3 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 333.1 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 333.9 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 334.7 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 345.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 346.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 347.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 348.3 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 350.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 354.5 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 355.3 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 356.1 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 356.9 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 361.5 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 362.3 ULSCH in error in round 1, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 363.1 ULSCH in error in round 2, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 363.9 ULSCH in error in round 3, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 365.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 381.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 382.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 383.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   UE  rnti 87b5 : in synch, PHR 40 dB DL CQI 15 PUSCH SNR 17 PUCCH SNR 22
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 384.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 385.7 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 389.3 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 390.1 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 390.9 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 391.7 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 394.9 ULSCH in error in round 0, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 395.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 398.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 399.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 400.5 ULSCH in error in round 2, ul_cqi 162
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 401.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 407.7 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 408.5 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 409.3 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 410.1 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 415.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 416.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 417.5 ULSCH in error in round 2, ul_cqi 161
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 418.3 ULSCH in error in round 3, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 419.9 ULSCH in error in round 0, ul_cqi 164
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 421.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 433.7 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 1] CC_id 0 440.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 442.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 443.7 ULSCH in error in round 1, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 7] CC_id 0 443.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 444.5 ULSCH in error in round 2, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 5] CC_id 0 445.3 ULSCH in error in round 3, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 457.9 ULSCH in error in round 0, ul_cqi 163
+[0m[0m[MAC]   [eNB 0][PUSCH 3] CC_id 0 458.7 ULSCH in error in round 1, ul_cqi 164
+[0m[0m[MAC]   [

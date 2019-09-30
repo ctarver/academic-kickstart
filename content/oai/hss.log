@@ -1,0 +1,482 @@
+Options::jsonConfig            : /usr/local/etc/oai/hss_rel14.json
+Options::diameterconfiguration : /usr/local/etc/oai/freeDiameter/hss_rel14_fd.conf
+Options::cassserver            : 127.0.0.1
+Options::cassuser              : root
+Options::casspwd               : root
+Options::cassdb                : vhss
+Options::randvector            : 1
+Options::roamallow             : 1
+Options::optkey                : 
+Options::reloadkey             : 0
+Options::onlyloadkey           : 0
+Options::gtwport               : 9080
+Options::gtwhost               : *
+Options::resthost              : 9081
+Options::synchimsi             : 
+Options::synchauts             : 
+Initialized random
+12:54:57  NOTI   libfdproto '1.2.1' initialized.
+12:54:57  NOTI   libgnutls '3.5.18' initialized.
+12:54:57  NOTI   HASHLIST is enabled
+12:54:57  NOTI   libfdcore '1.2.1' initialized.
+12:54:57  NOTI   Loading (acl_wl) extension.
+12:54:57  NOTI   Extension ACL_wl initialized with configuration: '/usr/local/etc/oai/freeDiameter/acl.conf'
+12:54:57  NOTI   Loading (dict_3gpp2_avps) extension.
+12:54:57  NOTI   Loading (dict_draftload_avps) extension.
+12:54:57  NOTI   Loading (dict_etsi283034_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc4004_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc4006bis_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc4072_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc4590_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc5447_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc5580_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc5777_avps) extension.
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "IPTM" -> 84
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae87a590): ENUMVAL p:0x5641ae871d90 data: (INTEGER32   ) "TTP" -> 84
+12:54:57  NOTI   Loading (dict_rfc5778_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc6734_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc6942_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc7155_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc7683_avps) extension.
+12:54:57  NOTI   Loading (dict_rfc7944_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29061_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29128_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29154_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29173_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29212_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29214_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29215_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29217_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29229_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29272_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29273_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29329_avps) extension.
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,  OCTETSTRING, 702    "User-Data"
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae903c50): AVP p:(nil) data: v/m:VM/VM,  OCTETSTRING, 606    "User-Data"
+12:54:57  NOTI   Loading (dict_ts29336_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29337_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29338_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29343_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29344_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29345_avps) extension.
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,   UNSIGNED32, 3818   "Time-Window"
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae8c8ab0): AVP p:(nil) data: v/m:VM/VM,      GROUPED, 4204   "Time-Window"
+12:54:57  NOTI   Loading (dict_ts29368_avps) extension.
+12:54:57  NOTI   Loading (dict_ts29468_avps) extension.
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:V-/VM,  OCTETSTRING, 3522   "MBMS-GW-SSM-IP-Address"
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae8c3120): AVP p:(nil) data: v/m:V-/VM,  OCTETSTRING, 924    "MBMS-GW-SSM-IP-Address"
+12:54:57  NOTI   Loading (dict_ts32299_avps) extension.
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "Active" -> 0
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae8caed0): ENUMVAL p:0x5641ae8cac70 data: (INTEGER32   ) "ACTIVE" -> 0
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "Inactive" -> 1
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae8cb090): ENUMVAL p:0x5641ae8cac70 data: (INTEGER32   ) "INACTIVE" -> 1
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,    INTEGER32, 4406   "3GPP-PS-Data-Off-Status"
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae8cb210): AVP p:0x5641ae8cac70 data: v/m:V-/VM,    INTEGER32, 2847   "3GPP-PS-Data-Off-Status"
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,  OCTETSTRING, 3462   "Radio-Frequency"
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae965ad0): AVP p:(nil) data: v/m:VM/VM,   UNSIGNED32, 3508   "Radio-Frequency"
+12:54:57  NOTI   Loading (dict_s6as6d) extension.
+12:54:57  NOTI   Loading (dict_s6t) extension.
+12:54:57  NOTI   Loading (dict_s6c) extension.
+12:54:57  NOTI   An error occurred while adding the following data in the dictionary: data: (UNSIGNED32  ) "Permanent_Failures" -> 3
+12:54:57  NOTI   Conflicting entry in the dictionary: {dictobj}(@0x5641ae9be040): ENUMVAL p:0x5641ae821ca0 data: (UNSIGNED32  ) "MME_SGSN_behaviour" -> 3
+12:54:57  NOTI   Unable to  resolve symbol 'fd_ext_init2' for extension /usr/local/lib/freeDiameter/acl_wl.fdx: 
+12:54:57  NOTI   All extensions loaded.
+12:54:57  NOTI   freeDiameter configuration:
+12:54:57  NOTI     Default trace level .... : +3
+12:54:57  NOTI     Configuration file ..... : /usr/local/etc/oai/freeDiameter/hss_rel14_fd.conf
+12:54:57  NOTI     Diameter Identity ...... : hss.OpenAir5G.Alliance (l:22)
+12:54:57  NOTI     Diameter Realm ......... : OpenAir5G.Alliance (l:18)
+12:54:57  NOTI     Tc Timer ............... : 30
+12:54:57  NOTI     Tw Timer ............... : 30
+12:54:57  NOTI     Local port ............. : 3868
+12:54:57  NOTI     Local secure port ...... : 5868
+12:54:57  NOTI     Number of SCTP streams . : 3
+12:54:57  NOTI     Number of clients thr .. : 5
+12:54:57  NOTI     Number of app threads .. : 4
+12:54:57  NOTI     Local endpoints ........ : Default (use all available)
+12:54:57  NOTI     Local applications ..... : (none)
+12:54:57  NOTI     Flags : - IP ........... : Enabled
+12:54:57  NOTI             - IPv6 ......... : DISABLED
+12:54:57  NOTI             - Relay app .... : DISABLED
+12:54:57  NOTI             - TCP .......... : Enabled
+12:54:57  NOTI             - SCTP ......... : DISABLED (at compilation)
+12:54:57  NOTI             - Pref. proto .. : TCP
+12:54:57  NOTI             - TLS method ... : Separate port
+12:54:57  NOTI     TLS :   - Certificate .. : /usr/local/etc/oai/freeDiameter/hss.cert.pem
+12:54:57  NOTI             - Private key .. : /usr/local/etc/oai/freeDiameter/hss.key.pem
+12:54:57  NOTI             - CA (trust) ... : /usr/local/etc/oai/freeDiameter/cacert.pem (1 certs)
+12:54:57  NOTI             - CRL .......... : (none)
+12:54:57  NOTI             - Priority ..... : (default: 'NORMAL')
+12:54:57  NOTI             - DH bits ...... : 1024
+12:54:57  NOTI     Origin-State-Id ........ : 1544727297
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/acl_wl.fdx'[/usr/local/etc/oai/freeDiameter/acl.conf], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_3gpp2_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_draftload_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_etsi283034_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4004_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4006bis_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4072_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4590_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5447_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5580_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5777_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5778_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc6734_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc6942_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7155_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7683_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7944_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29061_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29128_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29154_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29173_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29212_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29214_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29215_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29217_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29229_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29272_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29273_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29329_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29336_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29337_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29338_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29343_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29344_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29345_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29368_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29468_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts32299_avps.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6as6d.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6t.fdx'[(no config file)], loaded
+12:54:57  NOTI   Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6c.fdx'[(no config file)], loaded
+Connecting to cassandra host: 127.0.0.1
+Registering s6t dictionary
+Registering s6t command handlers
+Registering COIR command handler
+Registering NIIR command handler
+Registering s6as6d dictionary
+Registering s6as6d command handlers
+Registering UPLR command handler
+Registering AUIR command handler
+Registering PUUR command handler
+Registering s6c dictionary
+Registering s6c command handlers
+Registering SERIFSR command handler
+12:54:57  NOTI   Local server address(es): 172.16.1.114{---L-}	172.66.1.111{---L-}	172.66.1.113{---L-}	192.168.1.102{---L-}	192.168.1.120{---L-}	192.168.1.121{---L-}	192.168.1.138{---L-}
+The freeDiameter engine has been started
+Started REST server on port [9081]
+12:54:57  NOTI   Unable to resolve address for peer 'mme.localdomain' (Name or service not known), aborting
+12:54:57  ERROR  mme.localdomain: Going to ZOMBIE state (no more activity)
+12:54:57  NOTI   'STATE_CLOSED'	-> 'STATE_ZOMBIE' (terminated)	'mme.localdomain'
+SELECT idmmeidentity FROM vhss.mmeidentity_host WHERE mmehost='mme.OpenAir5G.Alliance';
+Accepting mme.OpenAir5G.Alliance peer
+12:55:25  NOTI   Connected to 'mme.OpenAir5G.Alliance' (TCP,soc#20), remote capabilities: 
+12:55:25  NOTI      Capabilities-Exchange-Request(257)[R---], Length=232, Hop-By-Hop-Id=0x66987233, End-to-End=0xb1d3261a, { Origin-Host(264)[-M]="mme.OpenAir5G.Alliance" }, { Origin-Realm(296)[-M]="OpenAir5G.Alliance" }, { Origin-State-Id(278)[-M]=1544727325 (0x5c12ab1d) }, { Host-IP-Address(257)[-M]=172.66.1.111 }, { Vendor-Id(266)[-M]=0 (0x0) }, { Product-Name(269)[--]="freeDiameter" }, { Firmware-Revision(267)[--]=10201 (0x27d9) }, { Inband-Security-Id(299)[-M]='NO_INBAND_SECURITY' (0 (0x0)) }, { Vendor-Specific-Application-Id(260)[-M]={ Auth-Application-Id(258)[-M]=16777251 (0x1000023) }, { Vendor-Id(266)[-M]=10415 (0x28af) } }, { Supported-Vendor-Id(265)[-M]=5535 (0x159f) }, { Supported-Vendor-Id(265)[-M]=10415 (0x28af) }, { Supported-Vendor-Id(265)[-M]=13019 (0x32db) }
+12:55:25  NOTI   No TLS protection negotiated with peer 'mme.OpenAir5G.Alliance'.
+12:55:25  NOTI   'STATE_CLOSED'	-> 'STATE_OPEN'	'mme.OpenAir5G.Alliance'
+'Authentication-Information-Request'
+  Version: 0x01
+  Length: 288
+  Flags: 0xC0 (RP--)
+  Command Code: 318
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x66987238
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:mme.OpenAir5G.Alliance(22) rwb:(nil) rt:1 cb:(nil),(nil)((nil)) qry:(nil) asso:0 sess:0x7f5e24000d50
+   AVP: 'Session-Id'(263) l=50 f=-M val="mme.OpenAir5G.Alliance;1544727325;1;apps6a"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Origin-Host'(264) l=30 f=-M val="mme.OpenAir5G.Alliance"
+   AVP: 'Origin-Realm'(296) l=26 f=-M val="OpenAir5G.Alliance"
+   AVP: 'Destination-Host'(293) l=30 f=-M val="hss.OpenAir5G.Alliance"
+   AVP: 'Destination-Realm'(283) l=26 f=-M val="OpenAir5G.Alliance"
+   AVP: 'User-Name'(1) l=23 f=-M val="208920100001101"
+   AVP: 'Visited-PLMN-Id'(1407) vend='3GPP'(10415) l=15 f=VM val=<02 F8 29>
+   AVP: 'Requested-EUTRAN-Authentication-Info'(1408) vend='3GPP'(10415) l=44 f=VM val=(grouped)
+      AVP: 'Number-Of-Requested-Vectors'(1410) vend='3GPP'(10415) l=16 f=VM val=1 (0x1)
+      AVP: 'Immediate-Response-Preferred'(1412) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+   AVP: 'Route-Record'(282) l=8 f=-M val="mme.OpenAir5G.Alliance"
+SELECT key,sqn,rand,OPc FROM vhss.users_imsi WHERE imsi='208920100001101';
+Generated random
+RijndaelKeySchedule: K 6874736969202073796D4B2079650A73
+MAC_A   : 87.76.68.b7.fa.87.25.e3.
+SQN     : 00.00.00.00.06.e0.
+RAND    : b9.ae.2b.45.02.f0.ae.5a.e6.0d.cc.03.e5.5f.4d.2d.
+RijndaelKeySchedule: K 6874736969202073796D4B2079650A73
+AK      : 67.69.c3.b6.88.87.
+CK      : 99.e5.75.5e.55.5a.de.2e.c2.e4.b4.d9.9f.ee.91.26.
+IK      : e6.15.d3.64.bc.52.34.8f.de.40.b9.ef.c4.c1.31.b4.
+XRES    : 5f.c3.6a.9b.0b.99.e3.97.
+AUTN    : 67.69.c3.b6.8e.67.80.00.87.76.68.b7.fa.87.25.e3.
+0x99 0xe5 0x75 0x5e 0x55 0x5a 0xde 0x2e 0xc2 0xe4 0xb4 0xd9 0x9f 0xee 0x91 0x26 0xe6 0x15 0xd3 0x64 0xbc 0x52 0x34 0x8f 0xde 0x40 0xb9 0xef 0xc4 0xc1 0x31 0xb4 
+0x10 0x02 0xf8 0x29 0x00 0x03 0x67 0x69 0xc3 0xb6 0x8e 0x67 0x00 0x06 
+KASME   : 68.14.5d.69.67.59.46.f5.0a.56.87.df.3c.9c.ea.6a.27.c3.6a.79.b7.a3.2c.9a.f7.60.d8.40.b4.81.2c.1a.
+sqn=00.00.00.00.06.e0. eu.u8[]=e0.06.00.00.00.00.00.00. eu.u64=1760 rand=[b9ae2b4502f0ae5ae60dcc03e55f4d2d]
+UPDATE vhss.users_imsi SET rand='b9ae2b4502f0ae5ae60dcc03e55f4d2d', sqn=1760 WHERE imsi='208920100001101';
+UPDATE vhss.users_imsi SET sqn =1792 WHERE imsi='208920100001101';
+'Authentication-Information-Answer'
+  Version: 0x01
+  Length: 20
+  Flags: 0x40 (-P--)
+  Command Code: 318
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x66987238
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:(nil)(0) rwb:(nil) rt:0 cb:(nil),(nil)((nil)) qry:0x7f5e14002430 asso:0 sess:0x7f5e24000d50
+   AVP: 'Session-Id'(263) l=8 f=-M val="mme.OpenAir5G.Alliance;1544727325;1;apps6a"
+   AVP: 'Origin-Host'(264) l=8 f=-M val="hss.OpenAir5G.Alliance"
+   AVP: 'Origin-Realm'(296) l=8 f=-M val="OpenAir5G.Alliance"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Authentication-Info'(1413) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+      AVP: 'E-UTRAN-Vector'(1414) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'RAND'(1447) vend='3GPP'(10415) l=12 f=VM val=<B9 AE 2B 45 02 F0 AE 5A E6 0D CC 03 E5 5F 4D 2D>
+         AVP: 'XRES'(1448) vend='3GPP'(10415) l=12 f=VM val=<5F C3 6A 9B 0B 99 E3 97>
+         AVP: 'AUTN'(1449) vend='3GPP'(10415) l=12 f=VM val=<67 69 C3 B6 8E 67 80 00 87 76 68 B7 FA 87 25 E3>
+         AVP: 'KASME'(1450) vend='3GPP'(10415) l=12 f=VM val=<68 14 5D 69 67 59 46 F5 0A 56 87 DF 3C 9C EA 6A 27 C3 6A 79 B7 A3 2C 9A F7 60 D8 40 B4 81 2C 1A>
+   AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_SUCCESS' (2001 (0x7d1))
+'Update-Location-Request'
+  Version: 0x01
+  Length: 276
+  Flags: 0xC0 (RP--)
+  Command Code: 316
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x66987239
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:mme.OpenAir5G.Alliance(22) rwb:(nil) rt:1 cb:(nil),(nil)((nil)) qry:(nil) asso:0 sess:0x7f5e2c000bf0
+   AVP: 'Session-Id'(263) l=50 f=-M val="mme.OpenAir5G.Alliance;1544727325;2;apps6a"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Origin-Host'(264) l=30 f=-M val="mme.OpenAir5G.Alliance"
+   AVP: 'Origin-Realm'(296) l=26 f=-M val="OpenAir5G.Alliance"
+   AVP: 'Destination-Host'(293) l=30 f=-M val="hss.OpenAir5G.Alliance"
+   AVP: 'Destination-Realm'(283) l=26 f=-M val="OpenAir5G.Alliance"
+   AVP: 'User-Name'(1) l=23 f=-M val="208920100001101"
+   AVP: 'Visited-PLMN-Id'(1407) vend='3GPP'(10415) l=15 f=VM val=<02 F8 29>
+   AVP: 'RAT-Type'(1032) vend='3GPP'(10415) l=16 f=V- val=1004 (0x3ec)
+   AVP: 'ULR-Flags'(1405) vend='3GPP'(10415) l=16 f=VM val=34 (0x22)
+   AVP: 'Route-Record'(282) l=8 f=-M val="mme.OpenAir5G.Alliance"
+SELECT id from vhss.global_ids WHERE table_name='vhss.mmeidentity';
+SELECT idmmeidentity FROM vhss.mmeidentity_host WHERE mmehost='mme.OpenAir5G.Alliance';
+UPDATE vhss.users_imsi SET mmeidentity_idmmeidentity=1,mmehost='mme.OpenAir5G.Alliance',mmerealm='OpenAir5G.Alliance',ms_ps_status='ATTACHED',visited_plmnid='02F829' WHERE imsi='208920100001101';
+'Update-Location-Answer'
+  Version: 0x01
+  Length: 20
+  Flags: 0x40 (-P--)
+  Command Code: 316
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x66987239
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:(nil)(0) rwb:(nil) rt:0 cb:(nil),(nil)((nil)) qry:0x7f5e14002430 asso:0 sess:0x7f5e2c000bf0
+   AVP: 'Session-Id'(263) l=8 f=-M val="mme.OpenAir5G.Alliance;1544727325;2;apps6a"
+   AVP: 'Origin-Host'(264) l=8 f=-M val="hss.OpenAir5G.Alliance"
+   AVP: 'Origin-Realm'(296) l=8 f=-M val="OpenAir5G.Alliance"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'ULA-Flags'(1406) vend='3GPP'(10415) l=16 f=VM val=1 (0x1)
+   AVP: 'Subscription-Data'(1400) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+      AVP: 'Access-Restriction-Data'(1426) vend='3GPP'(10415) l=16 f=VM val=41 (0x29)
+      AVP: 'Subscriber-Status'(1424) vend='3GPP'(10415) l=16 f=VM val='SERVICE_GRANTED' (0 (0x0))
+      AVP: 'Network-Access-Mode'(1417) vend='3GPP'(10415) l=16 f=VM val='ONLY_PACKET' (2 (0x2))
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<01 23>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<45 67>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<89 AB>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<CD EF>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<12 34>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<56 78>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<9A BC>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<DE F0>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<23 45>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<67 89>
+      AVP: 'MSISDN'(701) vend='3GPP'(10415) l=12 f=VM val=<30 78 33 33 36 33 38 30 32 30 30 30 31>
+      AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+         AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+      AVP: 'APN-Configuration-Profile'(1429) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+         AVP: 'All-APN-Configurations-Included-Indicator'(1428) vend='3GPP'(10415) l=16 f=VM val='All_APN_CONFIGURATIONS_INCLUDED' (0 (0x0))
+         AVP: 'APN-Configuration'(1430) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+            AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+            AVP: 'PDN-Type'(1456) vend='3GPP'(10415) l=16 f=VM val='IPv4' (0 (0x0))
+            AVP: 'Service-Selection'(493) l=8 f=-M val="ltebox"
+            AVP: 'EPS-Subscribed-QoS-Profile'(1431) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'QoS-Class-Identifier'(1028) vend='3GPP'(10415) l=16 f=VM val='QCI_9' (9 (0x9))
+               AVP: 'Allocation-Retention-Priority'(1034) vend='3GPP'(10415) l=12 f=V- val=(grouped)
+                  AVP: 'Priority-Level'(1046) vend='3GPP'(10415) l=16 f=V- val=15 (0xf)
+                  AVP: 'Pre-emption-Capability'(1047) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_CAPABILITY_ENABLED' (0 (0x0))
+                  AVP: 'Pre-emption-Vulnerability'(1048) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_VULNERABILITY_ENABLED' (0 (0x0))
+            AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+               AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+            AVP: 'PDN-GW-Allocation-Type'(1438) vend='3GPP'(10415) l=16 f=VM val='STATIC' (0 (0x0))
+            AVP: 'MIP6-Agent-Info'(486) l=8 f=-M val=(grouped)
+               AVP: 'MIP-Home-Agent-Address'(334) l=8 f=-M val=172.26.17.183
+         AVP: 'APN-Configuration'(1430) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+            AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+            AVP: 'PDN-Type'(1456) vend='3GPP'(10415) l=16 f=VM val='IPv4' (0 (0x0))
+            AVP: 'Service-Selection'(493) l=8 f=-M val="internet"
+            AVP: 'EPS-Subscribed-QoS-Profile'(1431) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'QoS-Class-Identifier'(1028) vend='3GPP'(10415) l=16 f=VM val='QCI_9' (9 (0x9))
+               AVP: 'Allocation-Retention-Priority'(1034) vend='3GPP'(10415) l=12 f=V- val=(grouped)
+                  AVP: 'Priority-Level'(1046) vend='3GPP'(10415) l=16 f=V- val=13 (0xd)
+                  AVP: 'Pre-emption-Capability'(1047) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_CAPABILITY_DISABLED' (1 (0x1))
+                  AVP: 'Pre-emption-Vulnerability'(1048) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_VULNERABILITY_ENABLED' (0 (0x0))
+            AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+               AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+            AVP: 'PDN-GW-Allocation-Type'(1438) vend='3GPP'(10415) l=16 f=VM val='STATIC' (0 (0x0))
+            AVP: 'MIP6-Agent-Info'(486) l=8 f=-M val=(grouped)
+               AVP: 'MIP-Home-Agent-Address'(334) l=8 f=-M val=172.26.17.183
+      AVP: 'Subscribed-Periodic-RAU-TAU-Timer'(1619) vend='3GPP'(10415) l=16 f=V- val=0 (0x0)
+   AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_SUCCESS' (2001 (0x7d1))
+'Authentication-Information-Request'
+  Version: 0x01
+  Length: 288
+  Flags: 0xC0 (RP--)
+  Command Code: 318
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x6698723B
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:mme.OpenAir5G.Alliance(22) rwb:(nil) rt:1 cb:(nil),(nil)((nil)) qry:(nil) asso:0 sess:0x7f5e34000d50
+   AVP: 'Session-Id'(263) l=50 f=-M val="mme.OpenAir5G.Alliance;1544727325;3;apps6a"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Origin-Host'(264) l=30 f=-M val="mme.OpenAir5G.Alliance"
+   AVP: 'Origin-Realm'(296) l=26 f=-M val="OpenAir5G.Alliance"
+   AVP: 'Destination-Host'(293) l=30 f=-M val="hss.OpenAir5G.Alliance"
+   AVP: 'Destination-Realm'(283) l=26 f=-M val="OpenAir5G.Alliance"
+   AVP: 'User-Name'(1) l=23 f=-M val="208920100001101"
+   AVP: 'Visited-PLMN-Id'(1407) vend='3GPP'(10415) l=15 f=VM val=<02 F8 29>
+   AVP: 'Requested-EUTRAN-Authentication-Info'(1408) vend='3GPP'(10415) l=44 f=VM val=(grouped)
+      AVP: 'Number-Of-Requested-Vectors'(1410) vend='3GPP'(10415) l=16 f=VM val=1 (0x1)
+      AVP: 'Immediate-Response-Preferred'(1412) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+   AVP: 'Route-Record'(282) l=8 f=-M val="mme.OpenAir5G.Alliance"
+SELECT key,sqn,rand,OPc FROM vhss.users_imsi WHERE imsi='208920100001101';
+Generated random
+RijndaelKeySchedule: K 6874736969202073796D4B2079650A73
+MAC_A   : f9.ee.3e.08.5a.39.53.ec.
+SQN     : 00.00.00.00.07.00.
+RAND    : 34.9f.fb.3d.ba.42.fe.73.fe.dc.00.52.13.1c.65.73.
+RijndaelKeySchedule: K 6874736969202073796D4B2079650A73
+AK      : d5.2d.ba.e9.4a.51.
+CK      : e7.68.58.97.48.67.76.70.7a.60.8d.20.3c.6a.7f.fc.
+IK      : 7c.e4.16.c2.89.f7.4a.02.e5.f3.62.4a.30.27.d7.2f.
+XRES    : a9.ea.f6.0b.66.84.70.f3.
+AUTN    : d5.2d.ba.e9.4d.51.80.00.f9.ee.3e.08.5a.39.53.ec.
+0xe7 0x68 0x58 0x97 0x48 0x67 0x76 0x70 0x7a 0x60 0x8d 0x20 0x3c 0x6a 0x7f 0xfc 0x7c 0xe4 0x16 0xc2 0x89 0xf7 0x4a 0x02 0xe5 0xf3 0x62 0x4a 0x30 0x27 0xd7 0x2f 
+0x10 0x02 0xf8 0x29 0x00 0x03 0xd5 0x2d 0xba 0xe9 0x4d 0x51 0x00 0x06 
+KASME   : 7c.59.8b.f8.72.de.0f.dc.a7.52.c9.e1.af.c3.96.43.e2.39.02.2c.62.51.04.74.f0.e5.5a.82.24.1a.0a.be.
+sqn=00.00.00.00.07.00. eu.u8[]=00.07.00.00.00.00.00.00. eu.u64=1792 rand=[349ffb3dba42fe73fedc0052131c6573]
+UPDATE vhss.users_imsi SET rand='349ffb3dba42fe73fedc0052131c6573', sqn=1792 WHERE imsi='208920100001101';
+UPDATE vhss.users_imsi SET sqn =1824 WHERE imsi='208920100001101';
+'Authentication-Information-Answer'
+  Version: 0x01
+  Length: 20
+  Flags: 0x40 (-P--)
+  Command Code: 318
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x6698723B
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:(nil)(0) rwb:(nil) rt:0 cb:(nil),(nil)((nil)) qry:0x7f5e140025b0 asso:0 sess:0x7f5e34000d50
+   AVP: 'Session-Id'(263) l=8 f=-M val="mme.OpenAir5G.Alliance;1544727325;3;apps6a"
+   AVP: 'Origin-Host'(264) l=8 f=-M val="hss.OpenAir5G.Alliance"
+   AVP: 'Origin-Realm'(296) l=8 f=-M val="OpenAir5G.Alliance"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Authentication-Info'(1413) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+      AVP: 'E-UTRAN-Vector'(1414) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'RAND'(1447) vend='3GPP'(10415) l=12 f=VM val=<34 9F FB 3D BA 42 FE 73 FE DC 00 52 13 1C 65 73>
+         AVP: 'XRES'(1448) vend='3GPP'(10415) l=12 f=VM val=<A9 EA F6 0B 66 84 70 F3>
+         AVP: 'AUTN'(1449) vend='3GPP'(10415) l=12 f=VM val=<D5 2D BA E9 4D 51 80 00 F9 EE 3E 08 5A 39 53 EC>
+         AVP: 'KASME'(1450) vend='3GPP'(10415) l=12 f=VM val=<7C 59 8B F8 72 DE 0F DC A7 52 C9 E1 AF C3 96 43 E2 39 02 2C 62 51 04 74 F0 E5 5A 82 24 1A 0A BE>
+   AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_SUCCESS' (2001 (0x7d1))
+'Update-Location-Request'
+  Version: 0x01
+  Length: 276
+  Flags: 0xC0 (RP--)
+  Command Code: 316
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x6698723C
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:mme.OpenAir5G.Alliance(22) rwb:(nil) rt:1 cb:(nil),(nil)((nil)) qry:(nil) asso:0 sess:0x7f5e30000bf0
+   AVP: 'Session-Id'(263) l=50 f=-M val="mme.OpenAir5G.Alliance;1544727325;4;apps6a"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'Origin-Host'(264) l=30 f=-M val="mme.OpenAir5G.Alliance"
+   AVP: 'Origin-Realm'(296) l=26 f=-M val="OpenAir5G.Alliance"
+   AVP: 'Destination-Host'(293) l=30 f=-M val="hss.OpenAir5G.Alliance"
+   AVP: 'Destination-Realm'(283) l=26 f=-M val="OpenAir5G.Alliance"
+   AVP: 'User-Name'(1) l=23 f=-M val="208920100001101"
+   AVP: 'Visited-PLMN-Id'(1407) vend='3GPP'(10415) l=15 f=VM val=<02 F8 29>
+   AVP: 'RAT-Type'(1032) vend='3GPP'(10415) l=16 f=V- val=1004 (0x3ec)
+   AVP: 'ULR-Flags'(1405) vend='3GPP'(10415) l=16 f=VM val=34 (0x22)
+   AVP: 'Route-Record'(282) l=8 f=-M val="mme.OpenAir5G.Alliance"
+SELECT id from vhss.global_ids WHERE table_name='vhss.mmeidentity';
+SELECT idmmeidentity FROM vhss.mmeidentity_host WHERE mmehost='mme.OpenAir5G.Alliance';
+UPDATE vhss.users_imsi SET mmeidentity_idmmeidentity=1,mmehost='mme.OpenAir5G.Alliance',mmerealm='OpenAir5G.Alliance',ms_ps_status='ATTACHED',visited_plmnid='02F829' WHERE imsi='208920100001101';
+'Update-Location-Answer'
+  Version: 0x01
+  Length: 20
+  Flags: 0x40 (-P--)
+  Command Code: 316
+  ApplicationId: 16777251
+  Hop-by-Hop Identifier: 0x6698723C
+  End-to-End Identifier: 0x00000000
+   {internal data}: src:(nil)(0) rwb:(nil) rt:0 cb:(nil),(nil)((nil)) qry:0x7f5e14002430 asso:0 sess:0x7f5e30000bf0
+   AVP: 'Session-Id'(263) l=8 f=-M val="mme.OpenAir5G.Alliance;1544727325;4;apps6a"
+   AVP: 'Origin-Host'(264) l=8 f=-M val="hss.OpenAir5G.Alliance"
+   AVP: 'Origin-Realm'(296) l=8 f=-M val="OpenAir5G.Alliance"
+   AVP: 'Auth-Session-State'(277) l=12 f=-M val='NO_STATE_MAINTAINED' (1 (0x1))
+   AVP: 'ULA-Flags'(1406) vend='3GPP'(10415) l=16 f=VM val=1 (0x1)
+   AVP: 'Subscription-Data'(1400) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+      AVP: 'Access-Restriction-Data'(1426) vend='3GPP'(10415) l=16 f=VM val=41 (0x29)
+      AVP: 'Subscriber-Status'(1424) vend='3GPP'(10415) l=16 f=VM val='SERVICE_GRANTED' (0 (0x0))
+      AVP: 'Network-Access-Mode'(1417) vend='3GPP'(10415) l=16 f=VM val='ONLY_PACKET' (2 (0x2))
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<01 23>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<45 67>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<89 AB>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<CD EF>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<12 34>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<56 78>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<9A BC>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<DE F0>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<23 45>
+      AVP: 'Regional-Subscription-Zone-Code'(1446) vend='3GPP'(10415) l=12 f=VM val=<67 89>
+      AVP: 'MSISDN'(701) vend='3GPP'(10415) l=12 f=VM val=<30 78 33 33 36 33 38 30 32 30 30 30 31>
+      AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+         AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+      AVP: 'APN-Configuration-Profile'(1429) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+         AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+         AVP: 'All-APN-Configurations-Included-Indicator'(1428) vend='3GPP'(10415) l=16 f=VM val='All_APN_CONFIGURATIONS_INCLUDED' (0 (0x0))
+         AVP: 'APN-Configuration'(1430) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+            AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+            AVP: 'PDN-Type'(1456) vend='3GPP'(10415) l=16 f=VM val='IPv4' (0 (0x0))
+            AVP: 'Service-Selection'(493) l=8 f=-M val="ltebox"
+            AVP: 'EPS-Subscribed-QoS-Profile'(1431) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'QoS-Class-Identifier'(1028) vend='3GPP'(10415) l=16 f=VM val='QCI_9' (9 (0x9))
+               AVP: 'Allocation-Retention-Priority'(1034) vend='3GPP'(10415) l=12 f=V- val=(grouped)
+                  AVP: 'Priority-Level'(1046) vend='3GPP'(10415) l=16 f=V- val=15 (0xf)
+                  AVP: 'Pre-emption-Capability'(1047) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_CAPABILITY_ENABLED' (0 (0x0))
+                  AVP: 'Pre-emption-Vulnerability'(1048) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_VULNERABILITY_ENABLED' (0 (0x0))
+            AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+               AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+            AVP: 'PDN-GW-Allocation-Type'(1438) vend='3GPP'(10415) l=16 f=VM val='STATIC' (0 (0x0))
+            AVP: 'MIP6-Agent-Info'(486) l=8 f=-M val=(grouped)
+               AVP: 'MIP-Home-Agent-Address'(334) l=8 f=-M val=172.26.17.183
+         AVP: 'APN-Configuration'(1430) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+            AVP: 'Context-Identifier'(1423) vend='3GPP'(10415) l=16 f=VM val=0 (0x0)
+            AVP: 'PDN-Type'(1456) vend='3GPP'(10415) l=16 f=VM val='IPv4' (0 (0x0))
+            AVP: 'Service-Selection'(493) l=8 f=-M val="internet"
+            AVP: 'EPS-Subscribed-QoS-Profile'(1431) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'QoS-Class-Identifier'(1028) vend='3GPP'(10415) l=16 f=VM val='QCI_9' (9 (0x9))
+               AVP: 'Allocation-Retention-Priority'(1034) vend='3GPP'(10415) l=12 f=V- val=(grouped)
+                  AVP: 'Priority-Level'(1046) vend='3GPP'(10415) l=16 f=V- val=13 (0xd)
+                  AVP: 'Pre-emption-Capability'(1047) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_CAPABILITY_DISABLED' (1 (0x1))
+                  AVP: 'Pre-emption-Vulnerability'(1048) vend='3GPP'(10415) l=16 f=V- val='PRE_EMPTION_VULNERABILITY_ENABLED' (0 (0x0))
+            AVP: 'AMBR'(1435) vend='3GPP'(10415) l=12 f=VM val=(grouped)
+               AVP: 'Max-Requested-Bandwidth-UL'(516) vend='3GPP'(10415) l=16 f=VM val=50000000 (0x2faf080)
+               AVP: 'Max-Requested-Bandwidth-DL'(515) vend='3GPP'(10415) l=16 f=VM val=100000000 (0x5f5e100)
+            AVP: 'PDN-GW-Allocation-Type'(1438) vend='3GPP'(10415) l=16 f=VM val='STATIC' (0 (0x0))
+            AVP: 'MIP6-Agent-Info'(486) l=8 f=-M val=(grouped)
+               AVP: 'MIP-Home-Agent-Address'(334) l=8 f=-M val=172.26.17.183
+      AVP: 'Subscribed-Periodic-RAU-TAU-Timer'(1619) vend='3GPP'(10415) l=16 f=V- val=0 (0x0)
+   AVP: 'Result-Code'(268) l=12 f=-M val='DIAMETER_SUCCESS' (2001 (0x7d1))
+13:02:07  ERROR  mme.OpenAir5G.Alliance: Going to ZOMBIE state (no more activity)
+13:02:07  NOTI   'STATE_OPEN'	-> 'STATE_CLOSED'	'mme.OpenAir5G.Alliance'
+13:02:07  NOTI   'STATE_CLOSED'	-> 'STATE_ZOMBIE' (terminated)	'mme.OpenAir5G.Alliance'

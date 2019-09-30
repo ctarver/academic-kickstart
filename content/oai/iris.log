@@ -1,0 +1,359 @@
+[LOADER] library libNB_IoT.so is not loaded: libNB_IoT.so: cannot open shared object file: No such file or directory
+[CONFIG] get parameters from libconfig enb.band7.tm1.25PRB.iris030.conf , debug flags: 0x00000000
+[CONFIG] function config_libconfig_init returned 0
+[CONFIG] config module libconfig loaded
+[LIBCONFIG] config: 1/1 parameters successfully set, (1 to default value)
+# /dev/cpu_dma_latency set to 0us
+[LIBCONFIG] log_config: 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] log_config: 38/38 parameters successfully set, (32 to default value)
+[LIBCONFIG] log_config: 38/38 parameters successfully set, (38 to default value)
+[LIBCONFIG] log_config: 15/15 parameters successfully set, (15 to default value)
+[LIBCONFIG] log_config: 15/15 parameters successfully set, (15 to default value)
+log init done
+Reading in command-line options
+[LIBCONFIG] (root): 19/19 parameters successfully set, (16 to default value)
+[LIBCONFIG] (root): 4/4 parameters successfully set, (4 to default value)
+Getting ENBSParams
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] THREAD_STRUCT.[0]: 2/2 parameters successfully set, (0 to default value)
+Configuration: nb_rrc_inst 1, nb_L1_inst 1, nb_ru 1
+[LIBCONFIG] loader: 2/2 parameters successfully set, (2 to default value)
+[LIBCONFIG] loader.NB_IoT: 2/2 parameters successfully set, (1 to default value)
+               nb_nbiot_rrc_inst 0, nb_nbiot_L1_inst 0, nb_nbiot_macrlc_inst 0
+[LIBCONFIG] TTracer: 4/4 parameters successfully set, (4 to default value)
+configuring for RAU/RRU
+CPU Freq is 2.808168 
+ITTI init, useMME: 1
+[0m[TMR]   Starting itti queue: TASK_UNKNOWN as task 0
+[0m[0m[TMR]   Starting itti queue: TASK_TIMER as task 1
+[0m[0m[TMR]   Starting itti queue: TASK_L2L1 as task 2
+[0m[0m[TMR]   Starting itti queue: TASK_BM as task 3
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_ENB as task 4
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_ENB as task 5
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_ENB as task 6
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB_NB_IoT as task 7
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_ENB as task 8
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_ENB as task 9
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_ENB as task 10
+[0m[0m[TMR]   Starting itti queue: TASK_S1AP as task 11
+[0m[0m[TMR]   Starting itti queue: TASK_X2AP as task 12
+[0m[0m[TMR]   Starting itti queue: TASK_SCTP as task 13
+[0m[0m[TMR]   Starting itti queue: TASK_ENB_APP as task 14
+[0m[0m[TMR]   Starting itti queue: TASK_FLEXRAN_AGENT as task 15
+[0m[0m[TMR]   Starting itti queue: TASK_PHY_UE as task 16
+[0m[0m[TMR]   Starting itti queue: TASK_MAC_UE as task 17
+[0m[0m[TMR]   Starting itti queue: TASK_RLC_UE as task 18
+[0m[0m[TMR]   Starting itti queue: TASK_PDCP_UE as task 19
+[0m[0m[TMR]   Starting itti queue: TASK_RRC_UE as task 20
+[0m[0m[TMR]   Starting itti queue: TASK_NAS_UE as task 21
+[0m[0m[TMR]   Starting itti queue: TASK_RAL_UE as task 22
+[0m[0m[TMR]   Starting itti queue: TASK_MSC as task 23
+[0m[0m[TMR]   Starting itti queue: TASK_GTPV1_U as task 24
+[0m[0m[TMR]   Starting itti queue: TASK_UDP as task 25
+[0m[LIBCONFIG] opt: 3/3 parameters successfully set, (3 to default value)
+[0m[OPT]   OPT disabled
+[0mreported resolution = 1 ns
+[0m[HW]   Version: Branch: master Abrev. Hash: f7a2965 Date: Thu Jan 31 14:35:23 2019 +0100
+[0mRuntime table
+NO deadline scheduler
+[0m[HW]   CPU Affinity of main() function is...  CPU_0  CPU_1  CPU_2  CPU_3 
+[0m[0m[PHY]   eNB_app_task() Task ready initialise structures
+[0m[0m[TMR]   Created Posix thread TASK_ENB_APP
+[0m[0m[PHY]   RC.eNB = 0x7f74800008c0
+[0m[LIBCONFIG] L1s.[0]: 9/9 parameters successfully set, (7 to default value)
+[0m[PHY]   RC.eNB[0] = 0x7f7480000970
+[0m[0m[TMR]   Created Posix thread TASK_X2AP
+[0m[0m[TMR]   Created Posix thread TASK_SCTP
+[0m[0m[SCTP]   Starting SCTP layer
+[0m[0m[TMR]   Created Posix thread TASK_S1AP
+[0m[0m[S1AP]   Starting S1AP layer
+[0m[0m[TMR]   Created Posix thread TASK_UDP
+[0m[0m[UDP]   Initializing UDP task interface
+[0m[0m[UDP]   Initializing UDP task interface: DONE
+[0m[0m[TMR]   Created Posix thread TASK_GTPV1_U
+[0m[0m[RRC]   Creating RRC eNB Task
+[0m[0m[TMR]   Created Posix thread TASK_RRC_ENB
+[0mITTI tasks created
+[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[0m[GTPV1U]   Initializing GTPU stack 0x131bc98
+[0m[0m[RRC]   Entering main loop of RRC message task
+[0m[LIBCONFIG] NETWORK_CONTROLLER: 6/6 parameters successfully set, (0 to default value)
+[0m[FLEXRAN_AGENT]   FlexRAN Agent for eNB 0 is DISABLED
+[0m[0m[PHY]   RC.eNB[0][0] = 0x7f74856ec010
+[0m[0m[ENB_APP]   Initializing northbound interface for L1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_inst:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.eNB[0][0] installing callbacks
+[0m[LIBCONFIG] MACRLCs.[0]: 21/21 parameters successfully set, (15 to default value)
+[0m[MAC]   [MAIN] Init function start:nb_macrlc_inst=1
+[0mXFORMS
+[0m[PDCP]   PDCP layer has been initialized
+[0m[0m[ENB_APP]   sched mode = default 0 [default]
+[0m[0m[PHY]   eNB_app_task() RC.nb_L1_inst:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_inst:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   l1_north_init_eNB() RC.eNB[0][0] installing callbacks
+[0m[0m[ENB_APP]   Allocating eNB_RRC_INST for 1 instances
+[0m[0m[PHY]   eNB_app_task() RC.nb_inst:1 RC.rrc:0x7f7480002b60
+[0m[0m[PHY]   eNB_app_task() Creating RRC instance RC.rrc[0]:0x7f7480002b80 (1 of 1)
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[0m[ENB_APP]   RRC 0: Southbound Transport local_mac
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[RRC]   num component carriers 1 
+[0m[0m[RRC]   enb_config::RCconfig_RRC() parameter number: 0, total number of parameters: 107, ccspath: eNBs.[0].component_carriers.[0] 
+ 
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+phich.resource 0 (ONESIXTH), phich.duration 0 (NORMAL)
+[LIBCONFIG] eNBs.[0].srb1_parameters: 6/6 parameters successfully set, (0 to default value)
+[0m[ENB_APP]   Sending configuration message to RRC task
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[0m[RRC]   Received message RRC_CONFIGURATION_REQ
+[0m[0m[RRC]   [eNB 0] Received RRC_CONFIGURATION_REQ : 0x7f7480008d6c
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Init...
+[0m[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+[LIBCONFIG] eNBs.[0].mme_ip_address.[0]: 5/5 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Configuring GTPu
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 3/3 parameters successfully set, (0 to default value)
+[0m[GTPV1U]   Configuring GTPu address : 127.0.0.10 -> a00007f
+[0m[0m[ENB_APP]   default drx 2
+[0m[0m[ENB_APP]   [eNB 0] eNB_app_register for instance 0
+[0m[LIBCONFIG] (root): 3/3 parameters successfully set, (1 to default value)
+[0m[GTPV1U]   Tx UDP_INIT IP addr 127.0.0.10 (868)
+[0m[LIBCONFIG] eNBs.[0]: 14/14 parameters successfully set, (7 to default value)
+[LIBCONFIG] eNBs.[0].plmn_list.[0]: 3/3 parameters successfully set, (0 to default value)
+[0m[UDP]   Initializing UDP for local address 127.0.0.10 with port 2152
+[0m[0m[S1AP]   Registered new eNB[0] and macro eNB id 3584
+[0m[0m[S1AP]   [eNB 0] check the mme registration state
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Checking release 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Rel14 RRC detected, MBMS flag 0
+[0m[0m[RRC]   Configuring MIB (N_RB_DL 25,phich_Resource 0,phich_Duration 0)
+[0m[0m[RRC]   [MIB] systemBandwidth 2, phich_duration 0, phich_resource 0, sfn 0
+[0m[LIBCONFIG] eNBs.[0].component_carriers.[0]: 107/107 parameters successfully set, (21 to default value)
+[0m[UDP]   Inserting new descriptor for task 24, sd 57
+[0m[0m[UDP]   Initializing UDP for local address 127.0.0.10 with port 2152: DONE
+[0m[0m[RRC]   [eNB 0] Configuration SIB2/3, MBMS = 0
+[0m[0m[RRC]   [SIB2] With ITTI. Basic config of paging cycle DRX: radio frame cycle length 2, paging occasion number 2
+[0m[LIBCONFIG] list eNBs.[0].target_enb_x2_ip_address not found in config file enb.band7.tm1.25PRB.iris030.conf 
+[LIBCONFIG] eNBs.[0].SCTP: 2/2 parameters successfully set, (0 to default value)
+[LIBCONFIG] eNBs.[0].NETWORK_INTERFACES: 7/7 parameters successfully set, (0 to default value)
+[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Contents of SIB18 1/1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 rxPool_sc_CP_Len: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 sc_Period_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 data_CP_Len_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_Num_r12: 20 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_Start_r12: 5 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 prb_End_r12: 44 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 offsetIndicator: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB18 subframeBitmap_choice_bs_buf: 00000000000000000000 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] Contents of SIB19 1/1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 cp_Len_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 discPeriod_r12: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 numRetx_r12: 1 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 numRepetition_r12: 2 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_Num_r12: 5 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_Start_r12: 3 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 prb_End_r12: 21 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 offsetIndicator: 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] SIB19 tf_ResourceConfig_r12 subframeBitmap_choice_bs_buf: f0ffffffff 
+[0m[0m[MAC]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 25,Nid_cell 10,p 1,DL freq 2660000000,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[MAC]   config_mib() NFAPI_CONFIG_REQUEST(num_tlv:16) DL_BW:25 UL_BW:25 Ncp 0,p_eNB 1,earfcn 3150,band 7,phich_resource 0 phich_duration 0 phich_power_offset 6000 PSS 6000 SSS 6000 PCI 10 PBCH repetition 0
+[0m[0m[MAC]   [CONFIG]SIB2/3 Contents (partial)
+[0m[0m[MAC]   [CONFIG]pusch_config_common.n_SB = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.hoppingMode = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.enable64QAM = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupHoppingEnabled = 1
+[0m[0m[MAC]   [CONFIG]pusch_config_common.groupAssignmentPUSCH = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.sequenceHoppingEnabled = 0
+[0m[0m[MAC]   [CONFIG]pusch_config_common.cyclicShift  = 1
+[0m[0m[PHY]   Configuring MIB for instance 0, CCid 0 : (band 7,N_RB_DL 25, N_RB_UL 25, Nid_cell 10,eNB_tx_antenna_ports 1,Ncp 0,DL freq 3150,phich_config.resource 0, phich_config.duration 0)
+[0m[0m[PHY]   Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+[0m[0m[PHY]   lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[0m[0m[X2AP]   Registered new eNB[0] and macro eNB id 3584
+[0m[0m[X2AP]   eNB[0] eNB id 3584 acting as a listner (server)
+[0m[LIBCONFIG] loader.coding: 2/2 parameters successfully set, (1 to default value)
+[0m[SCTP]   Converted ipv4 address 192.168.1.102 to network type
+[0m[0m[SCTP]   connectx assoc_id  11 in progress..., used 1 addresses
+[0m[0m[SCTP]   Inserted new descriptor for sd 58 in list, nb elements 1, assoc_id 11
+[0m[0m[SCTP]   Received SCTP_INIT_MSG_MULTI_REQ
+[0m[0m[SCTP]   Creating new listen socket on port 36422 with
+[0m[0m[SCTP]   ipv4 addresses:
+[0m[0m[SCTP]   	- 127.0.0.10
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32769
+[0m[0m[SCTP]   Client association changed: 0
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Peer addresses:
+[0m[0m[SCTP]       - [192.168.1.102]
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   SCTP Status:
+[0m[0m[SCTP]   assoc id .....: 11
+[0m[0m[SCTP]   state ........: 4
+[0m[0m[SCTP]   instrms ......: 2
+[0m[0m[SCTP]   outstrms .....: 2
+[0m[0m[SCTP]   fragmentation : 1452
+[0m[0m[SCTP]   pending data .: 0
+[0m[0m[SCTP]   unack data ...: 0
+[0m[0m[SCTP]   rwnd .........: 106496
+[0m[0m[SCTP]   peer info     :
+[0m[0m[SCTP]       state ....: 2
+[0m[0m[SCTP]       cwnd .....: 4380
+[0m[0m[SCTP]       srtt .....: 0
+[0m[0m[SCTP]       rto ......: 3000
+[0m[0m[SCTP]       mtu ......: 1500
+[0m[0m[SCTP]   ----------------------
+[0m[0m[SCTP]   Comm up notified for sd 58, assigned assoc_id 11
+[0m[0m[S1AP]   3584 -> 00e000
+[0m[0m[SCTP]   Successfully sent 59 bytes on stream 0 for assoc_id 11
+[0m[LOADER] library libcoding.so successfully loaded
+[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   Received notification for sd 58, type 32777
+[0m[0m[SCTP]   Found data for descriptor 58
+[0m[0m[SCTP]   [11][58] Msg of length 27 received from port 36412, on stream 0, PPID 18
+[0m[0m[S1AP]   servedGUMMEIs.list.count 1
+[0m[0m[S1AP]   servedPLMNs.list.count 1
+[0m[0m[ENB_APP]   [eNB 0] Received S1AP_REGISTER_ENB_CNF: associated MME 1
+[0m[0m[PHY]   prach_config_common.rootSequenceIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_ConfigIndex = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.highSpeedFlag = 0
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.zeroCorrelationZoneConfig = 1
+[0m[0m[PHY]   prach_config_common.prach_ConfigInfo.prach_FreqOffset = 2
+[0m[0m[PHY]   pusch_config_common.n_SB = 1
+[0m[0m[PHY]   pusch_config_common.hoppingMode = 0
+[0m[0m[PHY]   pusch_config_common.pusch_HoppingOffset = 0
+[0m[0m[PHY]   pusch_config_common.enable64QAM = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupHoppingEnabled = 1
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled = 0
+[0m[0m[PHY]   pusch_config_common.ul_ReferenceSignalsPUSCH.cyclicShift = 2
+[0m[0m[PHY]   eNB 0/0 configured
+[0m[0m[RRC]   [eNB] handover active state is 0 
+[0m[0m[RRC]   [eNB] eMBMS active state is 0 
+[0m[0m[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 0] ENB:OPENAIR RRC IN....
+[0m[0m[RRC]   Received message GTPV1U_ENB_DELETE_TUNNEL_RESP
+[0mNFAPI MODE:MONOLITHIC
+START MAIN THREADS
+RC.nb_L1_inst:1
+Initializing eNB threads single_thread_flag:0 wait_for_sync:0
+[0m[PHY]   [lte-softmodem.c] eNB structure about to allocated RC.nb_L1_inst:1 RC.nb_L1_CC[0]:1
+[0m[0m[PHY]   [lte-softmodem.c] eNB structure RC.eNB allocated
+[0m[0m[PHY]   Initializing eNB 0 CC_id 0 single_thread_flag:0
+[0m[0m[PHY]   Initializing eNB 0 CC_id 0
+[0m[0m[PHY]   Registering with MAC interface module
+[0m[0m[PHY]   Setting indication lists
+[0m[0m[PHY]   [lte-softmodem.c] eNB structure allocated
+[0mwait_eNBs()
+Waiting for eNB L1 instances to all get configured ... sleeping 50ms (nb_L1_inst 1)
+RC.nb_L1_CC[0]:1
+eNB L1 are configured
+About to Init RU threads RC.nb_RU:1
+Initializing RU threads
+configuring RU from file
+[LIBCONFIG] RUs.[0]: 20/20 parameters successfully set, (10 to default value)
+Set RU mask to 1
+Creating RC.ru[0]:0x30d0c00
+Setting function for RU 0 to eNodeB_3GPP
+[0m[PHY]   number of L1 instances 1, number of RU 1, number of CPU cores 4
+[0m[0m[1;31m[PHY]   DJP - delete code above this /home/test/IRIS/openairinterface5g/targets/RT/USER/lte-ru.c:2789
+[0m[0m[PHY]   Copying frame parms from eNB 0 to ru 0
+[0m[0m[PHY]   Initializing RRU descriptor 0 : (local RF,synch_to_ext_device,0)
+[0mconfiguring ru_id 0 (start_rf 0x50bdd0)
+[0m[PHY]   Starting ru_thread 0
+[0m[0m[PHY]   Initializing RU proc 0 (eNodeB_3GPP,synch_to_ext_device),
+[0m[0m[HW]   [SCHED][eNB] ru_thread started on CPU 1, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   init_RU_proc() DJP - added creation of pthread_prach
+[0m[0m[HW]   [SCHED][eNB] ru_thread_tx started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread ru created id=31227
+[0m[0m[PHY]   Starting RU 0 (eNodeB_3GPP,synch_to_ext_device),
+[0mchannel 0, Setting tx_gain offset 0.000000, rx_gain offset 125.000000, tx_freq 2660000000.000000, rx_freq 2540000000.000000
+[0m[PHY]   Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+[0m[0m[PHY]   lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[0m[0m[PHY]   Initializing RU signal buffers (if_south local RF) nb_tx 1
+[0m[0m[HW]   [SCHED][eNB] ru_thread_prach started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[HW]   [SCHED][eNB] fep_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   [INIT] common.txdata[0] = 0x7f748a559040 (307200 bytes)
+[0m[0m[PHY]   thread fep created id=31230
+[0mwait RUs
+[32;1m[INFO] [UHD] [39;0mlinux; GNU C++ version 5.4.0 20160609; Boost_105800; UHD_3.13.1.0-release
+[31;0m[ERROR] [UHD] [39;0mDevice discovery error: unknown key format: RF3E000028
+[31;0m[ERROR] [UHD] [39;0mDevice discovery error: unknown key format: RF3E000028
+[31;0m[ERROR] [UHD] [39;0mDevice discovery error: unknown key format: RF3E000028
+[31;0m[ERROR] [UHD] [39;0mDevice discovery error: unknown key format: RF3E000028
+[31;0m[ERROR] [UHD] [39;0mDevice discovery error: unknown key format: RF3E000028
+[31;0m[ERROR] [UHD] [39;0mDevice discovery error: unknown key format: RF3E000028
+[0m[ENB_APP]   Waiting for RUs to be configured ... RC.ru_mask:01
+[0m[0m[HW]   [SCHED][eNB] feptx_thread started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread feptx created id=31231
+[0m[0m[PHY]   nb_tx 1
+[0m[0m[PHY]   rxdata_7_5kHz[0] 0x7f745c051620 for RU 0
+[0m[0m[PHY]   [INIT] common.txdata_BF= 0x7f745c0009a0 (8 bytes)
+[0m[0m[PHY]   txdataF_BF[0] 0x7f745c06f6a0 for RU 0
+[0m[0m[PHY]   rxdataF[0] 0x7f745c076720 for RU 0
+[0m[LIBCONFIG] loader.oai_device: 2/2 parameters successfully set, (1 to default value)
+[LOADER] library liboai_device.so successfully loaded
+[0m[PHY]   Checking for USRPs : UHD 3.13.1.0-release (3.13.1)
+[0mNo USRP Device Found. 
+setup_RU_buffers: frame_parms = 0x30d0c90
+[0m[PHY]   Signaling main thread that RU 0 is ready
+[0mwaiting for sync (ru_thread,-1/0xdb4b48,0x14644e0,0x131a640)
+ru_thread_tx ready
+RC.ru_mask:00
+[0m[PHY]   RUs configured
+[0mALL RUs READY!
+RC.nb_RU:1
+ALL RUs ready - init eNBs
+Not NFAPI mode - call init_eNB_afterRU()
+[0m[PHY]   init_eNB_afterRU() RC.nb_inst:1
+[0m[0m[PHY]   RC.nb_CC[inst]:1
+[0m[0m[PHY]   RC.nb_CC[inst:0][CC_id:0]:0x7f74856ec010
+[0m[0m[PHY]   [eNB 0] phy_init_lte_eNB() About to wait for eNB to be configured[0m[0m[PHY]   [eNB 0] Initializing DL_FRAME_PARMS : N_RB_DL 25, PHICH Resource 1, PHICH Duration 0 nb_antennas_tx:0 nb_antennas_rx:0 nb_antenna_ports_eNB:1 PRACH[rootSequenceIndex:0 prach_Config_enabled:1 configIndex:0 highSpeed:0 zeroCorrelationZoneConfig:1 freqOffset:2]
+[0mpcfich_reg : 10,22,35,47
+[0m[PHY]   Mapping RX ports from 1 RUs to eNB 0
+[0m[0m[PHY]   Overwriting eNB->prach_vars.rxsigF[0]:0x3bf8040
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   Overwriting eNB->prach_vars_br.rxsigF.rxsigF[0]:(nil)
+[0m[0m[PHY]   eNB->num_RU:1
+[0m[0m[PHY]   Attaching RU 0 antenna 0 to eNB antenna 0
+[0m[0m[PHY]   init_eNB_afterRU() ************* DJP ***** eNB->frame_parms.nb_antennas_tx:0 - GOING TO HARD CODE TO 1[0m[0m[PHY]   inst 0, CC_id 0 : nb_antennas_rx 1
+[0m[0m[PHY]   Initialise transport
+[0m[0m[PHY]   init_eNB_proc(inst:0) RC.nb_CC[inst]:1 
+[0m[0m[PHY]   Initializing eNB processes instance:0 CC_id 0 
+[0m[0m[PHY]   Creating te_thread 0
+[0m[0m[PHY]   Creating te_thread 1
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   Creating te_thread 2
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread te created id=31238
+[0m[0m[PHY]   thread te created id=31239
+[0m[0m[HW]   [SCHED][eNB] te_thread started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   eNB->single_thread_flag:0
+[0m[0m[HW]   [SCHED][eNB] td_thread started on CPU 3, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread te created id=31240
+[0m[0m[PHY]   thread td created id=31241
+[0m[0m[HW]   [SCHED][eNB] RXn_TXnp4_0
+ started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[HW]   [SCHED][eNB] TXnp4_1
+ started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   thread rxtx created id=31242
+[0m[0m[HW]   [SCHED][eNB] eNB_thread_prach started on CPU 2, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0mALL RUs ready - ALL eNBs ready
+[0m[HW]   [SCHED][eNB] eNB_thread_prach_br started on CPU 0, sched_policy = SCHED_FIFO , priority = 99, CPU Affinity= CPU_0 CPU_1 CPU_2 CPU_3 
+[0m[0m[PHY]   ru_thread_prach() RACH waiting for RU to be configured
+[0m[0m[PHY]   ru_thread_prach() RU configured - RACH processing thread running
+[0mSending sync to all threads
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+got sync (ru_thread)
+Error: signal 11:
+./cmake_targets/lte_build_oai/build/lte-softmodem(signal_handler+0x79)[0x526389]
+/lib/x86_64-linux-gnu/libc.so.6(+0x354b0)[0x7f7487e4b4b0]
