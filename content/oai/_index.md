@@ -42,4 +42,4 @@ In my setup, I am using three laptops. Two are acting as eNBs while the third is
 ## Overall Network Guide. 
 Each computer gets assigned a 192.168.1.x IP address by my router. The core network runs a virtual machine containing multiple network interfaces bridged to the network via the host interface. Below is a diagram of this:
 
-{{< figure src="../Network.PNG" title="OAI Network Setup" >}}
+{{< figure src="Network.PNG" title="OAI Network Setup" >}}
