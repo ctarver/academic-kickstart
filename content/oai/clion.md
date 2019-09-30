@@ -28,7 +28,7 @@ linktitle = "CLION"
 
 
 ## Pre Reqs
-###Install CLION. 
+### Install CLION. 
 There is a free version which will work though if you are a student, you can get a free licence for the full version. 
 ### Download OAI:
 ```
