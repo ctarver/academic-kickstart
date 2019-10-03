@@ -90,6 +90,34 @@ October 2nd, 2019
 * Make poster
 * Compare NNs to Memory Polynomial
 
+--- 
+## NN vs MP
+* Using 10 MHZ on RF Weblab
+* 9th order Polynomial (no memory) 
+* 1 Hidden Layer with 20 neurons
+
+---
+## Spectrum Output
+{{< figure src="psd.png" lightbox="false" >}}
+
+---
+## Contour Plot Overview
+* We want to compare the output of the DPD to the input to the DPD to see the overall effect it is having
+* Also compare NN DPD output to MP DPD output
+* Create a testgrid of all IQ samples between -1-1j and +1+1j
+
+---
+## MP DPD output vs Linear
+{{< figure src="mp_vs_linear.png" lightbox="false" >}}
+
+---
+## NN DPD output vs Linear
+{{< figure src="nn_vs_linear.png" lightbox="false" >}}
+
+---
+## NN DPD output vs MP DPD
+{{< figure src="nn_vs_mp.png" lightbox="false" >}}
+
 ---
 ##  LDPC GPU for 5G NR
 * Added support for BG2
