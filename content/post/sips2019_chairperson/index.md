@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Chairing Technical Sesstion T2 at SIPS2019"
+title: "Chairing Technical Session T2 at SIPS2019"
 subtitle: ""
 summary: ""
 authors: []
@@ -35,3 +35,4 @@ This session will be focusing on Machine Learning and feature the following pape
 * "Improving Reliability of ReRAM-based DNN Implementation through Novel Weight Distribution"
 * "Exploration of On-device End-to-End Acoustic Modeling with Neural Networks"
 * "Memory Reduction Through Experience Classification for Deep Reinforcement Learning with Prioritized Experience"
+
