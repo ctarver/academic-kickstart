@@ -26,6 +26,8 @@ linktitle = "Iris"
 
 At Rice, we have a strong relationship with [Skylark Wireless](http://www.skylarkwireless.com/) through the [RENEW Project](http://renew.rice.edu/).
 
+See more information about [Renew and IRIS here](https://obejarano.gitlab.io/renew-documentation/getting-started/hardware/).
+
 They have recently pushed support for their Iris SDR to OAI so I am going to test it.
 
 # Installation:
