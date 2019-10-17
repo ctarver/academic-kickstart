@@ -47,7 +47,7 @@ I'm running this using the latest master branch, version 1.1, commit 7af841272fb
 ## Connect the board. 
 Connect the IRIS board to the NIC on your machine. My MME is on my LAN, so I used a USB to ethernet adapter for connecting to the LAN.
 
-The IRIS is set up to get its IP via DHCP, so we need to set up our interface to assign an IP to the IRIS. 
+As long as there is an IPv6 address being assigned to the NIC, the host should find the IRIS. Occasionally, I need to assign a dummy address to the interface then everything works out. I do this like `ifconfig interfacte_name 10.0.0.20`. 
 
 Check to see that it is discovered.
 ```bash
@@ -67,6 +67,12 @@ cp targets/PROJECTS/GENERIC-LTE-EPC/CONF/enb.band7.tm1.25PRB.iris030.conf .
 ```
 I needed to change was the IP address of the MME on line 174, chnage the eNB addresses and interfaces to match my LAN connection on the machine, and replace the serial number on line 231 with the one shown in the ```SoapySDRUtil --find``` command.
 
+You also  must change the `att_tx` and `att_rx` parameters. Set them to 50 and 30, respectively. 
+```
+att_tx = 50
+att_rx = 30
+```
+
 # Run!
 With the IRIS on, start OAI:
 ```bash
@@ -74,5 +80,4 @@ sudo bash
 ./cmake_targets/lte_build_oai/build/lte-softmodem -O enb.band7.tm1.25PRB.iris030.conf
 ```
 
-# Error:
-It looks like OAI can't find my IRIS. The full log file is available [here](../iris.log)
+I am able to run OAI with the band 7 configuration and have a COTS UE attach to the IRIS. 
