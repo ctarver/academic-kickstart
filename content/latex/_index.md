@@ -34,6 +34,7 @@ I'm also writing this for myself to server as a style guide and quick reference 
  My goal by the end of this is to make a cookiecutter template that can easily be used by anyone to setup an IEEE conference paper. 
  
  Topics covered will include:
+ 
  * Figures
  * Tables
  * Acronyms
@@ -41,4 +42,6 @@ I'm also writing this for myself to server as a style guide and quick reference 
  
  
  # Helpful Links:
+ 
  * [IEEE Editorial Style Manual](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/style_references_manual.pdf)
+ * [IEEE Reference Guide](https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf)
