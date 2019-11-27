@@ -45,3 +45,4 @@ I'm also writing this for myself to server as a style guide and quick reference 
  
  * [IEEE Editorial Style Manual](https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/style_references_manual.pdf)
  * [IEEE Reference Guide](https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf)
+ * [IEEE Abbreviations for Journals](http://ieeeauthorcenter.ieee.org/wp-content/uploads/Journal-Titles-and-Abbreviations.pdf)
