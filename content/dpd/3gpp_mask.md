@@ -25,9 +25,12 @@ menu:
 
 3GPP defines emission masks that we must conform to. 
 
-* 34.122: 
-* 36.101: Evolved Universal Terrestrial Radio Access (E-UTRA); User Equipment (UE) radio transmission and reception
 * 30.102: 
+* 34.122: 
+* 36.101: LTE UE specs.
+* 36.104: eNB specs.
+* 38.101: NR UE specs.
+* 38.104: gNB specs.
 * 38.141-1: NR; Base Station (BS) conformance testing Part 1: Conducted conformance testing
 * 38.141-2: NR; Base Station (BS) conformance testing Part 1: Conducted conformance testing
 
