@@ -18,6 +18,16 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Senior Systems Design/Architecture Engineer"
+  company = "Samsung Research America"
+  company_url = "https://www.sra.samsung.com/research/standards-and-mobility-innovation"
+  location = "Plano, TX"
+  date_start = "2019-05-01"
+  date_end = 
+  description = """Devloping proof-of-concept testbeds for beyond 5G.
+  """
+
+[[experience]]
   title = "Wireless Systems Engineer"
   company = "Samsung Research America"
   company_url = "https://www.sra.samsung.com/research/standards-and-mobility-innovation"
