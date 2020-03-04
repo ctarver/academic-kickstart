@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = "https://www.sra.samsung.com/research/standards-and-mobility-innovation"
   location = "Plano, TX"
   date_start = "2019-05-01"
-  date_end = 
+  date_end = ""
   description = """Devloping proof-of-concept testbeds for beyond 5G.
   """
 
