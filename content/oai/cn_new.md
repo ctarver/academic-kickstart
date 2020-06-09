@@ -71,8 +71,17 @@ There are issues with the current Cassandra script. First, add the public key:
 ```bash
 wget -q -O - https://www.apache.org/dist/cassandra/KEYS | sudo apt-key add -
 ```
+Second, we are going to make 2 changes to a file. Open up the file "build/tools/build_helper.cassandra."
+Change line 57 to 
+```
+    $SUDO $INSTALLER install $OPTION curl openjdk-8-jre
+```
+Change line 64 to 
+```
+ curl https://downloads.apache.org/cassandra/KEYS | $SUDO  apt-key add -
+```
 
-
+Then install:
 ```bash
 ./build_cassandra --check-installed-software --force
 ```
