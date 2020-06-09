@@ -67,6 +67,12 @@ All of the build scripts are in the openair-cn/scripts directory.
 cd openair-cn/scripts
 ```
 ### Install Cassandra Database for the HSS
+There are issues with the current Cassandra script. First, add the public key:
+```bash
+wget -q -O - https://www.apache.org/dist/cassandra/KEYS | sudo apt-key add -
+```
+
+
 ```bash
 ./build_cassandra --check-installed-software --force
 ```
