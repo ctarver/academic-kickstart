@@ -97,6 +97,16 @@ Then install:
 ```
 ### Install SPGW
 The SPGW is now in the openair-cn-cups repository. 
+
+There is a dependency issue for the "folly" package requirement. We need to manually install "fmt."
+
+```bash
+
+
+```
+
+
+
 ```bash
 cd ~/openair-cn-cups/build/scripts
 ./build_spgwu -I -f
